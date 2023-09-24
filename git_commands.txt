@@ -1,0 +1,6 @@
+git init
+git add .
+git status
+git commit -m "  "
+git config --global user.email "moteshubham@gmail.com"
+git config --global user.name "moteshubham"
