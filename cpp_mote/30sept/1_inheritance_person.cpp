@@ -8,25 +8,25 @@ class Person
 	private:
 		string name;
 		int age;
-		char bloodGroup;
+		//char bloodGroup;
 		string address = "null";
 
 	public:
-		Person()
-		{
-			cout<<"Person :: Default Constructor"<<endl;
-			this->name = "null";
-			this->age = 00; 
-			this->bloodGroup = 'A+';
-			this->address = "null";
-			cout<<endl;
-		}
-		Person(string n, int a, char b, string addr)
+		// Person()
+		// {
+		// 	cout<<"Person :: Default Constructor"<<endl;
+		// 	this->name = "Shubham";
+		// 	this->age = 27; 
+		// 	//this->bloodGroup = 'A+';
+		// 	this->address = "Baner, Pune";
+		// 	cout<<endl;
+		// }
+		Person(string n, int a, string addr)
 		{
 			cout<<"Person :: Parameterized Constructor"<<endl;
 			this->name = n;
 			this->age = a; 
-			this->bloodGroup = b;
+			//this->bloodGroup = b;
 			this->address = addr;
 			cout<<endl;
 		}
@@ -44,10 +44,10 @@ class Person
 		{
 			this->age = a;
 		};
-		void setBloodGroup(char b)
-		{
-			this->bloodGroup = b;
-		};
+		// void setBloodGroup(char b)
+		// {
+		// 	this->bloodGroup = b;
+		// };
 		void setAddress(string addr)
 		{
 			this->address = addr;
@@ -61,10 +61,10 @@ class Person
 		{
 			return this->age;
 		}
-		char getBloodGroup()
-		{
-			return this->bloodGroup;
-		}
+		// char getBloodGroup()
+		// {
+		// 	return this->bloodGroup;
+		// }
 		string getAddress()
 		{
 			return this->address;
@@ -74,32 +74,34 @@ class Person
 			cout<<"Person :: Display() called"<<endl;
 			cout<<this->name<<endl;
 			cout<<this->age<<endl; 
-			cout<<this->bloodGroup<<endl;
+			//cout<<this->bloodGroup<<endl;
 			cout<<this->address<<endl;
 			cout<<endl;
 		}
 		void personDetails()
 		{
 			cout<<"Person :: personDisplay() called"<<endl;
+			cout<<this->name<<endl;
+			cout<<this->age<<endl; 
 		}
 	
 };
 
-class Student : public Person
+class Student : private Person
 {
 	private:
 		int rollNo;
 		string school;
 
 	public:
-		Student() : Person()
+		Student():Person("sdh", 12, "fff") 
 		{
 			cout<<"Student :: Default Constructor"<<endl;
 			this->school = "null";
 			this->rollNo = 00; 
 			cout<<endl;
 		}
-		Student(int n, string sc)
+		Student(int n, string sc):Person("sdh", 12, "fff")
 		{
 			cout<<"Student :: Parameterized Constructor"<<endl;
 			this->rollNo = n; 
@@ -129,11 +131,11 @@ class Student : public Person
 int main()
 {
 	//cout<<"Creating Person Object : p1"<<endl;
-	//Person p1;
+	Person p1();
 	//p1.displayDetails();
 	cout<<endl<<endl<<"Creating Student Object : s1"<<endl;
 	Student s1;
 	s1.displayDetails();
-	s1.personDetails();
+	//s1.personDetails();
 	return 0;
 }
