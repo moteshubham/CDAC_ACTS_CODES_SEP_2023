@@ -8,7 +8,7 @@ class Person
 	private:
 		string name;
 		int age;
-		string address = "null";
+		string address;
 
 	public:
 		Person()
@@ -16,7 +16,7 @@ class Person
 			cout<<"Person :: Default Constructor"<<endl;
 			this->name = "Shubham";
 			this->age = 27; 
-			this->address = "Baner, Pune";
+			this->address = "Baner_Pune";
 		}
 		Person(string n, int a, string addr)
 		{
@@ -52,15 +52,18 @@ class Student : public Person
 	private:
 		int rollNo;
 		string school;
+		// person::string name;
+		// person::int age;
+		// person::string address;
 
 	public:
-		Student():Person() 
+		Student()
 		{
 			cout<<"Student :: Default Constructor"<<endl;
-			this->school = "null";
-			this->rollNo = 00; 
+			this->school = "JBVM";
+			this->rollNo = 01; 
 		}
-		Student(int n, string sc):Person("sdh", 12, "fff")
+		Student(int n, string sc)
 		{
 			cout<<"Student :: Parameterized Constructor"<<endl;
 			this->rollNo = n; 
@@ -70,11 +73,12 @@ class Student : public Person
 		{
 			cout<<"Student :: Destructor"<<endl;
 		}
-		void displayDetails1()
+		void displayDetails2()
 		{
-			cout<<"Student :: displayDetails1() called"<<endl;
+			cout<<"Student :: displayDetails2() called"<<endl;
 			cout<<this->rollNo<<endl;
 			cout<<this->school<<endl; 
+			displayDetails1();
 			cout<<endl;
 		}
 		void studentDetails2()
@@ -89,19 +93,14 @@ class Student : public Person
 int main()
 {
 	//cout<<"Creating Person Object : p1"<<endl;
-	Person p1;
-	////p1.displayDetails();
-	
-	cout<<"Creating Student Object : s1"<<endl;
-	Student s1;
-	Person *pp = &s1;
-	pp->Person::name;
-	Person *pp2 = &p1;
-	pp2->name;
+	Student s1(02, "s1_student");
+	//Student s2(03, "s2_student");
+	//cout<<"Creating Student Object : s1"<<endl;
+	Person p1 = s1;
 
-	
-
-	
+	cout<<"s1 details"<<endl;
+	s1.displayDetails2();
+	p1.displayDetails1();
 	return 0;
 }
 
