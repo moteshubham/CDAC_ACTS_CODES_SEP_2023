@@ -1,0 +1,28 @@
+Day 1
+1. If JDK11 is not available , 
+Refer to "Installation Instructions" from day1-data & complete the same
+(with the help of Lab Faculty)
+
+2. Please go through "sequence.txt"  from day1-data\day1_help\ & day1-data\day1_help\slides\PPTDay1.pdf
+
+3. Go through  code samples from day1-data\code\src
+
+4. Solve (Hands on)
+4.1 Display food menu to user. User will select items from menu along with the quantity. (eg 1. Dosa 2. Samosa 3. Idli ... 10 . Generate Bill ) Assign fixed prices to food items(hard code the prices)
+When user enters 'Generate Bill' option(10) , display total bill & exit.
+
+OR 
+Create java application for the following
+Accept 2 numbers from user & operation to perform
+1. Add 2.Subtract 3. Multiply 4.Divide 5.Exit
+Display the result of the operation. 
+Java app must continue to run till user chooses exit option.
+
+4.2 Accept 2 double values from User (using Scanner). Check data type.
+. If arguments are not doubles , supply suitable error message & terminate.
+If numbers are double values , print its average.
+Hint : Method of Scanner to use : hasNextDouble , nextDouble 
+
+5. 
+Additional reference for long to float conversion
+https://stackoverflow.com/questions/15229323/java-why-is-converting-a-long-64-to-float-32-considered-widening/15229379

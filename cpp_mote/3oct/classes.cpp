@@ -1,5 +1,6 @@
+//definitions
 #include <iostream>
-#include "animals.h"
+#include "classes.h"
 using namespace std;
 
 
@@ -13,14 +14,14 @@ Derived1::Derived1() : Base(1)
 {
 	cout<<"Derived1::Derived1\n";
 }
-Derived2::Derived2() : Base(1)
+Derived2::Derived2() : Base(2)
 {
 	cout<<"Derived2::Derived2\n";
 }
-Derived::Derived() : Base(1)
-{
-	cout<<"Derived2::Derived2\n";
-}
+// Derived::Derived() : Base(3)
+// {
+// 	cout<<"Derived2::Derived2\n";
+// }
 
 
 

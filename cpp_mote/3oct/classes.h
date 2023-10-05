@@ -1,4 +1,4 @@
-
+//declarations
 class Base
 {
 public:
