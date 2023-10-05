@@ -1,0 +1,299 @@
+dac@dac-Veriton-M200-H310:~$ sudo mysql -u root
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 12
+Server version: 8.0.34-0ubuntu0.22.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2023, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> create database college;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> use college;
+Database changed
+mysql> create table student (roll int, name varchar(15), class varchar(5), marks float, age int);
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> desc student;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| roll  | int         | YES  |     | NULL    |       |
+| name  | varchar(15) | YES  |     | NULL    |       |
+| class | varchar(5)  | YES  |     | NULL    |       |
+| marks | float       | YES  |     | NULL    |       |
+| age   | int         | YES  |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+5 rows in set (0.01 sec)
+
+mysql> insert into student values (1, "Shubham", "FY", 65.78, 27);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into student values (2, "Peter", "SY", 85.82, 23);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into student values (3, "John", "TY", 79.31, 25);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into student values (4, "Hritik", "BE", 45.77, 24);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into student values (5, "Shahrukh", "TY", 56.78, 26);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into student values (6, "Salman", "SY", 59.12, 27);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from student;
++------+----------+-------+-------+------+
+| roll | name     | class | marks | age  |
++------+----------+-------+-------+------+
+|    1 | Shubham  | FY    | 65.78 |   27 |
+|    2 | Peter    | SY    | 85.82 |   23 |
+|    3 | John     | TY    | 79.31 |   25 |
+|    4 | Hritik   | BE    | 45.77 |   24 |
+|    5 | Shahrukh | TY    | 56.78 |   26 |
+|    6 | Salman   | SY    | 59.12 |   27 |
++------+----------+-------+-------+------+
+6 rows in set (0.00 sec)
+
+
+mysql> select sum(marks) as sum  from student;
++--------------------+
+| sum                |
++--------------------+
+| 392.57999420166016 |
++--------------------+
+1 row in set (0.00 sec)
+
+mysql> select avg(marks) as sum  from student;
++-------------------+
+| sum               |
++-------------------+
+| 65.42999903361003 |
++-------------------+
+1 row in set (0.00 sec)
+
+mysql> select count(roll) as count  from student;
++-------+
+| count |
++-------+
+|     6 |
++-------+
+1 row in set (0.00 sec)
+
+
+mysql> select max(marks) as max_marks  from student;
++-----------+
+| max_marks |
++-----------+
+|     85.82 |
++-----------+
+1 row in set (0.00 sec)
+
+mysql> select min(age) as min_age from student;
++---------+
+| min_age |
++---------+
+|      23 |
++---------+
+1 row in set (0.00 sec)
+
+mysql> select count(roll), class as count_TY  from student group by class;
++-------------+----------+
+| count(roll) | count_TY |
++-------------+----------+
+|           1 | FY       |
+|           2 | SY       |
+|           2 | TY       |
+|           1 | BE       |
++-------------+----------+
+4 rows in set (0.00 sec)
+
+mysql> select count(roll) as count_TY, class   from student group by class;
++----------+-------+
+| count_TY | class |
++----------+-------+
+|        1 | FY    |
+|        2 | SY    |
+|        2 | TY    |
+|        1 | BE    |
++----------+-------+
+4 rows in set (0.00 sec)
+
+
+mysql> select * from student;
++------+----------+-------+-------+------+
+| roll | name     | class | marks | age  |
++------+----------+-------+-------+------+
+|    1 | Shubham  | FY    | 65.78 |   27 |
+|    2 | Peter    | SY    | 85.82 |   23 |
+|    3 | John     | TY    | 79.31 |   25 |
+|    4 | Hritik   | BE    | 45.77 |   24 |
+|    5 | Shahrukh | TY    | 56.78 |   26 |
+|    6 | Salman   | SY    | 59.12 |   27 |
++------+----------+-------+-------+------+
+6 rows in set (0.00 sec)
+
+
+
+mysql> select marks  from student group by marks having marks>40;
++-------+
+| marks |
++-------+
+| 65.78 |
+| 85.82 |
+| 79.31 |
+| 45.77 |
+| 56.78 |
+| 59.12 |
++-------+
+6 rows in set (0.00 sec)
+
+
+mysql> select count(class) from student group by marks having marks>60;
++--------------+
+| count(class) |
++--------------+
+|            1 |
+|            1 |
+|            1 |
++--------------+
+3 rows in set (0.00 sec)
+
+mysql> select * from student;
++------+----------+-------+-------+------+
+| roll | name     | class | marks | age  |
++------+----------+-------+-------+------+
+|    1 | Shubham  | FY    | 65.78 |   27 |
+|    2 | Peter    | SY    | 85.82 |   23 |
+|    3 | John     | TY    | 79.31 |   25 |
+|    4 | Hritik   | BE    | 45.77 |   24 |
+|    5 | Shahrukh | TY    | 56.78 |   26 |
+|    6 | Salman   | SY    | 59.12 |   27 |
++------+----------+-------+-------+------+
+6 rows in set (0.00 sec)
+
+mysql> select count(class) from student group by marks having marks>57;
++--------------+
+| count(class) |
++--------------+
+|            1 |
+|            1 |
+|            1 |
+|            1 |
++--------------+
+4 rows in set (0.00 sec)
+
+mysql> select count(class) from student group by marks having marks>40;
++--------------+
+| count(class) |
++--------------+
+|            1 |
+|            1 |
+|            1 |
+|            1 |
+|            1 |
+|            1 |
++--------------+
+6 rows in set (0.00 sec)
+
+
+mysql> select * from student order by marks asc;
++------+----------+-------+-------+------+
+| roll | name     | class | marks | age  |
++------+----------+-------+-------+------+
+|    4 | Hritik   | BE    | 45.77 |   24 |
+|    5 | Shahrukh | TY    | 56.78 |   26 |
+|    6 | Salman   | SY    | 59.12 |   27 |
+|    1 | Shubham  | FY    | 65.78 |   27 |
+|    3 | John     | TY    | 79.31 |   25 |
+|    2 | Peter    | SY    | 85.82 |   23 |
++------+----------+-------+-------+------+
+6 rows in set (0.00 sec)
+
+
+mysql> select * from student where name like 's%';
++------+----------+-------+-------+------+
+| roll | name     | class | marks | age  |
++------+----------+-------+-------+------+
+|    1 | Shubham  | FY    | 65.78 |   27 |
+|    5 | Shahrukh | TY    | 56.78 |   26 |
+|    6 | Salman   | SY    | 59.12 |   27 |
++------+----------+-------+-------+------+
+3 rows in set (0.00 sec)
+
+mysql> select distinct age from student ;
++------+
+| age  |
++------+
+|   27 |
+|   23 |
+|   25 |
+|   24 |
+|   26 |
++------+
+5 rows in set (0.00 sec)
+
+mysql> select distinct class from student ;
++-------+
+| class |
++-------+
+| FY    |
+| SY    |
+| TY    |
+| BE    |
++-------+
+4 rows in set (0.00 sec)
+
+mysql> select * from student where roll between 3 and 5;
++------+----------+-------+-------+------+
+| roll | name     | class | marks | age  |
++------+----------+-------+-------+------+
+|    3 | John     | TY    | 79.31 |   25 |
+|    4 | Hritik   | BE    | 45.77 |   24 |
+|    5 | Shahrukh | TY    | 56.78 |   26 |
++------+----------+-------+-------+------+
+3 rows in set (0.01 sec)
+
+mysql> select * from student where roll between 3 and 5 and name like '%s';
+Empty set (0.00 sec)
+
+mysql> select * from student where roll between 3 and 5 and name like 's%';
++------+----------+-------+-------+------+
+| roll | name     | class | marks | age  |
++------+----------+-------+-------+------+
+|    5 | Shahrukh | TY    | 56.78 |   26 |
++------+----------+-------+-------+------+
+1 row in set (0.00 sec)
+
+mysql> select * from student where roll is not null;
++------+----------+-------+-------+------+
+| roll | name     | class | marks | age  |
++------+----------+-------+-------+------+
+|    1 | Shubham  | FY    | 65.78 |   27 |
+|    2 | Peter    | SY    | 85.82 |   23 |
+|    3 | John     | TY    | 79.31 |   25 |
+|    4 | Hritik   | BE    | 45.77 |   24 |
+|    5 | Shahrukh | TY    | 56.78 |   26 |
+|    6 | Salman   | SY    | 59.12 |   27 |
++------+----------+-------+-------+------+
+6 rows in set (0.00 sec)
+
+mysql> select * from student where roll is  null;
+Empty set (0.00 sec)
+
+mysql> select * from student where roll in (2,4);
++------+--------+-------+-------+------+
+| roll | name   | class | marks | age  |
++------+--------+-------+-------+------+
+|    2 | Peter  | SY    | 85.82 |   23 |
+|    4 | Hritik | BE    | 45.77 |   24 |
++------+--------+-------+-------+------+
+2 rows in set (0.00 sec)
+
