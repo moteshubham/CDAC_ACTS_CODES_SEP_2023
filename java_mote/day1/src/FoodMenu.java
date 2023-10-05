@@ -1,11 +1,14 @@
-import java.util.Scanner;
 import java.lang.*;
+import java.util.Scanner;
 
-clas FoodMenu
+
+class FoodMenu
 {
 	public static void main(String [] args)
 	{
 		Scanner sc = new Scanner(System.in);
+		boolean exit = false;
+		int total = 0;
 		do{
 			System.out.println("-------Food Menu--------");
 			System.out.println("1. Samosa");
@@ -20,9 +23,66 @@ clas FoodMenu
 			System.out.println("10. Generate Bill");
 			System.out.print("Enter the choice : ");
 			int choice = sc.nextInt();
-			System.out.print("Enter quantity : ");
-			int qty = sc.nextInt();
+			int qty;
+			//if(choice < 10)
+			//{
+			//	System.out.print("Enter quantity : ");
+			//	qty = sc.nextInt();
+			//}
+			
+			switch(choice){
+			
+				case 1:
+					System.out.print("Enter quantity : ");
+					qty = sc.nextInt();
+					total = total + 15*qty;
+					break;
+				case 2:
+					System.out.print("Enter quantity : ");
+					qty = sc.nextInt();
+					total = total + 50*qty;
+					break;
+				case 3:
+					System.out.print("Enter quantity : ");
+					qty = sc.nextInt();
+					total = total + 35*qty;
+					break;
+				case 4:
+					System.out.print("Enter quantity : ");
+					qty = sc.nextInt();
+					total = total + 20*qty;
+					break;
+				case 5:
+					System.out.print("Enter quantity : ");
+					qty = sc.nextInt();
+					total = total + 25*qty;
+					break;
+				case 6:
+					System.out.print("Enter quantity : ");
+					qty = sc.nextInt();
+					total = total + 25*qty;
+					break;
+				case 7:
+					System.out.print("Enter quantity : ");
+					qty = sc.nextInt();
+					total = total + 45*qty;
+					break;
+				case 8:
+					System.out.print("Enter quantity : ");
+					qty = sc.nextInt();
+					total = total + 10*qty;
+					break;
+				case 9:
+					System.out.print("Enter quantity : ");
+					qty = sc.nextInt();
+					total = total + 20*qty;
+					break;
+				case 10:
+					System.out.print("Total : "+total);
+					exit = true;
+					break;
+			}
 
-		}
+		}while(!exit);
 	}
 }
