@@ -1,0 +1,143 @@
+mysql> 
+mysql> create database b1db;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| DAC23              |
+| b1db               |
+| cdacdb             |
+| college            |
+| cricket            |
+| information_schema |
+| mysql              |
+| performance_schema |
+| surajDB            |
+| sys                |
++--------------------+
+10 rows in set (0.01 sec)
+
+mysql> use database b1db;
+ERROR 1049 (42000): Unknown database 'database'
+mysql> use b1db;
+Database changed
+mysql> create table emp (empid int, empname varchar(20),eaddress varchar(20),managerid int,hiredate date);
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> desc emp;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| empid     | int         | YES  |     | NULL    |       |
+| empname   | varchar(20) | YES  |     | NULL    |       |
+| eaddress  | varchar(20) | YES  |     | NULL    |       |
+| managerid | int         | YES  |     | NULL    |       |
+| hiredate  | date        | YES  |     | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+5 rows in set (0.00 sec)
+
+mysql> ^C
+mysql> ^C
+mysql> create table dept (deptid int, dname varchar(15),loaction varchar(20));
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> show tables;
++----------------+
+| Tables_in_b1db |
++----------------+
+| dept           |
+| emp            |
++----------------+
+2 rows in set (0.00 sec)
+
+mysql> desc tables;
+ERROR 1146 (42S02): Table 'b1db.tables' doesn't exist
+mysql> show tables;
++----------------+
+| Tables_in_b1db |
++----------------+
+| dept           |
+| emp            |
++----------------+
+2 rows in set (0.00 sec)
+
+mysql> desc dept;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| deptid   | int         | YES  |     | NULL    |       |
+| dname    | varchar(15) | YES  |     | NULL    |       |
+| loaction | varchar(20) | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> select table_name 
+    -> from tables
+    -> where table_schema=
+    -> 'b1db';
+ERROR 1146 (42S02): Table 'b1db.tables' doesn't exist
+mysql> use b1db;
+Database changed
+mysql> show tables;
++----------------+
+| Tables_in_b1db |
++----------------+
+| dept           |
+| emp            |
++----------------+
+2 rows in set (0.00 sec)
+
+mysql> alter table emp add constraint pkemp primary key(deptid);
+ERROR 1072 (42000): Key column 'deptid' doesn't exist in table
+mysql> alter table emp add constraint pkemp primary key(empid);
+Query OK, 0 rows affected (0.05 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> alter table dept add constraint pkemp primary key(deptid);
+Query OK, 0 rows affected (0.05 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> alter table emp add constraint fkemp foreign key(deptid) references dept(deptid);
+ERROR 1072 (42000): Key column 'deptid' doesn't exist in table
+mysql> show tables;
++----------------+
+| Tables_in_b1db |
++----------------+
+| dept           |
+| emp            |
++----------------+
+2 rows in set (0.00 sec)
+
+mysql> alter table emp add deptid int;
+Query OK, 0 rows affected (0.03 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> alter table emp add constraint fkemp foreign key(deptid) references dept(deptid);
+Query OK, 0 rows affected (0.05 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> desc emp;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| empid     | int         | NO   | PRI | NULL    |       |
+| empname   | varchar(20) | YES  |     | NULL    |       |
+| eaddress  | varchar(20) | YES  |     | NULL    |       |
+| managerid | int         | YES  |     | NULL    |       |
+| hiredate  | date        | YES  |     | NULL    |       |
+| deptid    | int         | YES  | MUL | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+6 rows in set (0.01 sec)
+
+mysql> desc dept;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| deptid   | int         | NO   | PRI | NULL    |       |
+| dname    | varchar(15) | YES  |     | NULL    |       |
+| loaction | varchar(20) | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
