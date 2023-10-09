@@ -9,6 +9,7 @@ public class TestInheritance3 {
 		//sub class ref --> sub class obj
 		Student student1 = new Student("Aditya", "Sethi", 2022, "DAC", 1234567, 80);
 		// create faculty object
+		
 		//sub class ref --> sub class obj(DIRECT referencing)
 		Faculty faculty1 = new Faculty("Rama", "Kher", 10, "Java React DB");
 		Person p;//super class ref.

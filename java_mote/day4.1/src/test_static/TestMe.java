@@ -7,7 +7,7 @@ import static java.lang.System.*;
 public class TestMe {
 	private int i;// instance var (non static)
 	private static int j;// static data member
-
+	
 	static {
 		out.println("in 1st static init block");
 		j = 100;
@@ -39,12 +39,12 @@ public class TestMe {
 
 	public static void main(String[] args) {
 		out.println("in main");
-		staticShow();
+		staticShow();  // == TestMe.staticShow();
 		// how will u call non static method ?
 		TestMe ref = new TestMe(1234);
 		ref.nonStaticShow();
 		TestMe ref2 = new TestMe(234);
-		// ref.staticShow();
+		// ref.staticShow();  //can be accesses but  not recommended
 		System.out.println("time : " + currentTimeMillis());
 
 	}

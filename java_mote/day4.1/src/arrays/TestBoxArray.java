@@ -27,7 +27,5 @@ public class TestBoxArray {
 			System.out.println("Volume "+b.getBoxVolume());			
 		}		
 		sc.close();
-
 	}
-
 }
