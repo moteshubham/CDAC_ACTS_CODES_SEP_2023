@@ -24,7 +24,13 @@ public class TestBoxArray {
 			System.out.println(b);//not null(hashCode)
 			//display dims n vol
 			System.out.println(b.getBoxDetails());
-			System.out.println("Volume "+b.getBoxVolume());			
+			System.out.println("Volume "+b.getBoxVolume());		
+			if (b.getBoxVolume() > 100) {
+				b.setWidth();
+				System.out.println("Modified if vol >100 width, new dims are");
+				System.out.println(b.getBoxDetails());
+			}
+			
 		}		
 		sc.close();
 	}

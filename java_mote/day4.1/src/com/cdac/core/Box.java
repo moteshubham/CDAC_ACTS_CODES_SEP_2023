@@ -38,12 +38,18 @@ public class Box {
 	public double getBoxVolume() {
 		return width * depth * height;
 	}
+	
 
 //add a non static method to chk equality of 2 boxes
 	public boolean isEqual(Box anotherBox) {
 		// b1.isEqual(b2) => this=b1, anotherBox=b2
 		System.out.println("this from method " + this + " arg " + anotherBox);
 		return this.width == anotherBox.width && this.depth == anotherBox.depth && this.height == anotherBox.height;
+	}
+
+	public void setWidth() {
+		this.width = this.width*2;
+		
 	}
 
 }
