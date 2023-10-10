@@ -27,4 +27,7 @@ public class Points2D {
 	public double distance(Points2D p) {
 		return Math.sqrt((p.x-this.x)*(p.x-this.x) + (p.y-this.y)*(p.y-this.y));
 	}
+	public String toString() {
+		return "pachka";
+	}
 }

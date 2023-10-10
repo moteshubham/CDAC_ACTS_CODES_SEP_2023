@@ -64,11 +64,17 @@ public class TestPoint {
 					System.out.println("Enter in boud indices : ");
 				break;
 				
+			case 4:
+				
+				System.out.println("Overriding toString and printing");
+				System.out.println(points[0]);
+				
 			default:
 				System.out.println("byeeeeeeeeeee");
 				break;
 			}
 		}
+		System.out.println("Exited");
 		/*
 		 * if(p1.isEqual(p2)) System.out.println("Same"); else
 		 * System.out.println("Distance between points is : "+ p1.distance(p2));
