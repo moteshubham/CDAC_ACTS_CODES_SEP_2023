@@ -1,11 +1,8 @@
 package com.app.tester;
 
 import java.util.Scanner;
+import com.app.fruits.*;
 
-import com.app.fruits.Apple;
-import com.app.fruits.Fruit;
-import com.app.fruits.Mango;
-import com.app.fruits.Orange;
 
 public class FruitBasket {
 
@@ -29,7 +26,7 @@ public class FruitBasket {
 				if (counter >= 0 && counter < fruits.length) {
 					System.out.println("Is the fruit fresh? true or false");
 					if (sc.nextBoolean() == true) {
-						System.out.println("Enter color wight name");
+						System.out.println("Enter color weight name");
 						fruits[counter++] = new Mango(sc.next(), sc.nextDouble(), sc.next());
 					} else
 						System.out.println("Bring fresh fruit please!!");
@@ -50,12 +47,12 @@ public class FruitBasket {
 				break;
 			case 3:
 				if (counter >= 0 && counter < fruits.length) {
-					System.out.println("Is the fruit fresh? true or false");
-					if (sc.nextBoolean() == true) {
-						System.out.println("Enter color wight name");
-						fruits[counter++] = new Apple(sc.next(), sc.nextDouble(), sc.next());
-					} else
-						System.out.println("Bring fresh fruit please!!");
+//					System.out.println("Is the fruit fresh? true or false");
+//					if (sc.nextBoolean() == true) {
+//						System.out.println("Enter color weight name");
+						fruits[counter++] = new Apple();
+//					} else
+//						System.out.println("Bring fresh fruit please!!");
 				} else
 					System.out.println("Basket full");
 				break;

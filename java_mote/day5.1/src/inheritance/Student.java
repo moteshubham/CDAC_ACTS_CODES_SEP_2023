@@ -27,7 +27,7 @@ public class Student extends Person {
 				+ " fees paid " + fees + " Marks " + marks;
 	}
 
-	// addnew behavior : study method , to display student's last name studying in course name
+	// add new behavior : study method , to display student's last name studying in course name
 	
 	public void study() {
 		System.out.println(super.getLastName() 
