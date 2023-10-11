@@ -19,25 +19,28 @@ public class FruitBasket {
 					+ "6. Mark a fruit in a basket , as stale(=not fresh)\n" + "7. Mark all sour fruits stale\n"
 					+ "8. Invoke fruit specific functionality (pulp / juice / jam)\n" + "0. Exit\n");
 			switch (sc.nextInt()) {
+			
 			case 1:
 				if (counter >= 0 && counter < fruits.length) {
 					fruits[counter++] = new Mango();
 				} else
 					System.out.println("Basket full");
 				break;
+				
 			case 2:
 				if (counter >= 0 && counter < fruits.length) {
 					fruits[counter++] = new Orange();
 				} else
 					System.out.println("Basket full");
-
 				break;
+				
 			case 3:
 				if (counter >= 0 && counter < fruits.length) {
 					fruits[counter++] = new Apple();
 				} else
 					System.out.println("Basket full");
 				break;
+				
 			case 4:
 				for (Fruit f : fruits) {
 					if (f != null)
@@ -58,15 +61,21 @@ public class FruitBasket {
 				if (index >= 0 && index < counter) {
 					fruits[index].setFreshStale();
 					System.out.println("fruit: " + index + 1 + " marked stale");
-				} else
+				}
+				else
 					System.out.println("Invalid index");
 				break;
 
 			case 7:
 				for (int i = 0; i < fruits.length; i++) {
-					if (fruits[i] instanceof Orange)
-						fruits[i].setFreshStale();
+					if(fruits[i].taste().equals("sour") || fruits[i].taste().equals("sweet n sour"));
+					fruits[i].setFreshStale();
 				}
+//				alternative
+//				for (int i = 0; i < fruits.length; i++) {
+//					if (fruits[i] instanceof Orange || fruits[i] instanceof Orange)
+//						fruits[i].setFreshStale();
+//				}
 				break;
 
 			case 8:
@@ -80,14 +89,13 @@ public class FruitBasket {
 						((Orange) (fruits[index])).juice();
 					else
 						((Mango) (fruits[index])).pulp();
-
 				} else
 					System.out.println("Invalid index");
-
 				break;
+				
 			case 0:
 				exit = true;
-
+				break;
 			default:
 				System.out.println("bye");
 				break;
@@ -99,9 +107,4 @@ public class FruitBasket {
 }
 /*
  * 7. Mark all sour fruits stale Hint : Use equals() method of the String class.
- * 
- * 8. Invoke fruit specific functionality (pulp / juice / jam) i/p : index
- * Invoke correct functionality (pulp / juice / jam)
- * 
- * 9. Exit
  */
