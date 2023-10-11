@@ -5,7 +5,7 @@ public class Student extends Person {
 	private int gradYear;
 	private String enrolledCourse;
 	private double fees;
-	private int marks;
+ 	private int marks;
 
 	public Student(String fn, String ln, int year, String enrolledCourse, double fees, int marks) {
 		// explicitly invoke MATCHING super cls ctor
