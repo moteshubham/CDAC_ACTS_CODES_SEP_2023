@@ -11,10 +11,10 @@ public class Apple extends Fruit{
 		return "sweet n sour";
 	}
 	public String toString() {
-		return "asd";
+		return  super.toString();
 	}
 	public void jam() {
-		System.out.println(this);
+		System.out.println(this.getName()+" : making jam");
 	}
 
 }

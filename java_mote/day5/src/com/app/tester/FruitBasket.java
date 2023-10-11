@@ -24,23 +24,23 @@ public class FruitBasket {
 			switch (sc.nextInt()) {
 			case 1:
 				if (counter >= 0 && counter < fruits.length) {
-					System.out.println("Is the fruit fresh? true or false");
-					if (sc.nextBoolean() == true) {
-						System.out.println("Enter color weight name");
-						fruits[counter++] = new Mango(sc.next(), sc.nextDouble(), sc.next());
-					} else
-						System.out.println("Bring fresh fruit please!!");
+//					System.out.println("Is the fruit fresh? true or false");
+//					if (sc.nextBoolean() == true) {
+//						System.out.println("Enter color weight name");
+						fruits[counter++] = new Mango();
+//					} else
+//						System.out.println("Bring fresh fruit please!!");
 				} else
 					System.out.println("Basket full");
 				break;
 			case 2:
 				if (counter >= 0 && counter < fruits.length) {
-					System.out.println("Is the fruit fresh? true or false");
-					if (sc.nextBoolean() == true) {
-						System.out.println("Enter color wight name");
-						fruits[counter++] = new Orange(sc.next(), sc.nextDouble(), sc.next());
-					} else
-						System.out.println("Bring fresh fruit please!!");
+//					System.out.println("Is the fruit fresh? true or false");
+//					if (sc.nextBoolean() == true) {
+//						System.out.println("Enter color wight name");
+						fruits[counter++] = new Orange();
+//					} else
+//						System.out.println("Bring fresh fruit please!!");
 				} else
 					System.out.println("Basket full");
 			
@@ -64,10 +64,17 @@ public class FruitBasket {
 				break;			
 								
 			case 5:
+				for(Fruit f : fruits) {
+					if(f!=null)
+					System.out.println(f+f.taste());
+				}
 				
 				break;
 				
 			case 6:
+				System.out.println("Enter indice to make it stale :");
+				int index = sc.nextInt() -1 ;
+				fruts[index].set
 
 				break;
 				

@@ -21,6 +21,15 @@ public class Fruit {
 	public String getName() {
 		return this.name;
 	}
+	public double getWeight() {
+		return this.weight;
+	}
+	public String getColor() {
+		return this.color;
+	}
+	public void setFreshFalse() {
+		 this.fresh = false;
+	}
 	public String toString() {
 		return "name : " + this.name + ", color : " + this.color + ", weight : " + this.weight + "\n";
 	}
