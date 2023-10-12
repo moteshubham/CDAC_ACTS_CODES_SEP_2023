@@ -1,7 +1,5 @@
 package com.app.fruits;
 
-import com.app.fruits.Fruit;
-
 public class Apple extends Fruit {
 
 	public Apple() {

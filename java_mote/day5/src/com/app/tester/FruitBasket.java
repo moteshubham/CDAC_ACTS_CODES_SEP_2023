@@ -60,6 +60,7 @@ public class FruitBasket {
 				int index = sc.nextInt() - 1;
 				if (index >= 0 && index < counter) {
 					fruits[index].setFreshStale();
+					//fruits[index].jam();
 					System.out.println("fruit: " + index + 1 + " marked stale");
 				}
 				else
@@ -101,7 +102,7 @@ public class FruitBasket {
 				break;
 			}
 		}
-
+		sc.close();
 	}
 
 }
