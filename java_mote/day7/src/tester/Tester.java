@@ -14,15 +14,14 @@ public class Tester {
 			switch (sc.nextInt()) {
 			
 			case 1:
-				Fixed_Stack[] fixed = new Fixed_Stack[3];
+				Fixed_Stack[] fixed = new Fixed_Stack[Stack.STACK_SIZE];
 				
 				break;
 			case 2:
 				//GrowableStack[] grows = new GrowableStack()
 				break;
 			case 3:
-				fixed[0] = new Customer(counter++, sc.next(), sc.next());
-				fixed[0].push(c);
+				fixed[counter++].push(new Customer(counter++, sc.next(), sc.next()));
 				break;
 			case 4:
 				
