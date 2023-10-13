@@ -9,14 +9,13 @@ public class Tester {
 		
 		try (Scanner sc = new Scanner(System.in)){
 			boolean exit = false;;
-			
+			Stack ref = new Fixed_Stack();
 			while(!exit) {
 			System.out.println("\n\n1. Choose Fixed Stack \n2. Choose Growable Stack \n3. Push Data \n4. Pop Data & Display Name \n5. Exit\n\n");
 			
 			switch (sc.nextInt()) {
 			
 			case 1:
-				Stack ref = new Fixed_Stack();
 				
 				break;
 			case 2:
@@ -28,6 +27,7 @@ public class Tester {
 				break;
 			case 4:
 				
+				System.out.println(ref.pop());
 				break;
 			case 5:
 				System.exit(0);

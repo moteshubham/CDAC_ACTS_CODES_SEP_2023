@@ -1,5 +1,7 @@
 package stack;
 
+import java.util.Arrays;
+
 public class Fixed_Stack implements Stack {
 
 	protected Customer[] cust;
@@ -16,6 +18,11 @@ public class Fixed_Stack implements Stack {
 	}
 	
 
+	@Override
+	public String toString() {
+		return "Fixed_Stack [cust=" + Arrays.toString(cust) + ", top=" + top + "]";
+	}
+	
 	@Override
 	public Customer pop() {
 		
