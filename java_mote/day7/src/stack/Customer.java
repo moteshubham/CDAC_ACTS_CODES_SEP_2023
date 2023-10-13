@@ -9,6 +9,14 @@ public class Customer {
 	public String toString() {
 		return "Customer [id=" + id + ", name=" + name + ", address=" + address + "]";
 	}
+	
+	public Customer() {
+		super();
+		this.id = 00;
+		this.name = null;
+		this.address = null;
+	}
+	
 
 	public Customer(int id, String name, String address) {
 		super();
@@ -16,7 +24,5 @@ public class Customer {
 		this.name = name;
 		this.address = address;
 	}
-	
-
 	
 }
