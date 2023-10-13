@@ -6,27 +6,27 @@ public class Fixed_Stack implements Stack {
 
 	protected Customer[] cust;
 	protected int top;
-	
+
 	public Fixed_Stack() {
-		cust=new Customer[STACK_SIZE];
-		top=-1;
+		System.out.println("in Fixed_Stack()");
+		cust = new Customer[STACK_SIZE];
+		top = -1;
 	}
+
 	@Override
 	public void push(Customer c) {
-
+		System.out.println("in push of fixed_stack");
 		cust[++top] = c;
 	}
-	
+
+	public int getTop() {
+		return top;
+	}
 
 	@Override
-	public String toString() {
-		return "Fixed_Stack [cust=" + Arrays.toString(cust) + ", top=" + top + "]";
-	}
-	
-	@Override
 	public Customer pop() {
-		
-		return cust[++top];
+		System.out.println("in pop of fixed_stack");
+		return cust[top--];
 	}
 
 }
