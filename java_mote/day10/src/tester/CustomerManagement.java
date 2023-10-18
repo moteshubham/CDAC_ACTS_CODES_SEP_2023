@@ -1,16 +1,20 @@
 package tester;
 
 import java.util.ArrayList;
+import custom_exceptions.CustomerHandlingException;
+import utils.CustomerValidationRules;
+import utils.CustomerValidationRules.*;
 import java.util.List;
 import java.util.Scanner;
 
-import com.app.core.Customer;
+import com.app.core.*;
 
 public class CustomerManagement {
 
 	public static void main(String[] args) {
 		try (Scanner sc = new Scanner(System.in)) {
 			List<Customer> customers = new ArrayList<Customer>();
+			CustomerValidationRules cvr = new CustomevalidateAllInputs();
  			boolean exit = false;
 			while (!exit) {
 				System.out
@@ -19,7 +23,7 @@ public class CustomerManagement {
 				try {
 					switch (sc.nextInt()) {
 					case 1:
-						Customer validatedCustomer = validateAllInputs(sc.nextInt(), sc.next(), sc.next(), sc.next(), sc.next(), sc.nextDouble(), sc.next(), sc.next());
+						Customer validatedCustomer =  cvr.validateAllInputs(sc.nextInt(), sc.next(), sc.next(), sc.next(), sc.next(), sc.nextDouble(), sc.next(), sc.next(), customers);
 						break;
 
 					default:
@@ -34,6 +38,7 @@ public class CustomerManagement {
 		}
 
 	}
+
 
 
 

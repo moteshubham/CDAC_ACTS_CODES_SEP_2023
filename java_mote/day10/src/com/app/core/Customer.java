@@ -6,14 +6,13 @@ public class Customer {
 	private int customerId;
 	private String firstName;
 	private String lastName;
-	private String emailId;   //PK
+	private String emailId; // PK
 	private String password;
 	private double registrationAmount;
 	private LocalDate dob;
 	private ServicePlan plan;
 	private static int idGenerator;
-	
-	
+
 	public Customer(int customerId, String firstName, String lastName, String emailId, String password,
 			double registrationAmount, LocalDate dob, ServicePlan plan) {
 		super();
@@ -26,6 +25,10 @@ public class Customer {
 		this.dob = dob;
 		this.plan = plan;
 	}
-	
-	
+//pk email
+	public Customer(String emailId) {
+		super();
+		this.emailId = emailId;
+	}
+
 }
