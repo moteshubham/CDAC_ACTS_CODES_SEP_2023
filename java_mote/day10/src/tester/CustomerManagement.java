@@ -19,7 +19,7 @@ public class CustomerManagement {
 				try {
 					switch (sc.nextInt()) {
 					case 1:
-						Customer validatedCustomer = new Customer(sc.nextInt(), sc.next(), sc.next(), sc.next(), sc.next(), sc.nextDouble(), sc.next(), sc.next());
+						Customer validatedCustomer = validateAllInputs(sc.nextInt(), sc.next(), sc.next(), sc.next(), sc.next(), sc.nextDouble(), sc.next(), sc.next());
 						break;
 
 					default:
@@ -34,5 +34,7 @@ public class CustomerManagement {
 		}
 
 	}
+
+
 
 }

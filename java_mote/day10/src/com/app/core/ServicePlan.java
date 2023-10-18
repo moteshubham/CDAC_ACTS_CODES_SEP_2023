@@ -17,7 +17,5 @@ public enum ServicePlan {
 	public void setCharges(int charges) {
 		this.charges = charges;
 	}
-	
-	
-	
+		
 }
