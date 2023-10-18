@@ -32,6 +32,8 @@ public class Tester {
 			e.printStackTrace();
 		}
 		
+		System.out.println("Main  over");
+		
 	}
 	
 
