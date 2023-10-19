@@ -15,7 +15,7 @@ public class CustomerValidationRules {
 	public static void checkForDups(String emailId, List<Customer> customerList) throws CustomerHandlingException {
 		Customer newCustomerEmail = new Customer(emailId);
 		if (customerList.contains(newCustomerEmail)) {
-			throw new CustomerHandlingException("Email alread exists");
+			throw new CustomerHandlingException("Email already exists");
 		}
 		System.out.println("Email available");
 	}
@@ -48,13 +48,17 @@ public class CustomerValidationRules {
 	}
 	
 
-	public Customer validateAllInputs(int customerId, String firstName, String lastName, String emailId,
+	public static Customer validateAllInputs(int customerId, String firstName, String lastName, String emailId,
 			String password, double registrationAmount, String dob, String plan, List<Customer> customerList) throws CustomerHandlingException, IllegalArgumentException{
-		
+		System.out.println("checking started");
 		checkForDups(emailId, customerList);
+		System.out.println("check dups done, starting service plan check");
 	ServicePlan currentPlan = parseAndValidatePlan(plan);
+	System.out.println("serivecplan  done, starting reg amount check");
 		parseAndValidateRegAmount(plan, registrationAmount);
+		System.out.println("reg amount done, starting date check");
 		LocalDate validatedDate = parseAndValidateDate(dob);
+		System.out.println("date done, starting return customer");
 		Customer validatedCustomer = new Customer(customerId, firstName, lastName, emailId, password, registrationAmount, validatedDate, currentPlan);
 		return validatedCustomer;
 	}

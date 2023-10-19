@@ -1,20 +1,19 @@
 package tester;
 
+import static utils.CustomerValidationRules.validateAllInputs;
+
+import java.time.LocalDate;
 import java.util.ArrayList;
-import custom_exceptions.CustomerHandlingException;
-import utils.CustomerValidationRules;
-import utils.CustomerValidationRules.*;
 import java.util.List;
 import java.util.Scanner;
 
-import com.app.core.*;
-
+import com.app.core.Customer;
+import com.app.core.ServicePlan;
 public class CustomerManagement {
 
 	public static void main(String[] args) {
 		try (Scanner sc = new Scanner(System.in)) {
 			List<Customer> customers = new ArrayList<Customer>();
-			CustomerValidationRules cvr = new CustomevalidateAllInputs();
  			boolean exit = false;
 			while (!exit) {
 				System.out
@@ -23,7 +22,10 @@ public class CustomerManagement {
 				try {
 					switch (sc.nextInt()) {
 					case 1:
-						Customer validatedCustomer =  cvr.validateAllInputs(sc.nextInt(), sc.next(), sc.next(), sc.next(), sc.next(), sc.nextDouble(), sc.next(), sc.next(), customers);
+						System.out.println("Enter details : ( customerId,  firstName,  lastName,  emailId,  password,\r\n"
+								+ "			 registrationAmount,  dob,  plan");
+						Customer validatedCustomer =  validateAllInputs(sc.nextInt(), sc.next(), sc.next(), sc.next(), sc.next(), sc.nextDouble(), sc.next(), sc.next(), customers);
+						System.out.println(validatedCustomer);
 						break;
 
 					default:
