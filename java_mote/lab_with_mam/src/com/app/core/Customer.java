@@ -12,9 +12,12 @@ public class Customer {
 	private LocalDate dob;
 	private ServicePlan plan;
 	private static int idGenerator;
+	static {
+		idGenerator = 1000;
+	}
 
-	public Customer( String firstName, String lastName, String emailId, String password,
-			double registrationAmount, LocalDate dob, ServicePlan plan) {
+	public Customer(String firstName, String lastName, String emailId, String password, double registrationAmount,
+			LocalDate dob, ServicePlan plan) {
 		super();
 		this.customerId = ++idGenerator;
 		this.firstName = firstName;
@@ -25,25 +28,28 @@ public class Customer {
 		this.dob = dob;
 		this.plan = plan;
 	}
-@Override
+
+	@Override
 	public String toString() {
-		return "Customer [customerId=" + customerId + ", firstName=" + firstName + ", lastName=" + lastName
-				+ ", emailId=" + emailId + ", registrationAmount=" + registrationAmount + ", dob=" + dob + ", plan="
+		return "Customer \n[customerId : " + customerId + ", \nfirstName : " + firstName + ", \nlastName : " + lastName
+				+ ", \nemailId : " + emailId + ", \nregistrationAmount : " + registrationAmount + ", \ndob : " + dob + ", \nplan : "
 				+ plan + "]";
 	}
-	//equals / hashcode : none! Since string: key it has already 
-public String getEmailId() {
-	return emailId;
-}
-public void setEmailId(String emailId) {
-	this.emailId = emailId;
-}
-public String getPassword() {
-	return password;
-}
-public void setPassword(String password) {
-	this.password = password;
-}
 
+	// equals / hashcode : none! Since string: key it has already
+	public String getEmailId() {
+		return emailId;
+	}
 
+	public void setEmailId(String emailId) {
+		this.emailId = emailId;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
 }

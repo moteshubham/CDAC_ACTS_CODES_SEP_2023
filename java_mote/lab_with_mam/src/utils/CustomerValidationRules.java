@@ -20,18 +20,20 @@ public class CustomerValidationRules {
 		System.out.println("Email available");
 	}
 
-	public static ServicePlan parseAndValidatePlan(String planBeforeParsing)
+	public static ServicePlan parseAndValidatePlan(String plan)
 			throws CustomerHandlingException, IllegalArgumentException {
-//		if (ServicePlan.valueOf(planBeforeParsing)) }
-		return ServicePlan.valueOf(planBeforeParsing);
+		//if (ServicePlan.valueOf(planBeforeParsing)) }
+
 //		ServicePlan presentPlan = null;
-//		for (ServicePlan plan : ServicePlan.values()) {
-//			if (plan.name().equalsIgnoreCase(planBeforeParsing)) {
-//				presentPlan = plan;
-//				System.out.println("given plan is present");
+//		for (ServicePlan pl : ServicePlan.values()) {
+//			if (pl.name().equalsIgnoreCase(plan)) {
+//				presentPlan = pl;
 //			}
-//		}
-//		throw new CustomerHandlingException("Plan is not present");
+//		}throw new CustomerHandlingException("Plan is not present : ");
+//		System.out.println("Given plan "+plan+" is present ");
+
+	return ServicePlan.valueOf(plan.toUpperCase());
+
 	}
 
 	private static void validateRegAmount(double registrationAmount, ServicePlan plan)
@@ -49,18 +51,38 @@ public class CustomerValidationRules {
 		//
 
 	}
-	
-	public static Customer authenticateCustomer(String emailId, String password, Map <String, Customer> customerMap) throws CustomerHandlingException {
-		
+
+	public static Customer authenticateCustomer(String emailId, String password, Map<String, Customer> customerMap)
+			throws CustomerHandlingException {
+
 		Customer customer = customerMap.get(emailId);
-		if(customer ==null) {
+		if (customer == null) {
 			throw new CustomerHandlingException("invalid email");
 		}
-		if(!customer.getPassword().equals(password)) {
+		if (!customer.getPassword().equals(password)) {
 			throw new CustomerHandlingException("password wrong");
 		}
-		System.out.println("Login successful "+customer.getEmailId() );
+		System.out.println("Login successful :" + customer.getEmailId());
 		return customer;
+	}
+
+//	public static boolean loginCheck(boolean login) throws CustomerHandlingException{
+//		if(!login)
+//			throw new CustomerHandlingException("Not logged in, Login first");
+//		System.out.println("Logged in already");
+//		
+//	}
+	public static void changePassword(Customer authenticatedCustomer, String newPassword) {
+		authenticatedCustomer.setPassword(newPassword);
+		System.out.println("password changed successfully");
+	}
+
+	public static void unsubscribe(String emailInput, Map<String, Customer> customersMap)
+			throws CustomerHandlingException {
+		if (!customersMap.containsKey(emailInput))
+			throw new CustomerHandlingException("Email not present");
+		customersMap.remove(emailInput);
+		System.out.println("Unsubscribed : " + emailInput);
 	}
 
 	public static Customer validateAllInputs(String firstName, String lastName, String emailId, String password,
@@ -68,14 +90,14 @@ public class CustomerValidationRules {
 			throws CustomerHandlingException, IllegalArgumentException {
 		System.out.println("checking started");
 		checkForDups(emailId, customerMap);
-		System.out.println("check dups done, starting service plan check");
+//		System.out.println("check dups done, starting service plan check");
 		ServicePlan validPlan = parseAndValidatePlan(plan);
-		System.out.println("serivecplan  done, starting reg amount check");
+//		System.out.println("serivecplan  done, starting reg amount check");
 		validateRegAmount(registrationAmount, ServicePlan.valueOf(plan.toUpperCase()));
-		System.out.println("reg amount done, starting date check");
+//		System.out.println("reg amount done, starting date check");
 		LocalDate validatedDate = parseAndValidateDate(dob);
-		System.out.println("date done, starting return customer");
-		
+//		System.out.println("date done, starting return customer");
+
 		Customer validatedCustomer = new Customer(firstName, lastName, emailId, password, registrationAmount,
 				validatedDate, validPlan);
 		return validatedCustomer;
