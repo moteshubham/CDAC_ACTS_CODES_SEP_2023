@@ -18,14 +18,14 @@ public class VehicleValidationRules {
 	public static void validateSpeed(int speed) throws SpeedOutOfRangeException
 	{
 		if(speed<MIN_SPEED) {
-			throw new SpeedOutOfRangeException("Speed badhao");
+			throw new SpeedOutOfRangeException("Speed too slow");
 		}
 		
 		if(speed>MAX_SPEED) {
-			throw new SpeedOutOfRangeException("Pori jara halu halu chaal..");
+			throw new SpeedOutOfRangeException("Speed too fast");
 		}
 		
-		System.out.println("Sahi ja rahe ho");
+		System.out.println("Speed in range");
 	}
 	
 	public static void checkDrivingLicenceExpiry(Date expDate) throws DrivingLicenceExpiredException
