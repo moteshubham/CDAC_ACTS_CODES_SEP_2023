@@ -69,8 +69,11 @@ public class FruitBasket {
 
 			case 7:
 				for (int i = 0; i < fruits.length; i++) {
-					if(fruits[i].taste().equals("sour") || fruits[i].taste().equals("sweet n sour"));
+					if(fruits[i].taste().equals("sour") || fruits[i].taste().equals("sweet n sour")) {
 					fruits[i].setFreshStale();
+					System.out.println(fruits[i]);
+					}
+					
 				}
 //				alternative
 //				for (int i = 0; i < fruits.length; i++) {

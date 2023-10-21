@@ -17,9 +17,9 @@ public enum ServicePlan {
 	public void setCharges(int charges) {
 		this.charges = charges;
 	}
-//	@Override
-//	public String  toString() {
-//		return 
-//	}
+	@Override
+	public String  toString() {
+		return "the plan is" + this;
+	}
 		
 }
