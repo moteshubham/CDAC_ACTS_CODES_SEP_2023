@@ -179,19 +179,121 @@ mysql> desc emp_project;
 ####################################################################################################3
 
 1. Select the detail of the employee whose name start with P.
+mysql> select * from employee where emp_name like 'p%';
++--------+----------+---------+------------+-----------------+-------------+
+| emp_id | emp_name | dept_id | contact    | email           | emp_head_id |
++--------+----------+---------+------------+-----------------+-------------+
+|    102 | Priya    | E-104   | 7456267890 | priya@yahoo.com |         103 |
++--------+----------+---------+------------+-----------------+-------------+
+
 
 2. How many permanent candidate take salary more than 5000.
+mysql> select * from emp_salary where is_permanent = "Yes" and salary > 5000;
++--------+--------+--------------+
+| emp_id | salary | is_permanent |
++--------+--------+--------------+
+|    102 | 10000  | Yes          |
++--------+--------+--------------+
+
+
 3. Select the detail of employee whose emailId is in gmail.
+mysql> select * from employee where email like '%gmail%';
++--------+----------+---------+------------+--------------------+-------------+
+| emp_id | emp_name | dept_id | contact    | email              | emp_head_id |
++--------+----------+---------+------------+--------------------+-------------+
+|    101 | Isha     | E-101   | 1234567890 | isha@gmail.com     |         105 |
+|    103 | Neha     | E-101   | 4556267890 | neha@gmail.com     |         101 |
+|    105 | Abhishek | E-101   | 9854787890 | abhishek@gmail.com |         102 |
++--------+----------+---------+------------+--------------------+-------------+
+
+
+
 4. Select the details of the employee who work either for department E-104 or E-102.
+mysql> select * from employee where dept_id="E-102" or dept_id="E-104";
++--------+----------+---------+------------+-----------------+-------------+
+| emp_id | emp_name | dept_id | contact    | email           | emp_head_id |
++--------+----------+---------+------------+-----------------+-------------+
+|    102 | Priya    | E-104   | 7456267890 | priya@yahoo.com |         103 |
+|    104 | Rahul    | E-102   | 1496267890 | rahul@yahoo.com |         105 |
++--------+----------+---------+------------+-----------------+-------------+
+
+
 5. What is the department name for DeptID E-102?
+mysql> select dept_name from emp_dept where dept_id="E-102";
++-------------+
+| dept_name   |
++-------------+
+| Development |
++-------------+
+
+
 6. What is total salarythat is paid to permanent employees?
+mysql> select sum(salary) from  emp_salary where is_permanent="Yes";
++-------------+
+| sum(salary) |
++-------------+
+|       16200 |
++-------------+
+
+
 7. List name of all employees whose name ends with a.
-8. List the number of department of employees in each project.
+mysql> select emp_name from employee where emp_name like "%a";
++----------+
+| emp_name |
++----------+
+| Isha     |
+| Priya    |
+| Neha     |
++----------+
+
+**8. List the number of department of employees in each project.
+mysql> select count(emp_id) as employee, project_id from emp_project group by project_id;
++----------+------------+
+| employee | project_id |
++----------+------------+
+|        2 | p-1        |
+|        1 | p-2        |
+|        2 | p-4        |
++----------+------------+
+3 rows in set (0.00 sec)
+
+
 9. How many project started in year 2010.
+mysql> select count(project_id) from emp_project where start_year = 2010;
++-------------------+
+| count(project_id) |
++-------------------+
+|                 2 |
++-------------------+
+1 row in set (0.00 sec)
+
+
 10. How many project started and finished in the same year.
-11. Select the name of the employee whose name's 3rd charactor is 'h'.
+mysql> select count(project_id) from emp_project where start_year=end_year;
++-------------------+
+| count(project_id) |
++-------------------+
+|                 1 |
++-------------------+
+1 row in set (0.01 sec)
+
+
+11. Select the name of the employee whose name's 3rd charactor is 'h''.
+mysql> select emp_name from employee where emp_name like "__h%";
++----------+
+| emp_name |
++----------+
+| Isha     |
+| Neha     |
+| Rahul    |
+| Abhishek |
++----------+
+
+
 12. Select the department name of the company which is assigned to the employee whose
 employee id is grater 103.
+
+
 13. Select the name of the employee who is working under Abhishek.
 14. Select the name of the employee who is department head of HR.
 15. Select the name of the employee head who is permanent.
