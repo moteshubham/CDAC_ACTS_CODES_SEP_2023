@@ -559,38 +559,100 @@ mysql> select first_name, salary from Worker order by salary desc limit 4, 1;
 
  
 -- Q-35. Write an SQL query to fetch the list of employees with the same salary.
+select distinct w.first_name, w.salary from Worker w, Worker m where w.salary =
+ m.salary and w.worker_id <> m.worker_id;
++------------+--------+
+| first_name | salary |
++------------+--------+
+| Vivek      | 500000 |
+| Amitabh    | 500000 |
++------------+--------+
+
 
 
 -- Q-36. Write an SQL query to show the second highest salary from a table using sub-query.
 
+mysql> select max(salary) from Worker where (select max(salary) from Worker) not in (select max(salary));
++-------------+
+| max(salary) |
++-------------+
+|      300000 |
++-------------+
+
+
 -- third highest for homework
 
 -- Q-37. Write an SQL query to show one row twice in results from a table.
+--union all
+select first_name from Worker union all select first_name from Worker;
++------------+
+| first_name |
++------------+
+| Monika     |
+| Niharika   |
+| Vishal     |
+| Amitabh    |
+| Vivek      |
+| Vipul      |
+| Satish     |
+| Geetika    |
+| Monika     |
+| Niharika   |
+| Vishal     |
+| Amitabh    |
+| Vivek      |
+| Vipul      |
+| Satish     |
+| Geetika    |
++------------+
 
 
 -- Q-38. Write an SQL query to list worker_id who does not get bonus.
+--not in    worker id from bonus table -- inner query then not in  then where
+mysql> select worker_id from Worker where worker_id not in (select worker_ref_id from
+Bonus group by worker_ref_id);
++-----------+
+| worker_id |
++-----------+
+|         4 |
+|         5 |
+|         6 |
+|         7 |
+|         8 |
++-----------+
 
 
 -- Q-39. Write an SQL query to fetch the first 50% records from a table.
+-- worker_id auto incre count -- divide 2
+mysql> select * from Worker where worker_id <= (select count(worker_id) from Worker) div 2;
++-----------+------------+-----------+--------+---------------------+------------+
+| WORKER_ID | FIRST_NAME | LAST_NAME | SALARY | JOINING_DATE        | DEPARTMENT |
++-----------+------------+-----------+--------+---------------------+------------+
+|         1 | Monika     | Arora     | 100000 | 2014-02-20 09:00:00 | HR         |
+|         2 | Niharika   | Verma     |  80000 | 2014-06-11 09:00:00 | Admin      |
+|         3 | Vishal     | Singhal   | 300000 | 2014-02-20 09:00:00 | HR         |
+|         4 | Amitabh    | Singh     | 500000 | 2014-02-20 09:00:00 | Admin      |
++-----------+------------+-----------+--------+---------------------+------------+
+
 
 
 -- Q-40. Write an SQL query to fetch the departments that have less than 4 people in it.
-
+--group by having
 
 -- Q-41. Write an SQL query to show all departments along with the number of people in there.
-
+-- group by
 
 -- Q-42. Write an SQL query to show the last record from a table.
-
+--workerid auto incre max of workeid
 
 -- Q-43. Write an SQL query to fetch the first row of a table.
-
+--min of workerid
 
 -- Q-44. Write an SQL query to fetch the last five records from a table.
-
+--  desc sort workerid order by again
 
 -- Q-45. Write an SQL query to print the name of employees having the highest salary in each department.
-
+--inner join
 
 -- Q-46. Write an SQL query to fetch three max salaries from a table using co-related subquery
 
