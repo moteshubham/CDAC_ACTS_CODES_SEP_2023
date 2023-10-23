@@ -20,17 +20,35 @@ public class CustomerValidationRules {
 		System.out.println("Email availableeeee");
 	}
 
-	public static void authenticateCustomer(String email, String password, List<Customer> list)
+	public static int authenticateCustomer(String email, String password, List<Customer> list)
 			throws CustomerHandlingException {
 		Customer newCust = new Customer(email);
+		System.out.println("in authenticate");
 		if (list.contains(newCust)) {
 			int index = list.indexOf(newCust);
-			if (list.get(index).getPassword() == password ) {
+			//System.out.println("found at index : " + index);
+			if (list.get(index).getPassword().equals(password)) {
 				System.out.println("Signed in successfully : " + email);
+				return index;
 			} else
 				throw new CustomerHandlingException("Wrong password");
 		} else
 			throw new CustomerHandlingException("Wrong email");
+	}
+	
+//	public static void olderThan6(List<Customer> customers) {
+//		for(Customer c : customers) {
+//			if(c.g)
+//		}
+//		
+//	}
+	public static void setNewPassword(int index, String newPassword, List<Customer> customers) {
+		customers.get(index).setPassword(newPassword);
+		System.out.println("Password Updated");		
+	}
+	
+	public static void unsubscribe(int index,  List<Customer> customers) {
+		customers.remove(index);
 	}
 
 	public static ServicePlan parseAndValidatePlan(String plan) throws IllegalArgumentException {

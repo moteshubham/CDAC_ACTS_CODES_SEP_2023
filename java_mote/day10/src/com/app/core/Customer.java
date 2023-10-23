@@ -3,7 +3,7 @@ package com.app.core;
 import java.time.LocalDate;
 import java.util.Objects;
 
-public class Customer {
+public class Customer implements Comparable<Customer> {
 	private int customerId;
 	private String firstName;
 	private String lastName;
@@ -29,7 +29,11 @@ public class Customer {
 		this.dob = dob;
 		this.plan = plan;
 	}
-	
+
+	public int compareTo(Customer obj) {
+			return this.emailId.compareTo(obj.emailId);
+	}
+
 //pk 
 	public Customer(String emailId) {
 		super();
@@ -39,12 +43,14 @@ public class Customer {
 	@Override
 	public boolean equals(Object obj) {
 		System.out.println("in equalsss");
-		if (obj instanceof Customer)
+		if (obj instanceof Customer) {
 			return this.emailId.equals(((Customer) obj).emailId);
+		}
+		if (obj instanceof String) {
+			return this.password.equals(((Customer) obj).password);
+		}
 		return false;
 	}
-
-	
 
 	@Override
 	public String toString() {
@@ -52,9 +58,9 @@ public class Customer {
 				+ ", emailId=" + emailId + ", registrationAmount=" + registrationAmount + ", dob=" + dob + ", plan="
 				+ plan + "]";
 	}
-	
+
 	///// getters and setters
-	
+
 	public void setCustomerId(int customerId) {
 		this.customerId = customerId;
 	}
@@ -85,7 +91,7 @@ public class Customer {
 
 	public void setPlan(ServicePlan plan) {
 		this.plan = plan;
-	}	
+	}
 
 	public String getFirstName() {
 		return firstName;
@@ -114,7 +120,5 @@ public class Customer {
 	public ServicePlan getPlan() {
 		return plan;
 	}
-
-
 
 }
