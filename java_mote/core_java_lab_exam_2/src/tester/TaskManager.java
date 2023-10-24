@@ -1,6 +1,8 @@
 package tester;
 
 import static utils.TaskHandlingRules.*;
+
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -65,7 +67,13 @@ public class TaskManager {
 						break;
 
 					case 5:
-
+						if (taskList != null) {
+							for (Task t : taskList) {
+								if (t.getStatusValue() == Status.PENDING && t.getTaskDate().equals(LocalDate.now())) {
+									System.out.println(t);
+								}
+							}
+						}
 						break;
 
 					case 6:
