@@ -22,7 +22,8 @@ i.	Price (in INR)
 j.	Discounts (in percentage)
 */
 public class Pen {
-	private static int penID;
+	private static int penIDCounter;
+	private int penID;
 	private String brand;
 	private String color;
 	private InkColor inkColor;
@@ -34,11 +35,11 @@ public class Pen {
 	private double discount;
 	
 		static {
-		penID = 1000;
+		penIDCounter = 1000;
 	}
 
 		public Pen(String brand, String color, InkColor inkColor, String material, int stock, LocalDate stockUpdateDate,
-				LocalDate stockListingDate, int price, double discount) {
+				LocalDate stockListingDate, int price) {
 			super();
 			this.brand = brand;
 			this.color = color;
@@ -48,23 +49,23 @@ public class Pen {
 			this.stockUpdateDate = stockUpdateDate;
 			this.stockListingDate = stockListingDate;
 			this.price = price;
-			this.discount = discount;
-			this.penID = ++penID;
+			this.discount = 0;
+			this.penID = ++penIDCounter;
 		}
 
 		@Override
 		public String toString() {
-			return "Pen [brand=" + brand + ", color=" + color + ", inkColor=" + inkColor + ", material=" + material
+			return "Pen [penID="+penID+", brand=" + brand + ", color=" + color + ", inkColor=" + inkColor + ", material=" + material
 					+ ", stock=" + stock + ", stockUpdateDate=" + stockUpdateDate + ", stockListingDate="
 					+ stockListingDate + ", price=" + price + ", discount=" + discount + "]";
 		}
 
-		public static int getPenID() {
+		public  int getPenID() {
 			return penID;
 		}
 
-		public static void setPenID(int penID) {
-			Pen.penID = penID;
+		public  void setPenID(int penID) {
+			this.penID = penID;
 		}
 
 		public String getBrand() {
