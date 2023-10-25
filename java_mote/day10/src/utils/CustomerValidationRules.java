@@ -2,6 +2,7 @@ package utils;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
+import java.util.Iterator;
 import java.util.List;
 
 import com.app.core.Customer;
@@ -36,12 +37,17 @@ public class CustomerValidationRules {
 			throw new CustomerHandlingException("Wrong email");
 	}
 	
-//	public static void olderThan6(List<Customer> customers) {
-//		for(Customer c : customers) {
-//			if(c.g)
-//		}
-//		
-//	}
+	public static void olderThan6(List<Customer> customers) {
+		Iterator<Customer> custItr = customers.iterator();
+		
+		while(custItr.hasNext()) {
+		
+			if(custItr.next().getDob().isBefore(LocalDate.now().minusMonths(6))){
+				custItr.remove();
+			}
+		}
+		
+	}
 	public static void setNewPassword(int index, String newPassword, List<Customer> customers) {
 		customers.get(index).setPassword(newPassword);
 		System.out.println("Password Updated");		

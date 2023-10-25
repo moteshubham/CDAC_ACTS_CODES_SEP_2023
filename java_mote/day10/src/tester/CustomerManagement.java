@@ -24,9 +24,9 @@ public class CustomerManagement {
 			List<Customer> customers = populatedList();
 			boolean exit = false;
 			while (!exit) {
-				System.out.println(
-						"\n1. Sign up\n" + "2. Sign in\n" + "3. Change password\n" + "4. Unsubscribe customer\n"
-								+ "5. Display all customers.\n" +"6. Sort by email.\n" + "7. Sort by dob n ast name custom.\n" +  "0. Exit\n" + "Choose an option : ");
+				System.out.println("\n1. Sign up\n" + "2. Sign in\n" + "3. Change password\n"
+						+ "4. Unsubscribe customer\n" + "5. Display all customers.\n" + "6. Sort by email.\n"
+						+ "7. Sort by dob n ast name custom.\n8. Remove all  is pending for last 6 months" + "0. Exit\n" + "Choose an option : ");
 				try {
 					switch (sc.nextInt()) {
 					case 1:
@@ -52,13 +52,13 @@ public class CustomerManagement {
 						System.out.println("Enter new pasword");
 						setNewPassword(customerIndex, sc.next(), customers);
 						break;
-						
+
 					case 4:
 						System.out.println("Enter email and password to Unsubscribe");
 						customerIndex = authenticateCustomer(sc.next(), sc.next(), customers);
 						unsubscribe(customerIndex, customers);
 						break;
-						
+
 					case 5:
 						System.out.println("Elements are : ");
 						if (customers != null) {
@@ -66,28 +66,32 @@ public class CustomerManagement {
 								System.out.println(c);
 						}
 						break;
-						
+
 					case 6:
 						System.out.println("Sort customer details as per email (use natural ordering)");
 						Collections.sort(customers);
-						for(Customer c : customers) {
+						for (Customer c : customers) {
 							System.out.println(c);
 						}
 						break;
-						
+
 					case 7:
 						System.out.println("Sort customer details as per dob n last name (use custom ordering)");
 						Collections.sort(customers, new CustomerDOBComparator());
-						for(Customer c : customers) {
+						for (Customer c : customers) {
 							System.out.println(c);
 						}
 						break;
 
 					case 8:
-						System.out.println("Remove all those customer details whose subscription is pending for last 6 months?");
-//						olderThan6(customers);
+						System.out.println(
+								"Remove all those customer details whose subscription is pending for last 6 months?");
+						olderThan6(customers);
+						for (Customer c : customers) {
+							System.out.println(c);
+						}
 						break;
-						
+
 					case 0:
 						exit = true;
 						System.out.println("byee");
@@ -102,7 +106,5 @@ public class CustomerManagement {
 		}
 
 	}
-
-	
 
 }

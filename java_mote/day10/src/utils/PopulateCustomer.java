@@ -14,7 +14,7 @@ public class PopulateCustomer {
 		newList.add(new Customer ("ram", "chavan", "ram@gmail.com", "ram123", 2000, LocalDate.parse("1996-01-01"), ServicePlan.GOLD));
 		newList.add(new Customer ("shubham", "mote", "moteshubham@gmail.com", "shubh123", 1000, LocalDate.parse("2000-01-01"), ServicePlan.SILVER));
 		newList.add(new Customer ("prithvi", "sukale", "pvsukale@gmail.com", "pv123", 10000, LocalDate.parse("1992-01-01"), ServicePlan.PLATINUM));
-		newList.add(new Customer ("shivam", "bhirud", "bhirud@gmail.com", "shivam123", 5000, LocalDate.parse("1994-01-01"), ServicePlan.DIAMOND));
+		newList.add(new Customer ("shivam", "bhirud", "bhirud@gmail.com", "shivam123", 5000, LocalDate.parse("2023-10-01"), ServicePlan.DIAMOND));
 		return newList;
 	}
 }

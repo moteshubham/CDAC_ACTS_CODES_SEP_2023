@@ -1,3 +1,5 @@
+  -- assignement 7
+
 mysql> create database department2;
 Query OK, 1 row affected (0.01 sec)
 
