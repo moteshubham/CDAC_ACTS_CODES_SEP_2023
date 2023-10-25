@@ -29,12 +29,12 @@ public class PenStoreHandlingRules {
 	}
 
 	public static Pen validatePen(String brand, String color, String inkClr, String material, int stock,
-			String stockUpdateDate, String stockListingDate, int price, double discount)
+			  int price)
 			throws ValidationException, DateTimeParseException {
 		InkColor inkColor = checkInkColor(inkClr);
-		LocalDate stockListedDate = parseAndValidateDate(stockListingDate);
-		LocalDate stockUpdatedDate = parseAndValidateDate(stockUpdateDate);
-		Pen newPen = new Pen(brand, color, inkColor, material, stock, stockUpdatedDate, stockListedDate, price);
+	//	LocalDate stockListedDate = parseAndValidateDate(stockListingDate);
+		//LocalDate stockUpdatedDate = parseAndValidateDate(stockUpdateDate);
+		Pen newPen = new Pen(brand, color, inkColor, material, stock,  price);
 		return newPen;
 
 	}

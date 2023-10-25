@@ -33,112 +33,113 @@ public class Pen {
 	private LocalDate stockListingDate;
 	private int price;
 	private double discount;
-	
-		static {
+
+	static {
 		penIDCounter = 1000;
 	}
 
-		public Pen(String brand, String color, InkColor inkColor, String material, int stock, LocalDate stockUpdateDate,
-				LocalDate stockListingDate, int price) {
-			super();
-			this.brand = brand;
-			this.color = color;
-			this.inkColor = inkColor;
-			this.material = material;
-			this.stock = stock;
-			this.stockUpdateDate = stockUpdateDate;
-			this.stockListingDate = stockListingDate;
-			this.price = price;
-			this.discount = 0;
-			this.penID = ++penIDCounter;
-		}
+	public Pen(String brand, String color, InkColor inkColor, String material, int stock, LocalDate stockListingDate,
+			int price) {
+		super();
+		this.brand = brand;
+		this.color = color;
+		this.inkColor = inkColor;
+		this.material = material;
+		this.stock = stock;
+		this.stockUpdateDate = LocalDate.now();
+		this.stockListingDate = LocalDate.now();
+		this.price = price;
+		this.discount = 0;
+		this.penID = ++penIDCounter;
+	}
 
-		@Override
-		public String toString() {
-			return "Pen [penID="+penID+", brand=" + brand + ", color=" + color + ", inkColor=" + inkColor + ", material=" + material
-					+ ", stock=" + stock + ", stockUpdateDate=" + stockUpdateDate + ", stockListingDate="
-					+ stockListingDate + ", price=" + price + ", discount=" + discount + "]";
-		}
+	@Override
+	public String toString() {
+		return "Pen [penID=" + penID + ", brand=" + brand + ", color=" + color + ", inkColor=" + inkColor
+				+ ", material=" + material + ", stock=" + stock + ", stockUpdateDate=" + stockUpdateDate
+				+ ", stockListingDate=" + stockListingDate + ", price=" + price + ", discount=" + discount + "]";
+	}
 
-		public  int getPenID() {
-			return penID;
-		}
+	public int getPenID() {
+		return penID;
+	}
 
-		public  void setPenID(int penID) {
-			this.penID = penID;
-		}
+	public void setPenID(int penID) {
+		this.penID = penID;
+	}
 
-		public String getBrand() {
-			return brand;
-		}
+	public String getBrand() {
+		return brand;
+	}
 
-		public void setBrand(String brand) {
-			this.brand = brand;
-		}
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
 
-		public String getColor() {
-			return color;
-		}
+	public String getColor() {
+		return color;
+	}
 
-		public void setColor(String color) {
-			this.color = color;
-		}
+	public void setColor(String color) {
+		this.color = color;
+	}
 
-		public InkColor getInkColor() {
-			return inkColor;
-		}
+	public InkColor getInkColor() {
+		return inkColor;
+	}
 
-		public void setInkColor(InkColor inkColor) {
-			this.inkColor = inkColor;
-		}
+	public void setInkColor(InkColor inkColor) {
+		this.inkColor = inkColor;
+	}
 
-		public String getMaterial() {
-			return material;
-		}
+	public String getMaterial() {
+		return material;
+	}
 
-		public void setMaterial(String material) {
-			this.material = material;
-		}
+	public void setMaterial(String material) {
+		this.material = material;
+	}
 
-		public int getStock() {
-			return stock;
-		}
+	public int getStock() {
+		return stock;
+	}
 
-		public void setStock(int stock) {
-			this.stock = stock;
-		}
+	public void setStock(int stock) {
+		this.stock = stock;
+		this.stockUpdateDate = LocalDate.now();
+		;
+	}
 
-		public LocalDate getStockUpdateDate() {
-			return stockUpdateDate;
-		}
+	public LocalDate getStockUpdateDate() {
+		return stockUpdateDate;
+	}
 
-		public void setStockUpdateDate(LocalDate stockUpdateDate) {
-			this.stockUpdateDate = stockUpdateDate;
-		}
+	public void setStockUpdateDate(LocalDate stockUpdateDate) {
+		this.stockUpdateDate = stockUpdateDate;
+	}
 
-		public LocalDate getStockListingDate() {
-			return stockListingDate;
-		}
+	public LocalDate getStockListingDate() {
+		return stockListingDate;
+	}
 
-		public void setStockListingDate(LocalDate stockListingDate) {
-			this.stockListingDate = stockListingDate;
-		}
+	public void setStockListingDate(LocalDate stockListingDate) {
+		this.stockListingDate = stockListingDate;
+	}
 
-		public int getPrice() {
-			return price;
-		}
+	public int getPrice() {
+		return price;
+	}
 
-		public void setPrice(int price) {
-			this.price = price;
-		}
+	public void setPrice(int price) {
+		this.price = price;
+	}
 
-		public double getDiscount() {
-			return discount;
-		}
+	public double getDiscount() {
+		return discount;
+	}
 
-		public void setDiscount(double discount) {
-			this.discount = discount;
-		}
-	
-		
+	public void setDiscount(double discount) {
+		this.discount = discount;
+	}
+
 }

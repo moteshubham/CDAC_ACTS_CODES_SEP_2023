@@ -1,5 +1,33 @@
 package tester;
 
+/*6. Write a console-based Java application for a company to manage employee details.
+
+There are two types of employees – Full Time Employee (FTE), Part Time Employee (PTE)
+
+Application captures following details for each employee whether FTE or PTE:
+       Name, Date of joining, Phone Number, Aadhaar number  
+For FTE, monthly salary is also captured.
+For PTE, hourly payment amount is also captured.
+
+Same collection class is used to store both FTE and PTE
+
+Input should be validated before entering into the system:
+Emp Id should be auto generated and unique for each employee.
+Date of joining should be of type LocalDate 
+Phone number should be all numeric and of length 10
+ Hint : Can use a reg ex : ^[0-9]*$ n use String class's matches method
+Aadhaar number should be all numeric and of length 12 only, there should not be any space in between.
+ Hint : Can use a reg ex : ^\\S+$ n use String class's matches method
+Two employees cannot have same aadhaar number
+
+Application Menu:
+Add full time employee
+Add part time employee
+Delete an employee by Emp Id
+Search employee details by Aadhaar number
+Display all employee details
+Display all employee details sorted by date of joining
+Exit*/
 import static utils.EmployeeManagementUtils.deleteEmployeeByEmpID;
 import static utils.EmployeeManagementUtils.searchEmployeeByAadhaarNumber;
 import static utils.EmployeeValidationRules.aadhaarNumberValidation;
@@ -86,7 +114,7 @@ public class EmployeeManagementApp {
 						break;
 
 					case 4:
-						 sc.nextLine();
+						sc.nextLine();
 						System.out.println("Enter Employee Aadhaar ID to search : ");
 						String checkAadhaarNumber = sc.nextLine();
 
@@ -124,7 +152,5 @@ public class EmployeeManagementApp {
 		} // sc.close()
 		System.out.println("main over....");
 	}
-
-
 
 }

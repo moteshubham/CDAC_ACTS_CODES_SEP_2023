@@ -11,6 +11,24 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+/*1. Add new Pen
+2. Update stock of aPen
+3.Set discount of 20% for all the pens which are not at all sold in last 3 months
+4. Remove Pens which are never sold once listed in 9 months
+
+You can define a class Pen with the following fields – 
+a.	ID (unique identifier for each Pen, should be generated automatically)
+b.	Brand (Example:  Cello, Parker, Reynolds etc.)
+c.	Color
+d.	InkColor
+e.	Material (Example: Plastic, Alloy Steel, Metal etc.)
+f.	Stock (Available quantity)
+g.	Stock Update Date (it changed every time when admin update stock or user order executed)
+h.	Stock Listing Date (date on which product is added to site for sale)
+i.	Price (in INR) 
+j.	Discounts (in percentage)
+*/
+
 public class StyleWithPen {
 
 	public static void main(String[] args) {
@@ -35,10 +53,10 @@ public class StyleWithPen {
 					switch (sc.nextInt()) {
 					case 1:
 						System.out.println(
-								"Enter pen details :  brand,  color,  inkColor,  material,  stock,  stockUpdateDate,"
-										+ " stockListingDate,  price,  discount)");
+								"Enter pen details :  brand,  color,  inkColor,  material,  stock,"
+										+ " stockListingDate,  price)");
 						Pen validatedPen = validatePen(sc.next(), sc.next(), sc.next(), sc.next(), sc.nextInt(),
-								sc.next(), sc.next(), sc.nextInt(), sc.nextDouble());
+								 sc.nextInt());
 						penMap.put(validatedPen.getPenID(), validatedPen);
 
 						break;
@@ -50,6 +68,7 @@ public class StyleWithPen {
 						break;
 
 					case 3:
+//						3.Set discount of 20% for all the pens which are not at all sold in last 3 months
 						
 						break;
 
