@@ -1,0 +1,2 @@
+Customer [customerId=1002, firstName=hubham, lastName=mote, email=te@gmail.com, regAmount=2000.0, dob=1996-07-22, plan=GOLD cost 2000]
+Customer [customerId=1001, firstName=hubham, lastName=mote, email=mote@gmail.com, regAmount=2000.0, dob=1996-07-22, plan=GOLD cost 2000]
