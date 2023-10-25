@@ -12,6 +12,7 @@ public class Customer {
 	private LocalDate dob;
 	private ServicePlan plan;
 	private static int idGenerator;
+	private Customer reference;
 	static {
 		idGenerator = 1000;
 	}
@@ -29,12 +30,43 @@ public class Customer {
 		this.plan = plan;
 	}
 
+	public LocalDate getDob() {
+		return dob;
+	}
+
+	public void setDob(LocalDate dob) {
+		this.dob = dob;
+	}
+
 	@Override
 	public String toString() {
-		return "Customer \n[customerId : " + customerId + ", \nfirstName : " + firstName + ", \nlastName : " + lastName
-				+ ", \nemailId : " + emailId + ", \nregistrationAmount : " + registrationAmount + ", \ndob : " + dob + ", \nplan : "
-				+ plan + "]";
+		return "Customer [customerId=" + customerId + ", firstName=" + firstName + ", lastName=" + lastName + ", email="
+				+ emailId + ", regAmount=" + registrationAmount + ", dob=" + dob + ", plan=" + plan + "]";
 	}
+//	public String toString() {
+//        return "MyObject [reference=" + (this != null ? "Circular Reference" : "null") + "]";
+//    }
+
+//	public String toString() {
+//		return "MyObject [reference=" + (this != null ? "Circular Reference" : "null") + "]"+"Customer [customerId=" +  ", firstName=" + firstName + ", lastName=" + lastName
+//				+ ", emailId=" +  ", password=" + password + ", registrationAmount=" + registrationAmount
+//				+ ", dob=" + dob + ", plan=" + plan + "]";
+//	}
+//	public String toString() {
+//		return "Customer [customerId=" + customerId + ", firstName=" + firstName + ", lastName=" + lastName + ", email="
+//	+ ", regAmount=" + registrationAmount + ", dob=" + dob + ", plan=" + plan + "]";
+//	}
+	/*
+	 * public String toString() { return toString(new HashSet<>()); }
+	 * 
+	 * private String toString(Set<Customer> visitedCustomers) { if
+	 * (visitedCustomers.contains(this)) { return "Circular Reference"; // To avoid
+	 * infinite recursion } visitedCustomers.add(this);
+	 * 
+	 * return "Customer [customerId=" + customerId + ", firstName=" + firstName +
+	 * ", lastName=" + lastName + ", email=" + ", regAmount=" + registrationAmount +
+	 * ", dob=" + dob + ", plan=" + plan + "]"; }
+	 */
 
 	// equals / hashcode : none! Since string: key it has already
 	public String getEmailId() {

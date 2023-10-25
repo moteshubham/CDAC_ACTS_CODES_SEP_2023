@@ -22,18 +22,7 @@ public class CustomerValidationRules {
 
 	public static ServicePlan parseAndValidatePlan(String plan)
 			throws CustomerHandlingException, IllegalArgumentException {
-		//if (ServicePlan.valueOf(planBeforeParsing)) }
-
-//		ServicePlan presentPlan = null;
-//		for (ServicePlan pl : ServicePlan.values()) {
-//			if (pl.name().equalsIgnoreCase(plan)) {
-//				presentPlan = pl;
-//			}
-//		}throw new CustomerHandlingException("Plan is not present : ");
-//		System.out.println("Given plan "+plan+" is present ");
-
-	return ServicePlan.valueOf(plan.toUpperCase());
-
+		return ServicePlan.valueOf(plan.toUpperCase());
 	}
 
 	private static void validateRegAmount(double registrationAmount, ServicePlan plan)
@@ -48,8 +37,6 @@ public class CustomerValidationRules {
 
 	private static LocalDate parseAndValidateDate(String dob) throws DateTimeParseException {
 		return LocalDate.parse(dob);
-		//
-
 	}
 
 	public static Customer authenticateCustomer(String emailId, String password, Map<String, Customer> customerMap)
@@ -90,16 +77,17 @@ public class CustomerValidationRules {
 			throws CustomerHandlingException, IllegalArgumentException {
 		System.out.println("checking started");
 		checkForDups(emailId, customerMap);
-//		System.out.println("check dups done, starting service plan check");
+		System.out.println("check dups done, starting service plan check");
 		ServicePlan validPlan = parseAndValidatePlan(plan);
-//		System.out.println("serivecplan  done, starting reg amount check");
+		System.out.println("serivecplan  done, starting reg amount check");
 		validateRegAmount(registrationAmount, ServicePlan.valueOf(plan.toUpperCase()));
-//		System.out.println("reg amount done, starting date check");
+		System.out.println("reg amount done, starting date check");
 		LocalDate validatedDate = parseAndValidateDate(dob);
-//		System.out.println("date done, starting return customer");
+		System.out.println("date done, starting return customer");
 
 		Customer validatedCustomer = new Customer(firstName, lastName, emailId, password, registrationAmount,
 				validatedDate, validPlan);
+		System.out.println("Return customer");
 		return validatedCustomer;
 	}
 
