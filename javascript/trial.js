@@ -1,8 +1,14 @@
-class Rocket {
-    sdflaunch() {
-      console.log("To the moon!");
-    }
-  }
-  const atlas = new Rocket();
-  //atlas.launch();
+
+
+function print(value) {
+  console.log(value);
+}
+
+function useCallback(callback) {
+  callback("Hello")
+}
+
+useCallback(print)
+
+
 console.log("done");
