@@ -29,7 +29,7 @@ public class SimpleQueueManagement {
 						break;
 
 					case 2:
-						sc.nextLine();
+						//sc.nextLine();
 						System.out.println("Dequeue element : " + q.dequeue());
 						q.display();
 						break;
@@ -61,13 +61,10 @@ public class SimpleQueueManagement {
 					}
 
 				} catch (Exception e) {
-					e.printStackTrace();
+					System.out.println(e);
 					sc.nextLine();
 				}
-
 			}
 		}
-
 	}
-
 }

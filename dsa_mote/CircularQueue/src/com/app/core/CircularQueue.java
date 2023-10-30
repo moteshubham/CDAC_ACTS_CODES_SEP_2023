@@ -13,8 +13,8 @@ public class CircularQueue {
 	private int[] queue;
 
 	public CircularQueue(int capacity) {
-		this.front = 0;
-		this.rear = 0;
+		this.front = -1;
+		this.rear = -1;
 		this.size = capacity;
 		this.queue = new int[capacity];
 	}
@@ -25,6 +25,9 @@ public class CircularQueue {
 		}
 		rear = (rear + 1) % size;
 		queue[rear] = element;
+		if (front == -1) {
+			front = 0;
+		}
 	}
 
 	public int dequeue() throws QueueEmptyException {
@@ -34,6 +37,9 @@ public class CircularQueue {
 		front = (front + 1) % size;
 		int element = queue[front];
 		queue[front] = 0;
+		if (front==rear) {
+			front=rear=-1;
+		}
 		return element;
 	}
 
@@ -61,11 +67,10 @@ public class CircularQueue {
 	}
 
 	public boolean isEmpty() {
-		return rear == front;
+		return rear == -1;
 	}
 
 	public boolean isFull() {
-		
-		return rear >= (front)%size;
+		return front == (rear + 1) % size;
 	}
 }

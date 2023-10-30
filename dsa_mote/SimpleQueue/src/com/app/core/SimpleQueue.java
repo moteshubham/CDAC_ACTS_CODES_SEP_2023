@@ -1,6 +1,7 @@
 package com.app.core;
 
 import custom_exceptions.QueueEmptyException;
+import custom_exceptions.QueueFullException;
 
 //import custom_exceptions.queueEmptyException;
 //import custom_exceptions.queueFullException;
@@ -14,25 +15,28 @@ public class SimpleQueue {
 	public SimpleQueue(int capacity) {
 		this.front = -1;
 		this.rear = -1;
+		this.size = capacity;
 		this.queue = new int[capacity];
 	}
 
-	public void enqueue(int element) {
-//		if(isEmpty()) {
-//			front++;
-//		}
+	public void enqueue(int element) throws QueueFullException {
+		if (isFull()) {
+			throw new QueueFullException("Queue is Full");
+		}
 		rear++;
 		queue[rear] = element;
+		if (front == -1) {
+			front = 0;
+		}
 	}
 
 	public int dequeue() throws QueueEmptyException {
 		if (isEmpty()) {
 			throw new QueueEmptyException("Queue is already Empty");
 		}
-		front++;
 		int element = queue[front];
 		queue[front] = 0;
-	
+		front++;
 		return element;
 	}
 
@@ -45,7 +49,7 @@ public class SimpleQueue {
 		System.out.println("------------------------------------------");
 	}
 
-	public int front() throws QueueEmptyException{
+	public int front() throws QueueEmptyException {
 		if (isEmpty()) {
 			throw new QueueEmptyException("Queue is already Empty");
 		}
@@ -60,6 +64,11 @@ public class SimpleQueue {
 	}
 
 	public boolean isEmpty() {
-		return rear == front;
+		return rear == -1 || front > rear;
+	}
+
+	public boolean isFull() {
+		System.out.println(rear + "  " + size);
+		return rear == size - 1;
 	}
 }
