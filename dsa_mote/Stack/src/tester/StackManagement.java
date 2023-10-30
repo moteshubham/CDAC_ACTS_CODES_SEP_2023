@@ -4,7 +4,7 @@ import com.app.core.*;
 
 import java.util.Scanner;
 
-public class Stack_Program {
+public class StackManagement {
 
 	public static void main(String[] args) {
 
