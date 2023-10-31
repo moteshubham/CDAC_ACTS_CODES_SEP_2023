@@ -4,15 +4,15 @@ package tester;
 
 import java.util.Scanner;
 
-import com.app.core.SinglyLinkedList;
+import com.app.core.CircularLinkedList;
 
-public class SinglyLinkedListManagement {
+public class CircularLinkedListManagement {
 
 	public static void main(String[] args) {
 
 		try (Scanner sc = new Scanner(System.in)) {
 			
-			SinglyLinkedList s = new SinglyLinkedList();
+			CircularLinkedList s = new CircularLinkedList();
 			
 			
 			boolean exit = false;
@@ -20,10 +20,10 @@ public class SinglyLinkedListManagement {
 				System.out.println();
 				System.out.println("1. Add Data");
 				System.out.println("2. Display Data");
-				System.out.println("3. Delete ");
-				System.out.println("4. ");
-				System.out.println("5. ");
-				System.out.println("6. ");
+				System.out.println("3. Count ");
+				System.out.println("4. --");
+				System.out.println("5. --");
+				System.out.println("6. --");
 				System.out.println("Choose an option : ");
 			
 				try {
@@ -37,13 +37,13 @@ public class SinglyLinkedListManagement {
 
 					case 2:
 						sc.nextLine();
-						s.printNodes();
+						s.printList();
 						break;
 
 					case 3:
 						sc.nextLine();
-						System.out.println("Enter element index to delete");
-						s.deleteNode(sc.nextInt());
+					
+						s.countList();
 						break;
 
 					case 4:

@@ -39,6 +39,20 @@ public class SinglyLinkedList {
 				traverseNode = traverseNode.next;
 			}
 		}
+	}
 
+	public void deleteNode(int index) throws EmptyListException {
+		index = index - 1;
+		if (head == null) {
+			throw new EmptyListException("Emptty List");
+		} else if (head.next == null) {
+			head = null;
+		} else {
+			Node traverseNode = head;
+			for (int i = 0; i < index - 1; i++) {
+				traverseNode = traverseNode.next;
+			}
+			traverseNode.next = traverseNode.next.next;
+		}
 	}
 }

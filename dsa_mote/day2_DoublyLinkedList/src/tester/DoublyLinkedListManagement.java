@@ -1,18 +1,18 @@
 package tester;
 
-//delete node pending some working
+
 
 import java.util.Scanner;
 
-import com.app.core.SinglyLinkedList;
+import com.app.core.DoublyLinkedList;
 
-public class SinglyLinkedListManagement {
+public class DoublyLinkedListManagement {
 
 	public static void main(String[] args) {
 
 		try (Scanner sc = new Scanner(System.in)) {
 			
-			SinglyLinkedList s = new SinglyLinkedList();
+			DoublyLinkedList s = new DoublyLinkedList();
 			
 			
 			boolean exit = false;
@@ -43,20 +43,10 @@ public class SinglyLinkedListManagement {
 					case 3:
 						sc.nextLine();
 						System.out.println("Enter element index to delete");
-						s.deleteNode(sc.nextInt());
+					//	s.deleteNode(sc.nextInt());
 						break;
 
-					case 4:
 
-						break;
-
-					case 5:
-
-						break;
-
-					case 6:
-
-						break;
 
 					case 0:
 						exit = true;
