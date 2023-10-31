@@ -1,35 +1,38 @@
 package tester;
 
+//delete node pending some working
+
 import java.util.Scanner;
 
-import com.app.core.CircularDoublyLinkedList;
+import com.app.core.StackUsingLinkedList;
 
-public class CircularDoublyLinkedListManagement {
+public class StackUsingLinkedListCode {
 
 	public static void main(String[] args) {
 
 		try (Scanner sc = new Scanner(System.in)) {
-
-			CircularDoublyLinkedList s = new CircularDoublyLinkedList();
-
+			
+			StackUsingLinkedList s = new StackUsingLinkedList();
+			
+			
 			boolean exit = false;
 			while (!exit) {
 				System.out.println();
 				System.out.println("1. Add Data");
 				System.out.println("2. Display Data");
-				System.out.println("3. ");
+				System.out.println("3. Delete ");
 				System.out.println("4. ");
 				System.out.println("5. ");
 				System.out.println("6. ");
 				System.out.println("Choose an option : ");
-
+			
 				try {
 					switch (sc.nextInt()) {
 					case 1:
 						sc.nextLine();
 						System.out.println("Enter element to add");
-						s.addNode(sc.nextInt());
-
+						s.push(sc.nextInt());
+					
 						break;
 
 					case 2:
@@ -39,8 +42,8 @@ public class CircularDoublyLinkedListManagement {
 
 					case 3:
 						sc.nextLine();
-						System.out.println("Enter element index to delete");
-						// s.deleteNode(sc.nextInt());
+						System.out.println("Popped element : ");
+						s.pop();
 						break;
 
 					case 4:
@@ -71,3 +74,4 @@ public class CircularDoublyLinkedListManagement {
 	}
 
 }
+

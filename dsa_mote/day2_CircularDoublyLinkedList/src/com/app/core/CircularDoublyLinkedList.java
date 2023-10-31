@@ -30,11 +30,12 @@ public class CircularDoublyLinkedList {
 		if (isEmpty()) {
 			head = newNode;
 			tail = newNode;
-		} 
-		else {
-				tail.next = newNode;
-				newNode.prev = tail;
-				tail = newNode;			
+			tail.next = head;
+		} else {
+			tail.next = newNode;
+			newNode.prev = tail;
+			newNode.next = head;
+			tail = newNode;
 		}
 	}
 
@@ -47,10 +48,10 @@ public class CircularDoublyLinkedList {
 			throw new EmptyListException("Emptty List");
 		} else {
 			Node traverseNode = head;
-			while (traverseNode != null) {
+			do{
 				System.out.println(traverseNode.data + " ");
 				traverseNode = traverseNode.next;
-			}
+			}while (traverseNode != head) ;
 		}
 	}
 
