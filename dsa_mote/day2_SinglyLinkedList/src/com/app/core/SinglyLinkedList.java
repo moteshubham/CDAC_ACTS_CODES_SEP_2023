@@ -16,6 +16,18 @@ public class SinglyLinkedList {
 		}
 	}
 
+	public void addFirst(int data) {
+		Node newNode = new Node(data);
+		newNode.next = head;
+		head = newNode;
+	}
+
+	public void addLast(int data) {
+		Node newNode = new Node(data);
+		newNode.next = head;
+		head = newNode;
+	}
+
 	public void addNode(int data) {
 		Node newNode = new Node(data);
 		if (head == null) {
@@ -33,10 +45,10 @@ public class SinglyLinkedList {
 		if (head == null) {
 			throw new EmptyListException("Emptty List");
 		} else {
-			Node traverseNode = head;
-			while (traverseNode != null) {
-				System.out.println(traverseNode.data + " ");
-				traverseNode = traverseNode.next;
+			Node tempNode = head;
+			while (tempNode != null) {
+				System.out.println(tempNode.data + " ");
+				tempNode = tempNode.next;
 			}
 		}
 	}
@@ -48,11 +60,11 @@ public class SinglyLinkedList {
 		} else if (head.next == null) {
 			head = null;
 		} else {
-			Node traverseNode = head;
+			Node tempNode = head;
 			for (int i = 0; i < index - 1; i++) {
-				traverseNode = traverseNode.next;
+				tempNode = tempNode.next;
 			}
-			traverseNode.next = traverseNode.next.next;
+			tempNode.next = tempNode.next.next;
 		}
 	}
 }
