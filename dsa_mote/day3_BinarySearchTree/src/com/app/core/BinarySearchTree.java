@@ -21,6 +21,7 @@ public class BinarySearchTree {
 		}
 	}
 
+// ------------------------------------------------------
 	public void insertNode(int data) {
 		Node newNode = new Node(data);
 		if (root == null) {
@@ -46,6 +47,7 @@ public class BinarySearchTree {
 		}
 	}
 
+//------------------------------------------------------
 	public void inorderTraversal() {
 		inorderTraversal(root);
 	}
