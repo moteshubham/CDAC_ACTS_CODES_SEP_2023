@@ -1,26 +1,28 @@
 package tester;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-import com.app.core.BinarySearch;
+import com.app.core.BubbleSort;
 
-public class BinarySearchMethod {
+public class BubbleSortMethod {
 
 	public static void main(String[] args) {
 
 		try (Scanner sc = new Scanner(System.in)) {
 
-			BinarySearch s = new BinarySearch();
-			System.out.println("Enter how many elements? ");
-			int arr[] = new int[sc.nextInt()];
-			//int[] arr = { 2, 3, 4, 10, 40,50,90,100 };
+			BubbleSort s = new BubbleSort();
+			System.out.println("Enter how size of array? ");
+//			int arr[] = new int[sc.nextInt()];
+//			s.addElement(arr, sc);
+
+			int[] arr = { 40, 23, 50, 3, 1, 78, 2, 34, 100 };
+			s.displayArray(arr);
 			boolean exit = false;
 			while (!exit) {
 				System.out.println("\n");
-				System.out.println("1. Add Data to Array");
+				System.out.println("1. Bubble Sort ");
 				System.out.println("2. Display Array");
-				System.out.println("3. Binary Search ");
+//				System.out.println("3. Bubble Sort ");
 //				System.out.println("4. ");
 //				System.out.println("5. ");
 //				System.out.println("6. ");
@@ -30,8 +32,9 @@ public class BinarySearchMethod {
 					switch (sc.nextInt()) {
 					case 1:
 						sc.nextLine();
-						s.addElement(arr, sc);
-						 Arrays.sort(arr);   // Binary search can be used on sorted arrays only
+						System.out.println("Bubble Sorted Array : ");
+						s.bubbleSort(arr);
+						System.out.println("\n");
 						s.displayArray(arr);
 						break;
 
@@ -42,11 +45,7 @@ public class BinarySearchMethod {
 
 					case 3:
 						sc.nextLine();
-						System.out.println("Enter element to search");
-						int toSearch = sc.nextInt();
-						s.binarySearch(arr, toSearch);
-						System.out.println("\n");
-						s.displayArray(arr);
+
 						break;
 
 					case 4:
@@ -63,7 +62,7 @@ public class BinarySearchMethod {
 
 					case 0:
 						exit = true;
-						System.out.println("byee");
+						System.out.println("Byee");
 					}
 
 				} catch (Exception e) {
