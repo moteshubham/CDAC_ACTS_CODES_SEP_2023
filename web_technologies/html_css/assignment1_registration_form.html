@@ -22,6 +22,9 @@
         align-items: center;
         justify-content: center;
       }
+      .field-name {
+        text-align: right;
+      }
       fieldset {
         background-color: rgb(147, 191, 191);
       }
@@ -31,31 +34,33 @@
     <div class="container">
       <fieldset>
         <legend align="center">Registration Form</legend>
-        <table border="2px">
+        <table>
           <form class="form-table" action="#">
             <tr>
-              <td>University</td>
+              <td class="field-name">University</td>
               <td>
-                <input type="text" autofocus name="uname" id="uname" placeholder="Enter username" />
+                <input type="text" autofocus name="uname" id="uname" />
               </td>
             </tr>
             <tr>
-              <td>Employee Code</td>
+              <td class="field-name">Institute</td>
               <td>
-                <input type="text" name="ecode" id="ecode" />
+                <input type="text" name="icode" id="icode" />
               </td>
             </tr>
             <tr>
-              <td>Department</td>
+              <td class="field-name">Branch</td>
               <td>
-                <input type="radio" name="dept" />Admin <br />
-                <input type="radio" name="dept" />HR <br />
-                <input type="radio" name="dept" />Technical <br />
-                <input type="radio" name="dept" />Accounts
+                <select name="branch-name" id=""></select>
+                <option value=""></option>
+                <option value="dept">Admin</option>
+                <option value="dept">HR</option>
+                <option value="dept">Technical</option>
+                <option value="dept">Accounts</option>
               </td>
             </tr>
             <tr>
-              <td>Date Of Joining</td>
+              <td class="field-name">Date Of Joining</td>
               <td>
                 <input type="number" name="joining_date" id="joining_day" />
                 date
@@ -66,13 +71,13 @@
               </td>
             </tr>
             <tr>
-              <td>Address</td>
+              <td class="field-name">Address</td>
               <td>
                 <textarea name="addr" id="addr" cols="20" rows="4"></textarea>
               </td>
             </tr>
             <tr>
-              <td>Training Programs Attended</td>
+              <td class="field-name">Training Programs Attended</td>
               <td>
                 <input type="checkbox" name="dept" />HTML/DHTML <br />
                 <input type="checkbox" name="dept" />JAVA <br />
@@ -81,7 +86,7 @@
               </td>
             </tr>
             <tr>
-              <td>Programs need to be attended</td>
+              <td class="field-name">Programs need to be attended</td>
               <td>
                 <select name="attended">
                   <option value="javascript" selected>javascript</option>
@@ -90,7 +95,7 @@
               </td>
             </tr>
             <tr>
-              <td>Send the info at</td>
+              <td class="field-name">Send the info at</td>
               <td><a href="mailto:shub@gmail.com">shubh@gmail.com</a></td>
             </tr>
           </form>
