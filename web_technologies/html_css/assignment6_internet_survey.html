@@ -6,7 +6,18 @@
     <title>Internet Survey</title>
     <style>
       table {
-        width: 700px;
+        width: 100%;
+        padding: 20px;
+        border-spacing: 0 10px;
+      }
+      tr {
+        margin: 30px;
+      }
+      td {
+        padding: 10px;
+      }
+      button {
+        width: 100px;
       }
     </style>
   </head>
@@ -17,7 +28,7 @@
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque ex eum molestiae nam veniam, facere
         odio autem libero alias hic!
       </p>
-      <table border="2px">
+      <table>
         <tr>
           <td>What type of internet u have</td>
           <td>
@@ -47,13 +58,43 @@
             <fieldset>
               <legend>Types of sites visited</legend>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, voluptas?</p>
+              <input type="radio" name="sites" />Self Improvement <br />
+              <input type="radio" name="sites" />Entertainment <br />
+              <input type="radio" name="sites" />News and Sports <br />
+              <input type="radio" name="sites" />References<br />
+              <input type="radio" name="sites" />Email<br />
             </fieldset>
           </td>
           <td>
             <fieldset>
               <legend>Time spent using internet</legend>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, voluptas?</p>
+              <input type="checkbox" name="sites" />0-3 hours<br />
+              <input type="checkbox" name="sites" />0-3 hours <br />
+              <input type="checkbox" name="sites" />0-3 hours<br />
+              <input type="checkbox" name="sites" />0-3 hours<br />
+              <input type="checkbox" name="sites" />0-3 hours<br />
             </fieldset>
           </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, assumenda?
+            <br />
+            <textarea name="opinion" id="opinion-text" cols="60" rows="5"> </textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>First Name: <input type="text" /></td>
+          <td>Last Name: <input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Age: <input type="text" /></td>
+          <td>Zip Code: <input type="text" /></td>
+        </tr>
+        <tr>
+          <td align="right"><button>Submit</button></td>
+          <td align="left"><button>Clear</button></td>
         </tr>
       </table>
     </fieldset>
