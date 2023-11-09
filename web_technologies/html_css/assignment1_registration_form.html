@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
     <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
       #joining_day,
       #joining_month,
       #joining_year {
@@ -16,11 +25,17 @@
       #addr {
         width: 400px;
       }
-
+      
       .container {
+        background-color: yellowgreen;
+        height: 900px;
         display: flex;
+        /* **this i imp
+        <!-- ? 
+        //
+        */
+        justify-content: center; 
         align-items: center;
-        justify-content: center;
       }
       .field-name {
         text-align: right;
@@ -31,6 +46,7 @@
     </style>
   </head>
   <body>
+    <div class="raja"></div>
     <div class="container">
       <fieldset>
         <legend align="center">Registration Form</legend>
