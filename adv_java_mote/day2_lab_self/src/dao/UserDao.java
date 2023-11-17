@@ -7,5 +7,5 @@ import pojos.User;
 
 public interface UserDao {
 	 List<User> authenticateUser(String email, String password) throws SQLException;
-	 void VoterCountUpdate() throws SQLException;
+//	 void VoterCountUpdate() throws SQLException;
 }

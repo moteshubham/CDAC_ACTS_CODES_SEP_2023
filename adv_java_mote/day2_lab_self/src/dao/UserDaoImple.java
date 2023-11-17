@@ -34,6 +34,9 @@ public class UserDaoImple implements UserDao {
 //				| id  |  first_name | last_name | email  | password | dob  | status | role  |
 				userList.add(new User(rst.getInt(1), rst.getString(2) ,rst.getString(3), rst.getString(4),rst.getString(5), rst.getDate(6), rst.getBoolean(7), rst.getString(8)));
 			}
+			if(userList.isEmpty()) {
+				System.out.println("not found");
+			}
 		}
 		return userList;
 	}

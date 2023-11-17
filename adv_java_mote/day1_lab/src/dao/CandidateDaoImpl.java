@@ -15,13 +15,16 @@ import pojos.Candidate;
 public class CandidateDaoImpl implements CandidateDao{
 	private Connection cn;
 	private PreparedStatement pst1;
-	public void CandidateDao() throws SQLException {
+	
+	public  CandidateDaoImpl() throws SQLException {
 		cn= openConnection();
 		pst1= cn.prepareStatement("select * from candidates");
 		System.out.println("candidate dao created");
 	}
+	
 	@Override
 	public List<Candidate> getAllCandidates() throws SQLException {
+		
 		List<Candidate> candidates = new ArrayList<>();
 		try(ResultSet rst = pst1.executeQuery()){
 			while(rst.next())
@@ -33,7 +36,7 @@ public class CandidateDaoImpl implements CandidateDao{
 		if(pst1 != null)
 			pst1.close();
 		closeConnection();
-		System.out.println("candidate dao leaned up");
+		System.out.println("candidate dao cleaned up");
 	}
 	
 }
