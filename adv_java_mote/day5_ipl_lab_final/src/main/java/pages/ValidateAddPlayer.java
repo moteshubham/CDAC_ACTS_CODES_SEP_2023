@@ -2,6 +2,7 @@ package pages;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.sql.Date;
 import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.Period;
@@ -15,15 +16,16 @@ import javax.servlet.http.HttpSession;
 
 import dao.PlayerDaoImp;
 import dao.TeamDaoImpl;
+import pojos.Player;
 import pojos.Team;
 
 
-@WebServlet("/ValidateAddPlayer")
+@WebServlet("/add_player")
 public class ValidateAddPlayer extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		response.setContentType("text/html");
 		try(PrintWriter pw = response.getWriter()){
@@ -39,14 +41,21 @@ public class ValidateAddPlayer extends HttpServlet {
 				LocalDate dob  = LocalDate.parse(request.getParameter("dob"));
 				double batavg = Double.parseDouble(request.getParameter("avg"));
 				int wickets = Integer.parseInt(request.getParameter("wickets"));
-				int age= Period.between(dob, LocalDate.now()).getYears();
-				if(age<team.getMaxAge() && batavg > team.getMinBattingAvg()) {
-					
-				}
-				
-			}
-			
-			
+				// validate i/ps
+				int age = Period.between(dob, LocalDate.now()).getYears();
+				if (age < team.getMaxAge() && batavg > team.getMinBattingAvg()
+						&& wickets > team.getMinWicketsTaken()) {
+					// all valid i/ps , add the player in the team
+					// firstName, String lastName, Date dob,
+					// double battingAvg, int wicketsTaken
+					Player player = new Player(fname, lname, Date.valueOf(dob), batavg, wickets, team.getTeamId());
+					// simply call player dao's method , to insert a rec
+					pw.print("<h3> Status " + playerDao.addPlayerToTeam(player, team.getTeamId()) + "</h3>");
+				} else
+					pw.print("<h3 style color='red;'> Can't add player details , Invalid I/ps</h3>");
+			} else
+				pw.print("<h5> No Cookies !!!!! Can't continue.....</h5>");
+		//	session.invalidate();
 		} catch (SQLException e) {
 			
 			e.printStackTrace();

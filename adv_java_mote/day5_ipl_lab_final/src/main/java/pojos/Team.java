@@ -12,7 +12,7 @@ public class Team {
 	private double minBattingAvg;
 	private int minWicketsTaken;
 	public Team() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	
