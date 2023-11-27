@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.cdac</groupId>
-	<artifactId>day10_ipl_assign_maven</artifactId>
+	<artifactId>web_maven_hibernate_template</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>day10_ipl_assign_maven</name>
+	<name>web_maven_hibernate_template</name>
 	<description>Dynamic web app with Hibernate </description>
 	<build>
 		<plugins>
@@ -23,11 +23,11 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>3.3.2</version>
 				<configuration>
-					<warName>day10_ipl_assign_maven</warName>
+					<warName>web_maven_hibernate</warName>
 				</configuration>
 			</plugin>
 		</plugins>
-
+		
 	</build>
 	<dependencies>
 		<dependency>
@@ -36,14 +36,9 @@
 			<version>5.6.15.Final</version>
 		</dependency>
 		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.1.0</version>
-		</dependency>
-		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.33</version>
+			<version>8.0.30</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 		<dependency>
