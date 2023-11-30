@@ -24,7 +24,7 @@ public class Address extends BaseEntity {
 	private Employee emp;
 
 	public Address() {
-		// TODO Auto-generated constructor stub
+	
 	}
 
 	public Address(String adrLine1, String adrLine2, String city, String state, String country, String zipCode) {
