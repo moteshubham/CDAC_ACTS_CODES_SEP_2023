@@ -16,6 +16,7 @@ public class PlayerDaoImpl implements PlayerDao {
 	@Override
 	public String addPlayerToTeam(Player newPlayer, Team team) {
 		manager.persist(newPlayer);
+		System.out.println("player added");
 		return "success";
 	}
 

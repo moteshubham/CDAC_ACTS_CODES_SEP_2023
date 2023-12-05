@@ -25,8 +25,10 @@ public class PlayerServiceImpl implements PlayerService {
 	public String addPlayerToTeam(Player newPlayer, String abbr) {
 //		List<String> teamAbbreviations = teamDao.getTeamAbbreviations();
 		Team team = teamDao.getTeam(abbr);
+		System.out.println("in addteamplayer() playerService Immpl : team  : "+ team);
 		team.addPlayer(newPlayer);
-		return playerDao.addPlayerToTeam(newPlayer, team);
+		String temp = playerDao.addPlayerToTeam(newPlayer, team);
+		return temp;
 	}
 
 //	public Team getTeam(String abbr, Player newPlayer) {

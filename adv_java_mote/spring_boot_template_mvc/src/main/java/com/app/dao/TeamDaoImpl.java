@@ -17,16 +17,17 @@ public class TeamDaoImpl implements TeamDao {
 
 	@Override
 	public List<String> getTeamAbbreviations() {
-
 		String jpql = "select t.abbreviation from Team t";
 		return em.createQuery(jpql, String.class).getResultList();
 	}
 
 	@Override
 	public Team getTeam(String abbr) {
-
-		String jpql = "select t.abbreviation from Team t where t.abbreviation = :abbr";
+		System.out.println("in getteam()");
+		String jpql = "select t from Team t where t.abbreviation=:abbr";
 		Team team = em.createQuery(jpql, Team.class).setParameter("abbr", abbr).getSingleResult();
+		System.out.println("in getteam() : "+team);
+
 		return team;
 	}
 

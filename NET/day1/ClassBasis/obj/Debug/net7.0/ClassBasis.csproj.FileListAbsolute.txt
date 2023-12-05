@@ -1,0 +1,15 @@
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day1\ClassBasis\bin\Debug\net7.0\ClassBasis.exe
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day1\ClassBasis\bin\Debug\net7.0\ClassBasis.deps.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day1\ClassBasis\bin\Debug\net7.0\ClassBasis.runtimeconfig.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day1\ClassBasis\bin\Debug\net7.0\ClassBasis.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day1\ClassBasis\bin\Debug\net7.0\ClassBasis.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day1\ClassBasis\obj\Debug\net7.0\ClassBasis.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day1\ClassBasis\obj\Debug\net7.0\ClassBasis.AssemblyInfoInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day1\ClassBasis\obj\Debug\net7.0\ClassBasis.AssemblyInfo.cs
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day1\ClassBasis\obj\Debug\net7.0\ClassBasis.csproj.CoreCompileInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day1\ClassBasis\obj\Debug\net7.0\ClassBasis.sourcelink.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day1\ClassBasis\obj\Debug\net7.0\ClassBasis.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day1\ClassBasis\obj\Debug\net7.0\refint\ClassBasis.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day1\ClassBasis\obj\Debug\net7.0\ClassBasis.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day1\ClassBasis\obj\Debug\net7.0\ClassBasis.genruntimeconfig.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day1\ClassBasis\obj\Debug\net7.0\ref\ClassBasis.dll
