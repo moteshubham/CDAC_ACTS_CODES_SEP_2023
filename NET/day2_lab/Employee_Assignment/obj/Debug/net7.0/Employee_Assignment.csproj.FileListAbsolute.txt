@@ -1,0 +1,15 @@
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day2_lab\Employee_Assignment\bin\Debug\net7.0\Employee_Assignment.exe
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day2_lab\Employee_Assignment\bin\Debug\net7.0\Employee_Assignment.deps.json
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day2_lab\Employee_Assignment\bin\Debug\net7.0\Employee_Assignment.runtimeconfig.json
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day2_lab\Employee_Assignment\bin\Debug\net7.0\Employee_Assignment.dll
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day2_lab\Employee_Assignment\bin\Debug\net7.0\Employee_Assignment.pdb
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day2_lab\Employee_Assignment\obj\Debug\net7.0\Employee_Assignment.csproj.AssemblyReference.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day2_lab\Employee_Assignment\obj\Debug\net7.0\Employee_Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day2_lab\Employee_Assignment\obj\Debug\net7.0\Employee_Assignment.AssemblyInfoInputs.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day2_lab\Employee_Assignment\obj\Debug\net7.0\Employee_Assignment.AssemblyInfo.cs
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day2_lab\Employee_Assignment\obj\Debug\net7.0\Employee_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day2_lab\Employee_Assignment\obj\Debug\net7.0\Employee_Assignment.dll
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day2_lab\Employee_Assignment\obj\Debug\net7.0\refint\Employee_Assignment.dll
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day2_lab\Employee_Assignment\obj\Debug\net7.0\Employee_Assignment.pdb
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day2_lab\Employee_Assignment\obj\Debug\net7.0\Employee_Assignment.genruntimeconfig.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day2_lab\Employee_Assignment\obj\Debug\net7.0\ref\Employee_Assignment.dll
