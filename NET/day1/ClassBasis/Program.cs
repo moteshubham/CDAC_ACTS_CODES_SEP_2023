@@ -1,10 +1,35 @@
-﻿namespace ClassBasis
+﻿using N2;
+
+namespace N1
 {
-    public class Program
+    public class Class1
     {
-        static void Main(string[] args)
+        public String displayMe()
         {
-            System.Console.WriteLine("Hello mote");
+            return "jabardast compiler";
+        }
+    }
+    public class Class2
+    {
+        static void Main()
+        {
+            Class1 c = new Class1();
+            System.Console.WriteLine("Hello mote " + c.displayMe());
+
+
+            Console.WriteLine(Class3.displayYou());
+        }
+    }
+
+}
+
+namespace N2
+{
+    public class Class3
+    {
+        public static int displayYou()
+        {
+            return 12;
         }
     }
 }
