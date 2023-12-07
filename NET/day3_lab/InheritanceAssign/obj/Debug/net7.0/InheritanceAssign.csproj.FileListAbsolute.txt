@@ -1,0 +1,15 @@
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day3_lab\InheritanceAssign\bin\Debug\net7.0\InheritanceAssign.exe
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day3_lab\InheritanceAssign\bin\Debug\net7.0\InheritanceAssign.deps.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day3_lab\InheritanceAssign\bin\Debug\net7.0\InheritanceAssign.runtimeconfig.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day3_lab\InheritanceAssign\bin\Debug\net7.0\InheritanceAssign.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day3_lab\InheritanceAssign\bin\Debug\net7.0\InheritanceAssign.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day3_lab\InheritanceAssign\obj\Debug\net7.0\InheritanceAssign.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day3_lab\InheritanceAssign\obj\Debug\net7.0\InheritanceAssign.AssemblyInfoInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day3_lab\InheritanceAssign\obj\Debug\net7.0\InheritanceAssign.AssemblyInfo.cs
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day3_lab\InheritanceAssign\obj\Debug\net7.0\InheritanceAssign.csproj.CoreCompileInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day3_lab\InheritanceAssign\obj\Debug\net7.0\InheritanceAssign.sourcelink.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day3_lab\InheritanceAssign\obj\Debug\net7.0\InheritanceAssign.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day3_lab\InheritanceAssign\obj\Debug\net7.0\refint\InheritanceAssign.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day3_lab\InheritanceAssign\obj\Debug\net7.0\InheritanceAssign.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day3_lab\InheritanceAssign\obj\Debug\net7.0\InheritanceAssign.genruntimeconfig.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\day3_lab\InheritanceAssign\obj\Debug\net7.0\ref\InheritanceAssign.dll
