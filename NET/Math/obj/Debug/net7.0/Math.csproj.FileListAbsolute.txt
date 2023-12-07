@@ -1,0 +1,12 @@
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Math\obj\Debug\net7.0\Math.csproj.AssemblyReference.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Math\obj\Debug\net7.0\Math.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Math\obj\Debug\net7.0\Math.AssemblyInfoInputs.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Math\obj\Debug\net7.0\Math.AssemblyInfo.cs
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Math\obj\Debug\net7.0\Math.csproj.CoreCompileInputs.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Math\bin\Debug\net7.0\Math.deps.json
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Math\bin\Debug\net7.0\Math.dll
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Math\bin\Debug\net7.0\Math.pdb
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Math\obj\Debug\net7.0\Math.dll
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Math\obj\Debug\net7.0\refint\Math.dll
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Math\obj\Debug\net7.0\Math.pdb
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Math\obj\Debug\net7.0\ref\Math.dll
