@@ -24,11 +24,15 @@ namespace InheritanceAssign
         public abstract class Employee
         {
             private string name;
+            private static int empNoGenerator = 0;
+            private int empNo;
+            protected  decimal basic;
+            private short deptNo;
             protected string Name
             {
                 set
                 {
-                    if (value != null)
+                    if (value != "")
                         name = value;
                     else
                     {
@@ -41,8 +45,7 @@ namespace InheritanceAssign
                 }
 
             }
-            static int empNoGenerator = 0;
-            private int empNo;
+           
             public int EmpNo
             {
                 get
@@ -51,7 +54,6 @@ namespace InheritanceAssign
                 }
             }
 
-            private short deptNo;
             public short DeptNo
             {
                 get
@@ -60,13 +62,14 @@ namespace InheritanceAssign
                 }
                 set
                 {
-                    if (value < 1)
-                        Console.WriteLine("enter valid dept no");
-                    else
+                    if (value > 0)
                         deptNo = value;
+                    else
+                        Console.WriteLine("enter valid dept no");
                 }
             }
 
+          
             protected abstract decimal Basic
             {
                 get; set;
@@ -75,11 +78,12 @@ namespace InheritanceAssign
             public abstract decimal CalcNetSalary();
 
 
-            public Employee(string name = "default", short DeptNo = 1)
+            public Employee(string name = "default", short DeptNo = 1, decimal Basic=10000)
             {
                 this.name = name;
                 this.DeptNo = DeptNo;
                 this.empNo = ++empNoGenerator;
+                this.Basic = Basic;
             }
         }
         //---------------------------------------------------------------------------------------------------------------------------------------------------
@@ -102,7 +106,7 @@ namespace InheritanceAssign
                 }
             }
 
-            private decimal basic;
+
             protected override decimal Basic
             {
                 set
@@ -123,7 +127,7 @@ namespace InheritanceAssign
             }
 
 
-            public Manager(string Designation = "default designation mgr", string name = "default name mgr", short DeptNo = 2) : base(name, DeptNo)
+            public Manager(string Designation = "default designation mgr", string name = "default name mgr", short DeptNo = 2, decimal Basic =) : base(name, DeptNo, Base)
             {
                  this.Basic = 50000;
                 this.Designation = Designation;
@@ -139,7 +143,7 @@ namespace InheritanceAssign
             {
                 set; get;
             }
-            private decimal basic;
+    
             protected override decimal Basic
             {
                 set
@@ -169,8 +173,6 @@ namespace InheritanceAssign
         public class CEO : Employee
         {
 
-
-            private decimal basic;
             protected override decimal Basic
             {
                 set

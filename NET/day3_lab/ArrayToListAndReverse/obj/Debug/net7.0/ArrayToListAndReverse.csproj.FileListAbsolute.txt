@@ -1,0 +1,15 @@
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day3_lab\ArrayToListAndReverse\bin\Debug\net7.0\ArrayToListAndReverse.exe
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day3_lab\ArrayToListAndReverse\bin\Debug\net7.0\ArrayToListAndReverse.deps.json
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day3_lab\ArrayToListAndReverse\bin\Debug\net7.0\ArrayToListAndReverse.runtimeconfig.json
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day3_lab\ArrayToListAndReverse\bin\Debug\net7.0\ArrayToListAndReverse.dll
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day3_lab\ArrayToListAndReverse\bin\Debug\net7.0\ArrayToListAndReverse.pdb
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day3_lab\ArrayToListAndReverse\obj\Debug\net7.0\ArrayToListAndReverse.csproj.AssemblyReference.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day3_lab\ArrayToListAndReverse\obj\Debug\net7.0\ArrayToListAndReverse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day3_lab\ArrayToListAndReverse\obj\Debug\net7.0\ArrayToListAndReverse.AssemblyInfoInputs.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day3_lab\ArrayToListAndReverse\obj\Debug\net7.0\ArrayToListAndReverse.AssemblyInfo.cs
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day3_lab\ArrayToListAndReverse\obj\Debug\net7.0\ArrayToListAndReverse.csproj.CoreCompileInputs.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day3_lab\ArrayToListAndReverse\obj\Debug\net7.0\ArrayToListAndReverse.dll
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day3_lab\ArrayToListAndReverse\obj\Debug\net7.0\refint\ArrayToListAndReverse.dll
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day3_lab\ArrayToListAndReverse\obj\Debug\net7.0\ArrayToListAndReverse.pdb
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day3_lab\ArrayToListAndReverse\obj\Debug\net7.0\ArrayToListAndReverse.genruntimeconfig.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day3_lab\ArrayToListAndReverse\obj\Debug\net7.0\ref\ArrayToListAndReverse.dll

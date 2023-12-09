@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceAssign", "InheritanceAssign\InheritanceAssign.csproj", "{9A96CAAA-1316-4899-9B1E-D8C20DC381A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayToListAndReverse", "ArrayToListAndReverse\ArrayToListAndReverse.csproj", "{504CA60A-3A9E-4FEC-8DDA-795AF5FD545F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9A96CAAA-1316-4899-9B1E-D8C20DC381A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9A96CAAA-1316-4899-9B1E-D8C20DC381A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9A96CAAA-1316-4899-9B1E-D8C20DC381A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9A96CAAA-1316-4899-9B1E-D8C20DC381A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{504CA60A-3A9E-4FEC-8DDA-795AF5FD545F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{504CA60A-3A9E-4FEC-8DDA-795AF5FD545F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{504CA60A-3A9E-4FEC-8DDA-795AF5FD545F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{504CA60A-3A9E-4FEC-8DDA-795AF5FD545F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

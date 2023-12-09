@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\NET",
+    "\\NET\\Assignment3"
   ],
-  "SelectedNode": "\\Day2_Assignment.sln",
+  "SelectedNode": "\\NET\\Assignment3\\Arrayssss.cs",
   "PreviewInSolutionExplorer": false
 }
