@@ -103,7 +103,7 @@ Array.Sort(arr); //error
     .
  }
 // IF IComparer THEN MUST
- public class Employee1 : IComparer<Employee1> //IComparer  
+ public class Employee1 : IComparer<Employee1> //IComparer
  {
      public int EmpNo { get; set; }.........
      public int Compare(Employee1? x, Employee1? y)  //takes 2
@@ -133,20 +133,21 @@ Array.Sort(arr); //error
     }
 ```
 
-## Tuple 
+## Tuple
+
 ```c#
  /*
  Dont use Tuples, use ValueTuple
   If you want to pass many arguments to pass then Tuple is used
-   Tuple class is that is a reference-type with memory allocation on the heap. 
-   Due to allocations and garbage collection pressure, 
-    using it can lead to CPU-intensive operations and major performance issues in our system. 
- 
-  The ValueTuple on the other hand is a lightweight value type object 
+   Tuple class is that is a reference-type with memory allocation on the heap.
+   Due to allocations and garbage collection pressure,
+    using it can lead to CPU-intensive operations and major performance issues in our system.
+
+  The ValueTuple on the other hand is a lightweight value type object
       and has its memory stored on the stack.
 
   ValueTuple is a mutable struct and exposes its elements as fields. .
- In terms of performance, flexibility, and reusability the ValueTuple is better.  
+ In terms of performance, flexibility, and reusability the ValueTuple is better.
 
   */
  static void Main()
@@ -182,6 +183,7 @@ Array.Sort(arr); //error
 
  }
 ```
+
 ## ValueTuple
 
 ```c#
@@ -222,15 +224,15 @@ Array.Sort(arr); //error
       return (isDay: false, greeting: "Good Evening");
   }
 ```
+
 ### more about tuples
 
-[https://code-maze.com/csharp-tuple/](https://code-maze.com/csharp-tuple/) 
+[https://code-maze.com/csharp-tuple/](https://code-maze.com/csharp-tuple/)
 
 [https://code-maze.com/csharp-valuetuple-vs-tuple/](https://code-maze.com/csharp-valuetuple-vs-tuple/)
 
-
-
 ## ImplicitVariables
+
 ```c#
     static void Main(string[] args)
     {
@@ -262,6 +264,7 @@ Array.Sort(arr); //error
     string[] array = new[] { "A", "B" }; // creates populated array of length 2
     string[] array = ["A", "B"]; // creates populated array of length 2
 ```
+
 ```c#
 
 
@@ -271,7 +274,7 @@ Array.Sort(arr); //error
      objArrayList.Add("Vikram");
      objArrayList.Add(100);
      objArrayList.Add(1.1);
-     objArrayList.Add(true);    //you can add various types of data in the collection 
+     objArrayList.Add(true);    //you can add various types of data in the collection
 
      objArrayList.Remove("Vikram");
      objArrayList.RemoveAt(2);  //index
@@ -596,4 +599,161 @@ class MyStack<T>
         }
 ```
 
+## Exception Handling
 
+```c#
+
+static void Main()// finally block
+        {
+            Class1 obj = new Class1();
+            try
+            {
+                //obj = null;
+                int x = Convert.ToInt32(Console.ReadLine());
+                obj.P1 = 100 / x;
+                Console.WriteLine(obj.P1);
+                Console.WriteLine("No Exceptions");
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine("FormatException occurred");
+            }
+            catch (NullReferenceException ex)
+            {
+                Console.WriteLine("NRException occurred");
+            }
+            //catch (DivideByZeroException ex)
+            //catch (ArithmeticException ex)
+            catch (SystemException ex) //base class exception has to caught after derived class exceptions
+            {
+                Console.WriteLine("DBException occurred");
+            }
+            catch (Exception ex) //catches all unhandled exceptions
+            {
+                Console.WriteLine(ex.Message);
+            }
+            //finally runs when Exception does not occur,
+            //or Exception occurs and is handled or
+            //Exception occurs and is NOT handled , after finally wont run in this case
+            finally
+            {
+                Console.WriteLine("finally");
+
+            }
+            Console.WriteLine("after finally");
+        }
+
+```
+
+```c#
+
+static void Main()
+        {
+            Class1 obj = new Class1();
+            try
+            {
+                int x = Convert.ToInt32(Console.ReadLine());
+                obj.P1 = x;
+                Console.WriteLine(obj.P1);
+                Console.WriteLine("No Exceptions");
+            }
+
+            catch (ApplicationException ex) //all user defined exceptions that have not been handled before
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch (SystemException ex) //all .net exceptions that have not been handled before
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+        }
+    }
+
+    public class Class1
+    {
+        private int p1;
+        public int P1
+        {
+            get
+            {
+                return p1;
+            }
+            set
+            {
+                if (value < 100)
+                    p1 = value;
+                else
+                {
+                    //throw an exception
+                    //Exception ex = new Exception();
+                    //Exception ex = new Exception("Invalid P1");
+                    //throw ex;
+                    //throw new Exception("Invalid P1");
+                    //throw new InvalidP1Exception();
+                    throw new InvalidP1Exception("Invalid P1");
+
+                }
+            }
+        }
+    }
+
+    public class InvalidP1Exception : ApplicationException
+    {
+        public InvalidP1Exception(string message) : base(message)
+        {
+        }
+    }
+
+```
+
+## Dispose
+
+```c#
+
+internal class Program
+    {
+
+        static void Main9()
+        {
+            Class1 o = new Class1();
+            o.Display();
+            o.Dispose();
+            //o.Display();  //you can not call Display again once the dispose is called or
+        }
+        static void Main2()
+        {
+            using (Class1 o = new Class1())    //using will automatically call Dispose method, but hence the prerequisite is class must implement IDisposable
+            {
+                o.Display();
+            }
+        }
+    }
+    public class Class1 : IDisposable   //must inherit from this interface
+    {
+        public Class1()
+        {
+            //open file here
+            //open db here
+        }
+        bool isDisposed;
+        public void Display()
+        {
+            CheckForDisposed();
+            Console.WriteLine("Display called");
+        }
+        public void Dispose()
+        {
+            CheckForDisposed();
+            //close file
+            //close db conn
+            Console.WriteLine("Dispose code called. Write code here instead of Destructor");
+            isDisposed = true;
+        }
+        private void CheckForDisposed() //check added for dispose not to be called again
+        {
+            if (isDisposed)
+                throw new ObjectDisposedException("Class1");
+        }
+    }
+```
