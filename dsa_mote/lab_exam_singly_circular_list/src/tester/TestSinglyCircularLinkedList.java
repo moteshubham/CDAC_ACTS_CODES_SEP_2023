@@ -1,34 +1,35 @@
 package tester;
 
+
 import java.util.Scanner;
 
-import com.app.core.SinglyLinkedList;
+import com.app.core.SinglyCircularLinkedList;
 
-public class Test {
+public class TestSinglyCircularLinkedList {
 	public static void main(String[] args) {
 
 		try (Scanner sc = new Scanner(System.in)) {
-			SinglyLinkedList s = new SinglyLinkedList();
+			SinglyCircularLinkedList s = new SinglyCircularLinkedList();
 			boolean exit = true;
 			while (exit) {
 				System.out.println("--------------------");
-				System.out.println("1. add data ");
-				System.out.println("2. delete data ");
+				System.out.println("1. add data at begining ");
+				System.out.println("2. add data at end ");
 				System.out.println("3. print data ");
 				System.out.println("4. add data at end");
-				System.out.println("5. delete node at");
+				System.out.println("5. enter node index to add");
 				System.out.println("6. display rev");
 				System.out.println("enter choice : ");
 				int choice = sc.nextInt();
 				switch (choice) {
 				case 1:
-					System.out.println("enter data");
-					s.addNode(sc.nextInt());
+					System.out.println("enter data addAtBegin");
+					s.addAtBegin(sc.nextInt());
 					s.printData();
 					break;
 				case 2:
-					System.out.println("enter data");
-					s.deleteNode(sc.nextInt());
+					System.out.println("enter data addAtEnd");
+					s.addAtEnd(sc.nextInt());
 					s.printData();
 					break;
 				case 3:
@@ -37,12 +38,12 @@ public class Test {
 					break;
 				case 4:
 					System.out.println("enter last node");
-					s.addAtEnd(sc.nextInt());
+				//	s.addAtEnd(sc.nextInt());
 					s.printData();
 					break;
 				case 5:
-					System.out.println("enter node index to delete");
-					s.deleteNodeAt(sc.nextInt());
+					System.out.println("enter (data, node index) to add at that index");
+					s.addAtSpecificPosition(sc.nextInt(), sc.nextInt());
 					s.printData();
 					break;
 				case 6:
@@ -50,8 +51,8 @@ public class Test {
 					s.printDataRev();
 					break;
 				case 7:
-					System.out.println("enter node index to delete");
-					s.deleteNodeAt(sc.nextInt());
+					System.out.println("countNodes");
+					s.countNodes();
 					s.printData();
 					break;
 				case 0:
