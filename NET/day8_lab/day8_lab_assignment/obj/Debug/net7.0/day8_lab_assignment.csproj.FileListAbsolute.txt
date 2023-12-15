@@ -1,0 +1,15 @@
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day8_lab\day8_lab_assignment\bin\Debug\net7.0\day8_lab_assignment.exe
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day8_lab\day8_lab_assignment\bin\Debug\net7.0\day8_lab_assignment.deps.json
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day8_lab\day8_lab_assignment\bin\Debug\net7.0\day8_lab_assignment.runtimeconfig.json
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day8_lab\day8_lab_assignment\bin\Debug\net7.0\day8_lab_assignment.dll
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day8_lab\day8_lab_assignment\bin\Debug\net7.0\day8_lab_assignment.pdb
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day8_lab\day8_lab_assignment\obj\Debug\net7.0\day8_lab_assignment.csproj.AssemblyReference.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day8_lab\day8_lab_assignment\obj\Debug\net7.0\day8_lab_assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day8_lab\day8_lab_assignment\obj\Debug\net7.0\day8_lab_assignment.AssemblyInfoInputs.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day8_lab\day8_lab_assignment\obj\Debug\net7.0\day8_lab_assignment.AssemblyInfo.cs
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day8_lab\day8_lab_assignment\obj\Debug\net7.0\day8_lab_assignment.csproj.CoreCompileInputs.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day8_lab\day8_lab_assignment\obj\Debug\net7.0\day8_lab_assignment.dll
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day8_lab\day8_lab_assignment\obj\Debug\net7.0\refint\day8_lab_assignment.dll
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day8_lab\day8_lab_assignment\obj\Debug\net7.0\day8_lab_assignment.pdb
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day8_lab\day8_lab_assignment\obj\Debug\net7.0\day8_lab_assignment.genruntimeconfig.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\day8_lab\day8_lab_assignment\obj\Debug\net7.0\ref\day8_lab_assignment.dll

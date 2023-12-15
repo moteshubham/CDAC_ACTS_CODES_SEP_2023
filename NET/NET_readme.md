@@ -364,7 +364,7 @@ class MyStack<T>
 
 ```c#
 
-//step1 : create a delegate class that matches the func signature
+    //step1 : create a delegate class that matches the func signature
     public delegate void Del1();
     public delegate int DelAdd(int a, int b);
 
@@ -463,17 +463,17 @@ class MyStack<T>
 ```
 
 ```c#
-        static void Main()
-        {
-            Console.WriteLine(CallMathOperation(Add, 10, 6));
-            Console.WriteLine(CallMathOperation(Subtract, 10, 3));
-        }
-        //pass a func as a parameter.
-        //called func receives it as a delegate
-        static int CallMathOperation(DelAdd objMath, int a, int b)
-        {
-            return objMath(a, b);
-        }
+    static void Main()
+    {
+        Console.WriteLine(CallMathOperation(Add, 10, 6));
+        Console.WriteLine(CallMathOperation(Subtract, 10, 3));
+    }
+    //pass a func as a parameter.
+    //called func receives it as a delegate
+    static int CallMathOperation(DelAdd objMath, int a, int b)
+    {
+        return objMath(a, b);
+    }
 ```
 
 ## Action Func Predicate
@@ -482,121 +482,121 @@ class MyStack<T>
 
 ```c#
 
-        static void Main1()
-        {
-            Action o1 = Display;
-            o1();
+    static void Main1()
+    {
+        Action o1 = Display;
+        o1();
 
-            Action<string> o2 = Display;
-            o2("a");
+        Action<string> o2 = Display;
+        o2("a");
 
-            Action<string, int,bool> o3 = Display;
-            o3("a",1,false);
-        }
+        Action<string, int,bool> o3 = Display;
+        o3("a",1,false);
+    }
 ```
 
 **Func** is used to call functions that have return value other than void
 
 ```c#
-  static void Main()
-        {
-            Func<string> o1 = GetTime;
-            Console.WriteLine(o1());
-            Func<int,int> o2 = GetDouble;
-            Console.WriteLine(o2(10));
-            Func<int, int, int> o3 = Add;
-            Console.WriteLine(o3(10,5));
-            Func<int,bool> o4 = IsEven;
-            Console.WriteLine( o4(10));
-        }
+static void Main()
+    {
+        Func<string> o1 = GetTime;
+        Console.WriteLine(o1());
+        Func<int,int> o2 = GetDouble;
+        Console.WriteLine(o2(10));
+        Func<int, int, int> o3 = Add;
+        Console.WriteLine(o3(10,5));
+        Func<int,bool> o4 = IsEven;
+        Console.WriteLine( o4(10));
+    }
 ```
 
 **Predicate** is used to call functions that have only **1** parameter with **bool** return type
 
 ```c#
-  static void Main()
-        {
-            Predicate<int> o5 = IsEven;
-            Console.WriteLine( o5(10));
+static void Main()
+    {
+        Predicate<int> o5 = IsEven;
+        Console.WriteLine( o5(10));
 
-            Employee emp = new Employee { Basic=11000};
-            Predicate<Employee> o6 = IsBasicGreaterThan10000;
-            Console.WriteLine(o6(emp));
-        }
+        Employee emp = new Employee { Basic=11000};
+        Predicate<Employee> o6 = IsBasicGreaterThan10000;
+        Console.WriteLine(o6(emp));
+    }
 ```
 
 ## Anonymous method
 
 ```c#
- static void Main()
+static void Main()
+    {
+        int i = 100;
+        Action o1 = delegate()  //copy paste the function definition here and and change name to delegate --> AnonymousMethod
         {
-            int i = 100;
-            Action o1 = delegate()  //copy paste the function definition here and and change name to delegate --> AnonymousMethod
-            {
-                i++;
-                Console.WriteLine("Anon method called" +i);
-            };
-            o1();   //gets called here
+            i++;
+            Console.WriteLine("Anon method called" +i);
+        };
+        o1();   //gets called here
 
-            Func<int, int, int> o2 = delegate(int a , int b)
-            {
-                return a + b;
-            };
-
-            Console.WriteLine(o2(10,5));
-        }
-        static int Add(int a, int b)
+        Func<int, int, int> o2 = delegate(int a , int b)
         {
             return a + b;
-        }
+        };
+
+        Console.WriteLine(o2(10,5));
+    }
+    static int Add(int a, int b)
+    {
+        return a + b;
+    }
 ```
 
 ## Lambda function
 
 ```c#
- static void Main1()
-        {
-            Func<int, int> o1 = delegate(int a)
-            //{
-            //    return a * 2;
-            //};
+static void Main1()
+{
+    Func<int, int> o1 = delegate(int a)
+    //{
+    //    return a * 2;
+    //};
 
-            //Func<int, int> o1 =  ( a) =>
-            //     a * 2;
+    //Func<int, int> o1 =  ( a) =>
+    //     a * 2;
 
-            //Func<int, int> o1 = (a) => a * 2;
-            Func<int, int> o1 = a => a * 2;
-            Console.WriteLine(o1(10));
+    //Func<int, int> o1 = (a) => a * 2;
+    Func<int, int> o1 = a => a * 2;
+    Console.WriteLine(o1(10));
 
-            Func<string> o2 = () => DateTime.Now.ToLongTimeString();
-            Console.WriteLine(o2());
-            Func<int, int, int> o3 = (a, b) => a + b;
-            Console.WriteLine(o3(10,5));
-            Func<int, bool> o4 = a => a % 2 == 0;
-            Console.WriteLine(o4(10));
-            Func<int, bool> o5 = a => {
-                if (a % 2 == 0)
-                    return true;
-                else
-                    return false;
-            };
-            Console.WriteLine(o5(10));
-            Predicate<Employee> o6 = obj => obj.Basic > 10000;
+    Func<string> o2 = () => DateTime.Now.ToLongTimeString();
+    Console.WriteLine(o2());
+    Func<int, int, int> o3 = (a, b) => a + b;
+    Console.WriteLine(o3(10,5));
+    Func<int, bool> o4 = a => a % 2 == 0;
+    Console.WriteLine(o4(10));
+    Func<int, bool> o5 = a => {
+        if (a % 2 == 0)
+            return true;
+        else
+            return false;
+    };
+    Console.WriteLine(o5(10));
+    Predicate<Employee> o6 = obj => obj.Basic > 10000;
 
-            Employee emp = new Employee { Basic = 11000 };
-            Console.WriteLine(o6(emp));
+    Employee emp = new Employee { Basic = 11000 };
+    Console.WriteLine(o6(emp));
 
-            Action o7 = () =>           //if method has no return value then must use curly {}
-            {
-                Console.WriteLine("Display called");
-            };
-            o7();
-            Action<string> o8 = s =>
-            {
-                Console.WriteLine("Display called" + s);
-            };
-            o8("a");
-        }
+    Action o7 = () =>           //if method has no return value then must use curly {}
+    {
+        Console.WriteLine("Display called");
+    };
+    o7();
+    Action<string> o8 = s =>
+    {
+        Console.WriteLine("Display called" + s);
+    };
+    o8("a");
+}
 ```
 
 ## Exception Handling
@@ -755,5 +755,83 @@ internal class Program
             if (isDisposed)
                 throw new ObjectDisposedException("Class1");
         }
+    }
+```
+
+## Threading
+
+```c#
+    Thread t1 = new Thread(new ThreadStart(Func1));
+    Thread t2 = new Thread(Func2);
+    t1.IsBackground = true;  //if t1 is background then now main will not wait to let t1 finish, when main is over then program will be done
+    //t2.IsBackground = true;
+
+    t1.Start();
+    t2.Start();
+
+    for (int i = 0; i < 1; i++)
+    {
+        Console.WriteLine("Main : " + i);
+    }
+
+```
+
+```c#
+    t1.Join(); // here main is waiting for t1 to finish first then will proceed to next line
+    Console.WriteLine("this code should only run after Func1 is over");
+
+```
+
+```c#
+    t1.Priority = ThreadPriority.Highest;  //but still no guarantee that it will happen in this way
+    t2.Priority = ThreadPriority.Lowest;
+
+            // if(t1.ThreadState == ThreadState.Running) //to check state
+```
+
+**doubt** -> about the execution flow of the below program
+
+```c#
+    AutoResetEvent wh = new AutoResetEvent(false);
+    Thread t1 = new Thread(delegate ()
+    {
+        for (int i = 0; i < 200; i++)
+        {
+            Console.WriteLine("f1:" + i);
+            if (i % 50 == 0)
+            {
+                //instead of Suspend, use this
+                Console.WriteLine("waiting");
+                wh.WaitOne(); //when this line executes, blocks current thread until current waithandle receives a signal
+            }
+        }
+    });
+    Console.WriteLine("t1 starting");
+    t1.Start();
+    Console.WriteLine("t1 starteedddd");
+    Thread.Sleep(10000);
+    Console.WriteLine("below sleep");
+    Console.ReadLine();
+    Console.WriteLine("resuming 1....");
+    wh.Set();   //sets event of state to signaled, allows waiting threads to proceed
+
+    //Thread.Sleep(2000);
+    Console.ReadLine();
+    Console.WriteLine("resuming 2....");
+    wh.Set();
+
+```
+
+```c#
+    Thread t1 = new Thread(new ParameterizedThreadStart(Func1));
+    Thread t2 = new Thread(Func2);  //allows object to be paassed to thread
+    int[] arr = new int[2] { 10, 20 };  //to pass many values to a function
+    t1.Start(arr);
+    //t1.Start("aaa");
+    t2.Start("bbb");
+
+    for (int i = 0; i < 100; i++)
+    {
+        Console.WriteLine("Main : " + i);
     }
 ```

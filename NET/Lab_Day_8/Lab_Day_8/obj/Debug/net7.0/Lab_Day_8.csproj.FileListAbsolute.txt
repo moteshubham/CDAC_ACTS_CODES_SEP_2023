@@ -1,0 +1,15 @@
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Lab_Day_8\Lab_Day_8\bin\Debug\net7.0\Lab_Day_8.exe
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Lab_Day_8\Lab_Day_8\bin\Debug\net7.0\Lab_Day_8.deps.json
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Lab_Day_8\Lab_Day_8\bin\Debug\net7.0\Lab_Day_8.runtimeconfig.json
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Lab_Day_8\Lab_Day_8\bin\Debug\net7.0\Lab_Day_8.dll
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Lab_Day_8\Lab_Day_8\bin\Debug\net7.0\Lab_Day_8.pdb
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Lab_Day_8\Lab_Day_8\obj\Debug\net7.0\Lab_Day_8.csproj.AssemblyReference.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Lab_Day_8\Lab_Day_8\obj\Debug\net7.0\Lab_Day_8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Lab_Day_8\Lab_Day_8\obj\Debug\net7.0\Lab_Day_8.AssemblyInfoInputs.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Lab_Day_8\Lab_Day_8\obj\Debug\net7.0\Lab_Day_8.AssemblyInfo.cs
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Lab_Day_8\Lab_Day_8\obj\Debug\net7.0\Lab_Day_8.csproj.CoreCompileInputs.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Lab_Day_8\Lab_Day_8\obj\Debug\net7.0\Lab_Day_8.dll
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Lab_Day_8\Lab_Day_8\obj\Debug\net7.0\refint\Lab_Day_8.dll
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Lab_Day_8\Lab_Day_8\obj\Debug\net7.0\Lab_Day_8.pdb
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Lab_Day_8\Lab_Day_8\obj\Debug\net7.0\Lab_Day_8.genruntimeconfig.cache
+C:\Users\dac.STUDENTSDC\mote\CDAC_ACTS_CODES\NET\Lab_Day_8\Lab_Day_8\obj\Debug\net7.0\ref\Lab_Day_8.dll
