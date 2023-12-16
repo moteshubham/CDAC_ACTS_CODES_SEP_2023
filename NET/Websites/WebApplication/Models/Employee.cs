@@ -45,7 +45,6 @@ namespace WebApplication.Models
                 return list;
             }
         }
-
         public static Employee GetSingleEmployee2(int EmpNo)
         {
             using (SqlConnection cn = new SqlConnection())
@@ -81,6 +80,57 @@ namespace WebApplication.Models
             }
         }
 
+        public static void InsertEmployee(Employee emp)
+        {
+            using(SqlConnection cn = new SqlConnection())
+            {
+                cn.ConnectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ActsDec2023;Integrated Security=True;";
+                try
+                {
+                    cn.Open();
+                    SqlCommand cmdInsert = new SqlCommand();
+                    cmdInsert.Connection = cn;
+                    cmdInsert.CommandType = CommandType.Text;
+                    cmdInsert.CommandText = "INSERT INTO Employees VALUES (@EmpNo, @Name, @Basic, @DeptNo)";
+                    cmdInsert.Parameters.AddWithValue("@EmpNo", emp.EmpNo);
+                    cmdInsert.Parameters.AddWithValue("@Name", emp.Name);
+                    cmdInsert.Parameters.AddWithValue("@Basic", emp.Basic);
+                    cmdInsert.Parameters.AddWithValue("@DeptNo", emp.DeptNo);
+                    cmdInsert.ExecuteNonQuery();
+                }
+                catch(Exception) 
+                {
+                    throw;
+                }
+            }
+        }
+
+        public static void UpdateEmployee(Employee obj)
+        {
+         
+            using (SqlConnection cn = new SqlConnection())
+            {
+                cn.ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ActsDec2023;Integrated Security=True;";
+                try
+                {
+                    cn.Open();
+                    SqlCommand cmdUpdate = new SqlCommand();
+                    cmdUpdate.Connection = cn;
+                    cmdUpdate.CommandType = CommandType.Text;
+                    cmdUpdate.CommandText = $"UPDATE Employees SET Name=@Name, Basic=@Basic, DeptNo=@DeptNo WHERE EmpNo=@EmpNo"; //here param names can be anything
+                    cmdUpdate.Parameters.AddWithValue("@EmpNo", obj.EmpNo);
+                    cmdUpdate.Parameters.AddWithValue("@Name", obj.Name);
+                    cmdUpdate.Parameters.AddWithValue("@Basic", obj.Basic);
+                    cmdUpdate.Parameters.AddWithValue("@DeptNo", obj.DeptNo);
+                    cmdUpdate.ExecuteNonQuery();
+                    Console.WriteLine("Success");
+                }
+                catch (Exception e)
+                {
+                    throw;
+                }
+            }
+        }
 
     }
 

@@ -2,6 +2,9 @@
 
 @{
     ViewData["Title"] = "Create";
+
+    int? id = ViewBag.id;
+    string msg = ViewBag.msg;
 }
 
 <h1>Create</h1>
@@ -31,6 +34,18 @@
                 <label asp-for="DeptNo" class="control-label"></label>
                 <input asp-for="DeptNo" class="form-control" />
                 <span asp-validation-for="DeptNo" class="text-danger"></span>
+            </div>
+            <div>
+                @{
+                    if (id != null)
+                    {
+                        <h4 class="btn-danger">Id @id already present</h4>
+                    }
+                    else
+                    {
+                        
+                    }
+                }  
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
