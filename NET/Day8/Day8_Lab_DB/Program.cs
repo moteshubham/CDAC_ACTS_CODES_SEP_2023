@@ -312,9 +312,34 @@ namespace Day8_Lab_DB
                 }
                 return list;
             }
-
         }
 
+        static List<Employee> UpdateEmployee(int id)
+        {
+            List<Employee> list = new List<Employee>();
+            using (SqlConnection cn = new SqlConnection())
+            {
+                cn.ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ActsDec2023;Integrated Security=True;";
+                try
+                {
+                    cn.Open();
+                    SqlCommand cmdUpdate = new SqlCommand();
+                    cmdUpdate.Connection = cn;
+                    cmdUpdate.CommandType = CommandType.Text;
+                    cmdUpdate.CommandText = $"UPDATE Employees SET Name=@EmpName, Basic=@EmpBasic, DeptNo=@EmpDeptNo WHERE EmpNo=@EmpNo"; //here param names can be anything
+
+                    cmdUpdate.Parameters.Add(new SqlParameter {ParameterName="@EmpName", SourceColumn="Name", SourceVersion=DataRowVersion.Current });
+                    cmdUpdate.Parameters.Add(new SqlParameter { ParameterName="@EmpBasic", SourceColumn="Basic", SourceVersion=DataRowVersion.Current });
+                    cmdUpdate.Parameters.Add(new SqlParameter { ParameterName=""})
+                    Console.WriteLine("Success");
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+                return list;
+            }
+        }
         static void MARS()
         {
             SqlConnection cn = new SqlConnection();
