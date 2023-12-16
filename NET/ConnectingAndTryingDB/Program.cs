@@ -1,5 +1,8 @@
 ﻿using Microsoft.Data.SqlClient;
+using System;
 using System.Diagnostics;
+using static System.Net.Mime.MediaTypeNames;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ConnectingAndTryingDB
 {
@@ -36,18 +39,19 @@ namespace ConnectingAndTryingDB
         static void Main()
         {
 
-           /* Employee e1 = new Employee();
+            Employee e1 = new Employee();
             e1.DeptNo = 1;
-            e1.Name = "Raaj";
-            e1.Basic = 12;
-            e1.Id = 34;
+            e1.Name = "Raj";
+            e1.Basic = 16572;
+            e1.Id = 51;
 
-            InsertEmp(e1);*/
-           Department d=new Department();
-            d.Name = "R&D";
-            d.DeptId = 3;
+             InsertEmp(e1);
+            /*
+            Department d=new Department();
+             d.Name = "newDept";
+             d.DeptId = 4;
 
-            InsertDept(d);
+             InsertDept(d);*/
 
 
         }
@@ -90,7 +94,7 @@ namespace ConnectingAndTryingDB
             using (SqlConnection cn = new SqlConnection())
             {
                 cn.ConnectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ActsDec2023;";
-
+              //  Data Source = (localdb)\MSSQLLocalDB; Initial Catalog = ActsDec2023; Integrated Security = True; Connect Timeout = 30; Encrypt = False; Trust Server Certificate = False; Application Intent = ReadWrite; Multi Subnet Failover = False
                 try
                 {
                     cn.Open();
