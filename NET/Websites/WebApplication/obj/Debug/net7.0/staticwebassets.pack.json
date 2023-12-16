@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\dac.STUDENTSDC\\mote\\CDAC_ACTS_CODES\\NET\\Websites\\WebApplication\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebApplication.bundle.scp.css",
-      "PackagePath": "staticwebassets\\WebApplication.bundle.scp.css"
+      "Id": "C:\\Users\\dac.STUDENTSDC\\mote\\CDAC_ACTS_CODES\\NET\\Websites\\WebApplication\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebApplicationMote.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebApplicationMote.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\dac.STUDENTSDC\\mote\\CDAC_ACTS_CODES\\NET\\Websites\\WebApplication\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebApplicationMote.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.WebApplication.props",
-      "PackagePath": "build\\WebApplication.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.WebApplicationMote.props",
+      "PackagePath": "build\\WebApplicationMote.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication.props",
-      "PackagePath": "buildMultiTargeting\\WebApplication.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplicationMote.props",
+      "PackagePath": "buildMultiTargeting\\WebApplicationMote.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.WebApplication.props",
-      "PackagePath": "buildTransitive\\WebApplication.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.WebApplicationMote.props",
+      "PackagePath": "buildTransitive\\WebApplicationMote.props"
     }
   ],
   "ElementsToRemove": []

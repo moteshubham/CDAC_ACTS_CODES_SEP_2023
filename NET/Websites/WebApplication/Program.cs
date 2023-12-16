@@ -25,7 +25,7 @@ namespace WebApplication
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Employees}/{action=Index}/{id?}");
 
             app.Run();
         }

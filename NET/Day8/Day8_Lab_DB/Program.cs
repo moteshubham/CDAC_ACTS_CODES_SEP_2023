@@ -14,12 +14,13 @@ namespace Day8_Lab_DB
             // Employee obj =  GetSingleEmployee(4);
             //List<Employee> list = GetAllEmployees();
             //foreach(Employee e in list)
-            //   Console.WriteLine(e.Name);
-
-            MARS();
+            //Console.WriteLine(e.Name);
+           // UpdateEmployee(51);
+            DeleteEmployee(3);
+          //  MARS();
         }
 
-        static void Insert2()
+       public static void Insert2()
         {
             using (SqlConnection cn = new SqlConnection())
             {
@@ -314,7 +315,7 @@ namespace Day8_Lab_DB
             }
         }
 
-        static List<Employee> UpdateEmployee(int id)
+        static void UpdateEmployee(Employee obj)
         {
             List<Employee> list = new List<Employee>();
             using (SqlConnection cn = new SqlConnection())
@@ -322,22 +323,66 @@ namespace Day8_Lab_DB
                 cn.ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ActsDec2023;Integrated Security=True;";
                 try
                 {
+
                     cn.Open();
+                   /* SqlCommand cmd = new SqlCommand();
+                    cmd.Connection = cn;
+                    cmd.CommandType = CommandType.Text;
+                    cmd.CommandText = "SELECT * FROM Employees WHERE EmpNo=@EmpNo";
+                    cmd.Parameters.AddWithValue("@EmpNo", id);
+                    SqlDataReader dr = cmd.ExecuteReader();
+                    Employee obj = new Employee();
+                    while (dr.Read())
+                    {
+                        Console.WriteLine(dr["EmpNo"]);
+                        obj.EmpNo = dr.GetInt32("EmpNo");
+                        obj.Name = dr.GetString("Name");
+                        obj.Basic = dr.GetDecimal("Basic");
+                        obj.DeptNo = dr.GetInt32("DeptNo");
+                    }
+                    dr.Close();
+                    cmd.ExecuteNonQuery();*/
+
                     SqlCommand cmdUpdate = new SqlCommand();
                     cmdUpdate.Connection = cn;
                     cmdUpdate.CommandType = CommandType.Text;
-                    cmdUpdate.CommandText = $"UPDATE Employees SET Name=@EmpName, Basic=@EmpBasic, DeptNo=@EmpDeptNo WHERE EmpNo=@EmpNo"; //here param names can be anything
-
-                    cmdUpdate.Parameters.Add(new SqlParameter {ParameterName="@EmpName", SourceColumn="Name", SourceVersion=DataRowVersion.Current });
-                    cmdUpdate.Parameters.Add(new SqlParameter { ParameterName="@EmpBasic", SourceColumn="Basic", SourceVersion=DataRowVersion.Current });
-                    cmdUpdate.Parameters.Add(new SqlParameter { ParameterName=""})
+                 
+                    cmdUpdate.CommandText = $"UPDATE Employees SET Name=@Name, Basic=@Basic, DeptNo=@DeptNo WHERE EmpNo=@EmpNo"; //here param names can be anything
+                    cmdUpdate.Parameters.AddWithValue("@EmpNo", obj.EmpNo);
+                    cmdUpdate.Parameters.AddWithValue("@Name", obj.Name);
+                    cmdUpdate.Parameters.AddWithValue("@Basic", obj.Basic);
+                    cmdUpdate.Parameters.AddWithValue("@DeptNo", obj.DeptNo);
+                    cmdUpdate.ExecuteNonQuery();
                     Console.WriteLine("Success");
                 }
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message);
                 }
-                return list;
+            }
+        }
+
+        static void DeleteEmployee(int id)
+        {
+            using (SqlConnection cn = new SqlConnection())
+            {
+                cn.ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ActsDec2023;Integrated Security=True;";
+                try
+                {
+                    cn.Open(); 
+                    SqlCommand cmdDelete = new SqlCommand();
+                    cmdDelete.Connection = cn;
+                    cmdDelete.CommandType = CommandType.Text;
+                    cmdDelete.CommandText = "DELETE FROM Employees WHERE EmpNo =@EmpNo";
+                    cmdDelete.Parameters.AddWithValue ("@EmpNo", id);
+                    cmdDelete.ExecuteNonQuery();
+
+                    Console.WriteLine("Success");
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
             }
         }
         static void MARS()
