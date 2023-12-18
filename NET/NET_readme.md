@@ -1,5 +1,9 @@
 # Day4
 
+[async- await confusion solved (link)](https://www.youtube.com/watch?v=c3c-LLdjlGc)
+
+[asynchronous and non-blocking calls? also between blocking and synchronous](https://stackoverflow.com/questions/2625493/asynchronous-and-non-blocking-calls-also-between-blocking-and-synchronous)
+
 ## Params
 
 ```c#
@@ -835,3 +839,251 @@ internal class Program
         Console.WriteLine("Main : " + i);
     }
 ```
+
+### HTML helpers/ Tag helpers
+
+    What is the difference between Html.Textbox and Html.TextboxFor?
+
+```c#
+1:  @Html.TextBox("Name")
+2:  Html.TextBoxFor(m => m.Name)
+
+//  will both produce
+<input id="Name" name="Name" type="text" />
+```
+
+0. The **TextBoxFor** is a newer MVC input extension introduced in MVC2 & is Strongly typed while **TextBox** is not strongly typed.
+1. The typed **TextBoxFor** will generate your input names for you. This is usually just the property name but for properties of complex types can include an underscore such as 'customer_name'
+2. Using the typed TextBoxFor version will allow you to use compile time checking. So if you change your model then you can check whether there are any errors in your views.
+3. The main benefit of the newer strongly typed extensions is to show any errors / warnings at compile-time rather than runtime.
+4. Html.TextBox amd Html.DropDownList are not strongly typed and hence they doesn't require a strongly typed view. This means that we can hardcode whatever name we want. On the other hand, Html.TextBoxFor and Html.DropDownListFor are strongly typed and requires a strongly typed view, and the name is inferred from the lambda expression.
+
+```c#
+
+<input asp-for="Basic"/> //automatically has auto binding
+
+<input id="Name" name="Name" value="Name" type="text" />    //here we have to generate auto binding name =value same
+
+TextBox @Html.TextBox("textBasic", Model.Basic) //does not use model binding, we have to mention it
+//Model.Basic means Model mdla basic, model can be Employee
+TextBoxFor @Html.TextBoxFor(x => x.Basic)   //uses model binding
+
+// all above are same
+```
+
+```c#
+    DropDownList @Html.DropDownList("ddlDepts", Model.Departments)  //
+
+    DropDownListFor @Html.DropDownListFor(model => model.DeptNo, Model.Departments)
+
+    DropDownListFor @Html.DropDownListFor(model => model.DeptNo, ViewBag.Departments as IEnumerable<SelectListItem>)
+
+    <select asp-for="DeptNo" asp-items="Model.Departments"></select>
+
+    //generaed equivalent code
+    <select id="DeptNo" name="DeptNo">
+        <option value="10">SALES</option>
+        <option value="20">IT</option>
+        <option value="30">HR</option>
+    </select>
+```
+
+#### to send data from view to control 2 options are there
+
+1. viewbag / viewdata/ tempdata/ session
+2. view model
+   - create view modelwith extra info that you have to pass
+   - use that model in view
+   - send from controller to view
+
+### View Model
+
+view model is Model class created specially for the view/ Model that has extra info to be used by view
+
+1. create view modelwith extra info that you have to pass, eg. EmployeeViewModel class
+2. use that model in view
+3. send from controller to view
+
+## Entity Framework
+
+1. DB First approach
+   - Db created first/ already there and classes are generated
+
+2. Code First approach
+   - Classes are created and tables are generated
+3. Model first
+   - Generate the DB and generate the classes
+
+### 1. DB first
+
+    What will EF will do for you?
+        -> Don't need to know db things, you just need to know collections
+
+1. We need to Create DB, Generates model classes automatically (Mapping) eg. Employee table -> Employee class, column to properties
+2. Generates class that inherits from DbContext
+   - gives collection of model class. eg. Employee collection
+     1. dbcontext will read value from Db and populates into this collection
+     2. have methods, if value in collection changes, then read value from collection and update into db
+
+#### Steps for DB First
+
+1. Add Nuget Packages
+
+   ```markdown
+   Microsoft.EntityFrameworkCore
+   Microsoft.EntityFrameworkCore.SqlServer
+   Microsoft.EntityFrameworkCore.Tools
+   ```
+
+2. Package Manager Console
+
+   ```markdown
+   Scaffold-DbContext "Data Source=(localdb)\MsSqlLocalDb;Initial Catalog=ActsDec2023;Integrated Security=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+   ```
+
+   Note : read more at https://docs.microsoft.com/en-us/ef/core/managing-schemas/scaffolding?tabs=vs
+
+3. Add EF service in $Program.cs$
+
+   ```c#
+   public static void Main(string[] args)
+        {
+            builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<ActsDec2023Context>(options =>
+                        options.UseSqlServer(builder.Configuration.GetConnectionString("ActsDec2023Context")));
+        }
+   ```
+
+4. Specify connection string $appsettings.json$
+
+   ```json
+   "ConnectionStrings": {
+       "ActsDec2023Context": "Data Source=(localdb)\\MsSqlLocalDb;Initial Catalog=ActsDec2023;Integrated Security=true;MultipleActiveResultSets=true"
+   }
+   ```
+
+5. Add controller with views, using Entity Framework
+
+---
+
+```c#
+public class EmployeesController : Controller
+{
+    private readonly ActsDec2023Context _context;
+
+    public EmployeesController(ActsDec2023Context context)  //dependency injection
+{
+    _context = context;
+}
+}
+```
+
+## Controller code
+
+```c#
+    public class EmployeesController : Controller
+    {
+        private readonly ActsDec2023Context _context;   //reference to
+
+        public EmployeesController(ActsDec2023Context context)
+        {
+            _context = context;
+        }
+
+        // GET: Employees
+       public IActionResult Index()
+        {
+            //craete collection emp obj
+            var list = _context.Employees;
+            //emp collection is created // Department is populated here included in here
+            var list2 = _context.Employees.Include(emp => emp.DeptNoNavigation);
+            //return collection to view
+            return View(list2); //deferred execution
+            //return  View(list2.ToList());  //immediate execution
+        }
+
+        //same as above Index() action but with await async
+        public async Task<IActionResult> Index()
+        {
+            var actsDec2023Context = _context.Employees.Include(e => e.DeptNoNavigation);
+            return View(await actsDec2023Context.ToListAsync());
+        }
+```
+
+```c#
+ // POST: Employees/Create
+ [HttpPost]
+ [ValidateAntiForgeryToken]
+ public async Task<IActionResult> Create([Bind("EmpNo,Name,Basic,DeptNo")] Employee employee)
+ {                          //Bind here is used to Bind only the mentioned properties from the form post
+     if (ModelState.IsValid)  //false: coz DeptNoNavigation is coming null
+     {                       // soln: in ViewModelClass, make DeptNoNavigation Nullable (Department<pre>**?**</pre> DeptNoNavigation)
+     // meaning --> DeptNoNavigation can contain null
+         _context.Add(employee);
+         await _context.SaveChangesAsync();
+         return RedirectToAction(nameof(Index));
+     }
+     else{  //to check the errors why modelstate.isValid is false
+        string s = "";
+        foreach (var item in ModelState.Values)
+        {
+            foreach (var item1 in item.Errors)
+            {
+                s += item1.ErrorMessage;
+            }
+        }
+     }
+     ViewData["DeptNo"] = new SelectList(_context.Departments, "DeptNo", "DeptName", employee.DeptNo);
+     return View(employee);
+     
+ }
+```
+
+
+### 2. Code first
+
+    What will EF will do for you?
+        -> Don't need to know db things, you just need to know collections
+
+1. We need to code Classes, Generates Database automatically eg. Employee class -> Employee table
+2. Generates DB according to code - create DbContext Class
+   - eg. DbSet<Employee> -->creates the Employee table
+     1. dbcontext will read value from Db and populates into this collection
+     2. have methods, if value in collection changes, then read value from collection and update into db
+
+#### Steps for Code First
+
+
+1. Add Nuget Packages
+    ```markdown
+    Microsoft.EntityFrameworkCore
+    Microsoft.EntityFrameworkCore.SqlServer
+    Microsoft.EntityFrameworkCore.Tools
+    ```
+2. Add Model class and DbContext class
+
+3. Add connection string in appsettings.json
+    > conn string of Db to generate
+
+   ```c# 
+    "ConnectionStrings": {
+        "EmpDbContext": "Data Source=(localdb)\\MsSqlLocalDb;Initial Catalog=EmpDb;Integrated Security=true;MultipleActiveResultSets=true"
+    }
+   ```
+
+4.  Add EF service in Program.cs
+
+    ```c#
+    public static void Main(string[] args)
+    {
+        builder.Services.AddControllersWithViews();
+        builder.Services.AddDbContext<EmpDbContext>(options =>
+                    options.UseSqlServer(builder.Configuration.GetConnectionString("EmpDbContext")));
+    }
+    ```
+
+5. Package Manager Console
+
+    - Add-Migration InitialCreate 
+
+    - Update-Database

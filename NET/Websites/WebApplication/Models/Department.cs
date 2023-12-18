@@ -25,7 +25,7 @@ namespace WebApplicationMote.Models
                     SqlDataReader dr = cmdDeptList.ExecuteReader();
                     while (dr.Read())
                     {
-                        objDepts.Add()
+                       
                     }
                 }
                 catch (Exception ex)
