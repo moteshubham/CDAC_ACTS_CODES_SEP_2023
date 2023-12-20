@@ -1,14 +1,65 @@
-﻿using System.Data;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Data;
 using Microsoft.Data.SqlClient;
 
 namespace WebApplication.Models
 {
     public class Employee
     {
+        [Key]
+        [Display(Name = "Employee Number")] //displays name in view
         public int EmpNo { get; set; }
-        public string Name { get; set; }
+
+        private string _name;
+        public string Name
+        {
+            set;get;
+           /* set
+            {
+                if (value != "shubham")
+                    throw new Exception("Name must be 'shubham'");
+                else
+                    _name = value;
+            }
+            get
+            {
+                return _name;
+            }*/
+        }
+
+        //[Range(1000, 500000, ErrorMessage = "Please enter values between 1000-500000")]
+        //[MaxLength(6), MinLength(4)]
+        [Display(Name = "Basic Salary")]
         public decimal Basic { get; set; }
         public int DeptNo { get; set; }
+
+        // Following commented code is to learning purpose of validation annotations
+
+        [ScaffoldColumn(false)]
+        public string Dummy { get; set; }
+
+        [EmailAddress]
+        public string EmailId { get; set; }
+
+        [Required(ErrorMessage = "Please enter password")]
+        [DataType(DataType.Password)]
+        public string Password { get; set; }
+
+        [Required(ErrorMessage = "Please enter confirm password")]
+        [Compare("Password", ErrorMessage = "Password and confirm password should be the same")]    //valid will fire only if confirm pass textbox entered, if black then not fired hence added Required
+        [DataType(DataType.Password)]
+        public string ConfirmPassword { get; set; }
+
+        // Allow up to 40 uppercase and lowercase 
+        // characters. Use custom error.
+        [RegularExpression(@"^[a-zA-Z''-'\s]{1,40}$",
+             ErrorMessage = "Characters are not allowed.")]
+        public string FirstName { get; set; }
+
+        // Allow up to 40 uppercase and lowercase 
+        // characters. Use standard error.
+        [RegularExpression(@"^[a-zA-Z''-'\s]{1,40}$")]
+        public string LastName { get; set; }
 
         public static List<Employee> GetAllEmployees()
         {
@@ -45,7 +96,7 @@ namespace WebApplication.Models
                 return list;
             }
         }
-        public static Employee GetSingleEmployee2(int EmpNo)
+        public static Employee GetSingleEmployee(int EmpNo)
         {
             using (SqlConnection cn = new SqlConnection())
             {
@@ -79,10 +130,9 @@ namespace WebApplication.Models
                 return obj;
             }
         }
-
         public static void InsertEmployee(Employee emp)
         {
-            using(SqlConnection cn = new SqlConnection())
+            using (SqlConnection cn = new SqlConnection())
             {
                 cn.ConnectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ActsDec2023;Integrated Security=True;";
                 try
@@ -98,16 +148,15 @@ namespace WebApplication.Models
                     cmdInsert.Parameters.AddWithValue("@DeptNo", emp.DeptNo);
                     cmdInsert.ExecuteNonQuery();
                 }
-                catch(Exception) 
+                catch (Exception)
                 {
                     throw;
                 }
             }
         }
-
         public static void UpdateEmployee(Employee obj)
         {
-         
+
             using (SqlConnection cn = new SqlConnection())
             {
                 cn.ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ActsDec2023;Integrated Security=True;";
@@ -131,10 +180,31 @@ namespace WebApplication.Models
                 }
             }
         }
-
+        public static void DeleteEmployee(int id)
+        {
+            using (SqlConnection cn = new SqlConnection())
+            {
+                cn.ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ActsDec2023;Integrated Security=True;";
+                try
+                {
+                    cn.Open();
+                    SqlCommand cmdUpdate = new SqlCommand();
+                    cmdUpdate.Connection = cn;
+                    cmdUpdate.CommandType = CommandType.Text;
+                    cmdUpdate.CommandText = $"DELETE FROM Employees WHERE EmpNo=@EmpNo";
+                    cmdUpdate.Parameters.AddWithValue("@EmpNo", id);
+                    cmdUpdate.ExecuteNonQuery();
+                    Console.WriteLine("Success");
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+            }
+        }
     }
 
 
-   
+
 
 }
