@@ -213,16 +213,15 @@ namespace Day8_Lab_DB
                 while (dreader.Read())
                 {
                     Console.Write(dreader["empno"]);
-                     Console.Write(dreader["name"]);
+                    Console.Write(dreader["name"]);
                     Console.WriteLine();
                     //o.Name = dreader["Name"].ToString();
                     //o.Name = dreader.GetString("Name");
                     //o.EmpNo = (int)dreader["EmpNo"];
-                   // o.EmpNo = dreader.GetInt32("EmpNo");
+                    //o.EmpNo = dreader.GetInt32("EmpNo");
                     //o.Basic = dreader.GetDecimal("Basic");
-                   // o.DeptNo = dreader.GetInt32("DeptNo");
+                    // o.DeptNo = dreader.GetInt32("DeptNo");
                     //Console.WriteLine(o.Name);
-                    
                 }
                 Console.WriteLine();
                 dreader.NextResult();
@@ -296,7 +295,7 @@ namespace Day8_Lab_DB
 
                     while (dr.Read())
                     {
-                    Employee obj = new Employee();
+                        Employee obj = new Employee();
                         //Console.WriteLine(dr["Name"]);
                         obj.EmpNo = dr.GetInt32("EmpNo");
                         obj.Name = dr.GetString("Name");
