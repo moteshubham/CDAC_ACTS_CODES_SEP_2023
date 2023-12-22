@@ -981,7 +981,7 @@ public class EmployeesController : Controller
 ## Controller code
 
 ```c#
-    public class EmployeesController : Controller
+    public class EmployeesController : Controller   //Controller here has support of View, ControllerBase doesn't have View support (Used in webapi coz swagger is therre for view)
     {
         private readonly ActsDec2023Context _context;   //reference to
 
@@ -1019,9 +1019,9 @@ public class EmployeesController : Controller
      if (ModelState.IsValid)  //false: coz DeptNoNavigation is coming null
      {                       // soln: in ViewModelClass, make DeptNoNavigation Nullable (Department<pre>**?**</pre> DeptNoNavigation)
      // meaning --> DeptNoNavigation can contain null
-         _context.Add(employee);
-         await _context.SaveChangesAsync();
-         return RedirectToAction(nameof(Index));
+         _context.Add(employee);    //better way is _context.Employee.Add(employee);
+         await _context.SaveChangesAsync(); //wwhatever data in context is saved to the database, we just add it to colln
+         return RedirectToAction(nameof(Index));//reiderct to actioion index
      }
      else{  //to check the errors why modelstate.isValid is false
         string s = "";
@@ -1033,7 +1033,7 @@ public class EmployeesController : Controller
             }
         }
      }
-     ViewData["DeptNo"] = new SelectList(_context.Departments, "DeptNo", "DeptName", employee.DeptNo);
+     ViewData["DeptNo"] = new SelectList(_context.Departments, "DeptNo", "DeptName", employee.DeptNo);//for dropdown list
      return View(employee);
      
  }
@@ -1054,36 +1054,61 @@ public class EmployeesController : Controller
 #### Steps for Code First
 
 
-1. Add Nuget Packages
-    ```markdown
-    Microsoft.EntityFrameworkCore
-    Microsoft.EntityFrameworkCore.SqlServer
-    Microsoft.EntityFrameworkCore.Tools
-    ```
-2. Add Model class and DbContext class
+   1. Add Nuget Packages
+       ```markdown
+       Microsoft.EntityFrameworkCore
+       Microsoft.EntityFrameworkCore.SqlServer
+       Microsoft.EntityFrameworkCore.Tools
+       ```
+   2. Add Model class and DbContext class
+        - Create Model class eg. `public partial class Employee { }`
+        -   Right-click and create model class, eg. `Employee.cs`
+        -   Write data fields members in it eg. `public int EmpNo {get; set;}`
+        -   To add key
+            -   `public int Id {get; set;}`
+            -   `public int EmployeeId {get; set;}`
+            -   `[Key]` //above code can work for primary key but use [Key]
+            -    `public int EmpNo {get; set;}`
 
-3. Add connection string in appsettings.json
-    > conn string of Db to generate
+   4. Add connection string in appsettings.json
+       > conn string of Db to generate  //data base name should be new else old will be overwritten
 
-   ```c# 
-    "ConnectionStrings": {
-        "EmpDbContext": "Data Source=(localdb)\\MsSqlLocalDb;Initial Catalog=EmpDb;Integrated Security=true;MultipleActiveResultSets=true"
-    }
-   ```
+      ```c# 
+       "ConnectionStrings": {
+           "EmpDbContext": "Data Source=(localdb)\\MsSqlLocalDb;Initial Catalog=EmpDb;Integrated Security=true;MultipleActiveResultSets=true"
+       }
+      ```
 
-4.  Add EF service in Program.cs
+   5.  Add EF service in Program.cs
 
-    ```c#
-    public static void Main(string[] args)
-    {
-        builder.Services.AddControllersWithViews();
-        builder.Services.AddDbContext<EmpDbContext>(options =>
-                    options.UseSqlServer(builder.Configuration.GetConnectionString("EmpDbContext")));
-    }
-    ```
+       ```c#
+       public static void Main(string[] args)
+       {
+           builder.Services.AddControllersWithViews();
+           builder.Services.AddDbContext<EmpDbContext>(options =>
+                       options.UseSqlServer(builder.Configuration.GetConnectionString("EmpDbContext")));
+       }
+       ```
 
-5. Package Manager Console
+   6. Package Manager Console
 
-    - Add-Migration InitialCreate 
+       - `Add-Migration InitialCreate`  generates Migration script, this script is create in fluent api language, saved in folder called Migration, InitalCrereate ism just name, in that there is details what kind of databse to generate.
+            Also has file having code BuildModel, thid code calls the migration script
 
-    - Update-Database
+       - `Update-Database`  
+     
+   7. Then add controller
+       
+## WebAPI
+    A way by which you can access some other application
+    Web API allows access to service data from web browsers, mobile apps, and other devices. 
+    RESTful(Representational State Transfer)[State-->Data in app] --> Along with State being sent it is also representing what to do with the data or sending the instruction for what the state should do
+
+### Create WebAPI MVC project
+***while adding controller add from webapi dialogue box**
+1. create webapi c# project
+1. tick use controller
+2. controller 
+mvc empty controller -->  blank
+mvc controller with read/write action   --> it gives method, you write query inc lass ADO and connection string and all
+mvc controller with views, using Entity FrameWork --> it gives methods with db input code too
