@@ -10,11 +10,11 @@
           document.getElementById("mydiv").innerHTML =
             "Lattitude: " + position.coords.latitude + " Longitude: " + position.coords.longitude;
         };
-        
+
         if (navigator.geolocation) {
-          //getCurrentposition will display current location only once
-          //watchPosition will display live location
-          navigator.geolocation.getCurrentPosition(showPosition, showError);
+          //getCurrentposition will                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             display current location only once
+          //watchPosition will                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         display live location
+          navigator.geolocation.getCurrentPosition(showPosition, showError);              
         } else {
           document.getElementById("mydiv").innerHTML = "geolocation not supported by the browser";
         }
