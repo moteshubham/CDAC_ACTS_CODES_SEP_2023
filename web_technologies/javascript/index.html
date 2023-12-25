@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      var x = 5, y = 1;
+      var obj = { x: 10 };
+      with (obj) {
+        //alert(y);
+      }
+      'use strict';
+      function func() {
+        console.log(this);
+      }
+      func()
+    </script>
+    <title>JS practice</title>
+  </head>
+  <body>
+    hello
+  </body>
+</html>
