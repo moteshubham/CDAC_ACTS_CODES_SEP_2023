@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/update-product" method="post">
+        Product pid : <input type="number" name="pid" id="pid" value="<%=prod.pid %>" readonly><br>
+        Product Name : <input type="text" name="pname" id="pnm" value="<%=prod.pname %>"><br>
+        Product qty : <input type="text" name="qty" id="qty"
+        value="<%=prod.qty %>"><br>
+        Product price : <input type="text" name="price" id="price" value="<%=prod.price %>"><br>
+        <button type="submit" name="btn" id="btn">update product</button>
+    </form>
+</body>
+</html>
