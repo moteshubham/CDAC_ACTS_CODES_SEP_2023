@@ -92,3 +92,19 @@ Remember that these are not in-built into the JavaScript engine.
 
 Read more about Web APIs here:
 https://developer.mozilla.org/en-US/docs/Web/API
+
+
+Javascript can be added to our HTML code in mostly 2 ways:
+  1. Internal Javascript: 
+  2. External Javascript: 
+
+
+## explain hoisting in js
+
+
+Note - Variable initializations are not hoisted, only variable declarations are hoisted:
+
+To avoid hoisting, you can run javascript in strict mode by using “use strict” on top of the code:
+
+In ECMAScript 2015, let and const are hoisted but not initialized. Referencing the variable in the block before the variable declaration results in a ReferenceError because the variable is in a "temporal dead zone" from the start of the block until the declaration is processed.
+
