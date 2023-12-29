@@ -6,11 +6,11 @@ import ProductForm from "./ProductForm"
 export default class ProductList extends Component {
   constructor(props) {
     super(props)
-    console.log("in prodList ctor")
+    console.log("in prodList ctor") 
     this.state = {
       productArr: [],
       searchArr: [],
-      flag: false,
+      flag: false
     }
   }
 
@@ -33,7 +33,7 @@ export default class ProductList extends Component {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-md-12">
-            <h2> flag: {this.state.flag} </h2>
+            <h2> flag: {this.state.flag.toString()} </h2>
             <h1>Product List</h1>
             <button type="button" name="btn" className="btn btn-info" id="btn" onClick={this.changeFlag}>
               Add New Product
@@ -46,7 +46,7 @@ export default class ProductList extends Component {
             ))}
           </div>
         </div>
-        <div className="row">{this.state.flag && <ProductForm></ProductForm>}</div>
+        <div className="row mt-2">{this.state.flag && <ProductForm></ProductForm>}</div>
       </div>
     )
   }

@@ -1,7 +1,7 @@
 import './Header.css';
 const Header=()=>{
     return(
-        <h1 className="myclass">Product Management system</h1>
+        <h1 className="header">Product Management System</h1>
     )
 }
 export default Header;
