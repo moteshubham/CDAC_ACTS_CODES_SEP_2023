@@ -6,18 +6,17 @@ import ProductForm from "./ProductForm"
 export default class ProductList extends Component {
   constructor(props) {
     super(props)
-    console.log("in prodList ctor") 
+    console.log("in prodList ctor")
     this.state = {
       productArr: [],
       searchArr: [],
-      flag: false
+      flag: false,
     }
   }
 
   componentDidMount() {
     console.log("in comp did mount")
     this.setState({
-      ...this.state,
       productArr: ProductService.getAllProducts(),
       searchArr: ProductService.getAllProducts(),
     })
@@ -26,6 +25,14 @@ export default class ProductList extends Component {
   changeFlag = () => {
     this.setState({ ...this.state, flag: true })
   }
+  addProductToList = (newProduct) => {
+    console.log("addProductToList called", this.productArr);
+    this.setState((prevState) => ({
+      productArr: [...prevState.productArr, newProduct],
+      searchArr: [...prevState.searchArr, newProduct],
+    }));
+  };
+
 
   render() {
     console.log("in productList render", this.state.flag)
@@ -46,7 +53,7 @@ export default class ProductList extends Component {
             ))}
           </div>
         </div>
-        <div className="row mt-2">{this.state.flag && <ProductForm></ProductForm>}</div>
+        <div className="row mt-2">{this.state.flag && <ProductForm onAddProduct={this.addProductToList}  ></ProductForm>}</div>
       </div>
     )
   }

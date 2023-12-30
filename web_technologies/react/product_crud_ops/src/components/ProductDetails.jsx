@@ -1,6 +1,8 @@
 import React from "react"
 
 function ProductDetails(props) {
+
+ 
   return (
     <div className="container">
       <div className="row border py-2">
