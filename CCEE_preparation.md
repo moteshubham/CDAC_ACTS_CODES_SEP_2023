@@ -89,15 +89,15 @@
 
 ## wpt node
 
-1.  https://www.tutorialspoint.com/nodejs/nodejs_mock_test.htm
-2.  https://www.interviewbit.com/nodejs-mcq/
+1.  https://www.tutorialspoint.com/nodejs/nodejs_mock_test.htm 25
+2.  https://www.interviewbit.com/nodejs-mcq/ 51
 3.  
 
 ## wpt javascript
 
-1.  
-2.  
-3.  
+1.  https://www.interviewbit.com/javascript-mcq/ 50d
+2.  https://www.w3schools.com/quiztest/quiztest.asp?qtest=JS 25
+3.  https://www.javatpoint.com/javascript-mcq 15rem
 
 ## wpt HTML5
 
@@ -106,18 +106,20 @@
 
 ## wpt CSS
 
-1.  https://www.careerride.com/online-practice-test/CSS
-2.
+1.  https://www.careerride.com/online-practice-test/CSS 21
+2. 
 
+# wpt BootStrap
+1. https://www.javatpoint.com/bootstrap-mcq 43
 
 ## wpt react
 
-1.  
-2. 
+1.  https://www.interviewbit.com/react-mcq/ 50
+2.  https://www.javatpoint.com/reactjs-mcq 38
 
 ## wpt jquery
 
-1.  https://www.javatpoint.com/jquery-mcq
+1.  https://www.javatpoint.com/jquery-mcq 50
 2.  
 3.  
 
@@ -159,7 +161,7 @@
 
 ## dbt mysql
 
-1.  https://www.careerride.com/online-practice-test/MySQL
+1.  https://www.careerride.com/online-practice-test/MySQL 20    
 
 ## dbt mongodb
 
