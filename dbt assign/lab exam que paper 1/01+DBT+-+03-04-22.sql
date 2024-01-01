@@ -1,3 +1,12 @@
+
+To import a database via the terminal
+mysql -u database_user_name -p database_name < sql_file_name.sql
+for monogodb
+Navigate to the directory where your CSV file is
+mongoimport — db OpenFlights — collection Airport — type csv — headerline — ignoreBlanks — file [local path]
+1
+mongoimport --type csv -d test -c products --headerline --drop products.csv
+
 CREATE DATABASE ORG;
 SHOW DATABASES;
 USE ORG;
@@ -181,8 +190,32 @@ mysql> select * from title;
 
 --  ii.WRITE AN SQL QUERY TO DISPLAY DEPARTMENT NAME AND TOTAL BONUS AMOUNT TO BE PAID IN EACH DEPARTMENT
 
+nahi jamateee
+SELECT
+    w.department,
+    SUM(b.bonus_amount) AS total_bonus_amount
+FROM
+    worker w
+JOIN
+    bonus b ON w.department_id = e.department_id
+GROUP BY
+    d.department_id, d.department_name;
+
+
 --  iii.WRITE AN SQL QUERY TO DISPALY THE FULLNAME , SALARY , TOTAL YEARS OF EXPERIANCE OF EACH WORKER
-select concat(first_name, " ", last_name) as fullname, salary, 
+    mysql> select concat(first_name, " ", last_name) as fullname, salary, date_format(from_days(datediff(now(), joining_date)), '%Y')+ 0 as experience from worker;
+    +-----------------+--------+------------+
+    | fullname        | salary | experience |
+    +-----------------+--------+------------+
+    | Monika Arora    | 100000 |          9 |
+    | Niharika Verma  |  80000 |          9 |
+    | Vishal Singhal  | 300000 |          9 |
+    | Amitabh Singh   | 500000 |          9 |
+    | Vivek Bhati     | 500000 |          9 |
+    | Vipul Diwan     | 200000 |          9 |
+    | Satish Kumar    |  75000 |          9 |
+    | Geetika Chauhan |  90000 |          9 |
+    +-----------------+--------+------------+
 
 --  iv.WRITE AN SQL QUERY TO DISPALY THE DETAILS OF THE WORKER WHO IS MANAGER 
     mysql> select * from  worker w join title t on w.worker_id= t.worker_ref_id  where t.worker_title="Manager";
@@ -192,3 +225,119 @@ select concat(first_name, " ", last_name) as fullname, salary,
     |         1 | Monika     | Arora     | 100000 | 2014-02-20 09:00:00 | HR         |             1 | Manager      | 2016-02-20 00:00:00 |
     |         5 | Vivek      | Bhati     | 500000 | 2014-06-11 09:00:00 | Admin      |             5 | Manager      | 2016-06-11 00:00:00 |
     +-----------+------------+-----------+--------+---------------------+------------+---------------+--------------+---------------------+
+
+
+    --i. CREATE A FUNCTION IN MYSQL THAT WILL ACCEPT THE ONE INPUT PARAMETER AS WORKER ID AND BASED ON THE ID RETURN THE TOTAL SALARY IN EACH DEPARTMENTS
+    delimiter &&
+    create function total_salary(id int)
+    returns int(11) deterministic
+    begin
+      declare salaryin int;
+      select  salary into salaryin from worker where worker_id = id;
+      return (salaryin);
+    end
+    &&
+    delimiter ;
+
+    --4 CREATE A CURSOR IN MYSQL, BY USING THE CURSOR RETURN THE COMMA SEPRATED LIST OF WORKER NAMES 5 MARKS eg. Monika , Vishal, Satish , Vipul ......
+delimiter &&
+create procedure worker_list()
+begin
+ declare done int default 0;
+ declare n varchar(20);
+ declare commalist varchar(80);
+ declare mycursor CURSOR for select first_name from worker;
+ declare continue handler for not found set done = 1;
+ open mycursor;
+ SET @commalist = '';
+ lable: LOOP
+  FETCH mycursor INTO n;
+  if done then
+   LEAVE lable;
+  end if;
+  if @commalist='' then
+    set @commalist = concat(@commalist, n);
+  else
+    set  @commalist  = concat(@commalist, ",", n);
+  end if;
+ end LOOP lable;
+ select @commalist;
+ close mycursor;
+end&&
+delimiter ;
+
+
+    --5 CREATE A AFTER INSERT TRIGGER IN MYSQL ..CREATE AN EMP_DETAILS TABLES AS FOLLOWS ID , FIRST_NAME , LAST_NAME , DEPARTMENT_ID ,SALARY WHEN AN INSERT HAPPEN INTO THE EMP_DETAILS TABLE INSERT THE FIRST_NAME , LAST_NAME AND SALARY INTO THE EMP_LOG_DETAILS TABLE
+    
+    create table if not exists worker_log(fname varchar(20), salary int, logtime datetime);
+delimiter &&
+create trigger mytrigger
+after insert on worker for each row
+begin
+insert into worker_log values(new.first_name, new.salary, now());
+end &&
+delimiter ;
+
+INSERT INTO Worker (WORKER_ID, FIRST_NAME, LAST_NAME, SALARY, JOINING_DATE, DEPARTMENT) VALUES(0010, 'Aloha', 'Mora', 99999, '15-02-20 09.00.00', 'Admin');
+
+
+
+
+
+
+
+
+
+-- //procedure
+--     delimiter &&
+--     create procedure get_all_workers()
+--     begin
+--         select * from worker;
+--     end &&
+--     delimiter ;
+
+
+
+
+mongodb
+1.SHOW THE DOCUMENTS THAT HAS LIKES GREATER THAN 10 
+db.mycol.find({"likes": {$gt:10}}).pretty();
+{
+        "_id" : ObjectId("65925a1dd734a3748968cbb0"),
+        "title" : "MongoDB Overview",
+        "description" : "MongoDB is no SQL database",
+        "by" : "tutorials point",
+        "url" : "http://www.tutorialspoint.com",
+        "tags" : [
+                "mongodb",
+                "database",
+                "NoSQL"
+        ],
+        "likes" : 100
+}
+{
+        "_id" : ObjectId("65925a1dd734a3748968cbb1"),
+        "title" : "NoSQL Database",
+        "description" : "NoSQL database doesn't have tables",
+        "by" : "tutorials point",
+        "url" : "http://www.tutorialspoint.com",
+        "tags" : [
+                "mongodb",
+                "database",
+                "NoSQL"
+        ],
+        "likes" : 20,
+        "comments" : [
+                {
+                        "user" : "user1",
+                        "message" : "My first comment",
+                        "dateCreated" : ISODate("2013-12-09T21:05:00Z"),
+                        "like" : 0
+                }
+        ]
+}
+
+
+2.SHOW THE DOCUMENTS THAT HAS USER NAME AS ‘user1’ 
+
+
