@@ -3,7 +3,7 @@
 ## Topics
 
 | No. | Subject   | Hours | Sessions |
-| --- | --------- | ----- | -------- |
+|-----|-----------|-------|----------|
 | 1   | COS & SDM | 50    | 16       |
 | 2   | WPT       | 50    | 25       |
 | 3   | CORE JAVA | 50    | 25       |
@@ -19,18 +19,18 @@
 
 ### 1. Analyze previous year's pattern, analyze the exam
 
-- Tips for CCEE:
-  - Read Syllabus and Try to Read each and every Topic till Intermediate Level from Online Sources/Videos as per your convenience. Never read DUMPS. You can read notes of different Institutes. Remember they will not ask Questions on topic which is not in syllabus and its like 80% of Concepts on which Question is asked, you will feel like you have heard it somewhere (mostly in classroom). Go with Group Study Method and Remember important points. Try to Discuss/Tell what you learned with other student, (either you will get something more to hear about topic or it will help them to know the thing) Whatever Discussion happens Before 2 hrs of exam will be more helpful :-)
-- CPP : Questions on OOPS Concepts and Language Features
-- OS : Mostly questions on GPOS (General Purpose Operating System) core functionality
-- Java : Questions on OOPS Concepts and Language Features and Interface and Methods of Predifined Classes
-- J2EE : Questions on Interface and Methods of Predifined Classes. Life Cycle
-- AWP : Question on Topics given in Syllabus and Mostly asked correct syntax
-- ASDM : Basic Question on Docker, UML, Software Engg Techniques and Cloud (Types of Infrastructure)
-- MEAN: Basic Question on Angular, TS, Project Folder Structure and CLI commands
-- DBMS: Basic Questions on No-SQL, Queries were not asked but what ketwords used for what is asked.
-- Dot.net : Questions on OOPS Concepts and Language Features and WCF and WPF and Life Cycle
-- DS : Question Asked on Complexity, Code Snippet given we have to identify what it does, STL methods used on Generic DS
+-   Tips for CCEE:
+    -   Read Syllabus and Try to Read each and every Topic till Intermediate Level from Online Sources/Videos as per your convenience. Never read DUMPS. You can read notes of different Institutes. Remember they will not ask Questions on topic which is not in syllabus and its like 80% of Concepts on which Question is asked, you will feel like you have heard it somewhere (mostly in classroom). Go with Group Study Method and Remember important points. Try to Discuss/Tell what you learned with other student, (either you will get something more to hear about topic or it will help them to know the thing) Whatever Discussion happens Before 2 hrs of exam will be more helpful :-)
+-   CPP : Questions on OOPS Concepts and Language Features
+-   OS : Mostly questions on GPOS (General Purpose Operating System) core functionality
+-   Java : Questions on OOPS Concepts and Language Features and Interface and Methods of Predifined Classes
+-   J2EE : Questions on Interface and Methods of Predifined Classes. Life Cycle
+-   AWP : Question on Topics given in Syllabus and Mostly asked correct syntax
+-   ASDM : Basic Question on Docker, UML, Software Engg Techniques and Cloud (Types of Infrastructure)
+-   MEAN: Basic Question on Angular, TS, Project Folder Structure and CLI commands
+-   DBMS: Basic Questions on No-SQL, Queries were not asked but what ketwords used for what is asked.
+-   Dot.net : Questions on OOPS Concepts and Language Features and WCF and WPF and Life Cycle
+-   DS : Question Asked on Complexity, Code Snippet given we have to identify what it does, STL methods used on Generic DS
 
 ### 2. Secure sources
 
@@ -70,7 +70,7 @@
 7.  DBT
     1.  http://castle-on-clouds.blogspot.com/2011/02/mcq-sql-data-types.html
     2.  http://castle-on-clouds.blogspot.com/2011/02/mcq-cursors.html
-    3.
+    3.  
 8.  WPT
 
 ### 3. 80%-20% (Pareto's)
@@ -91,7 +91,7 @@
 
 1.  https://www.tutorialspoint.com/nodejs/nodejs_mock_test.htm 25
 2.  https://www.interviewbit.com/nodejs-mcq/ 51
-3.
+3.  
 
 ## wpt javascript
 
@@ -101,17 +101,17 @@
 
 ## wpt HTML5
 
-1.
-2.
+1.  https://www.examveda.com/html/practice-mcq-question-on-basic-html/
+2.  
 
 ## wpt CSS
 
 1.  https://www.careerride.com/online-practice-test/CSS 21
-2.
+2.  
 
 # wpt BootStrap
 
-1. https://www.javatpoint.com/bootstrap-mcq 43
+1.  https://www.javatpoint.com/bootstrap-mcq 43
 
 ## wpt react
 
@@ -121,58 +121,58 @@
 ## wpt jquery
 
 1.  https://www.javatpoint.com/jquery-mcq 50
-2.
-3.
+2.  
+3.  
 
 ## c-sharp .net
 
-1.
-2.
-3.
+1.  
+2.  
+3.  
 
 ## cpp
 
-1.
-2.
-3.
+1.  
+2.  
+3.  
 
 ## core java
 
-1.
-2.
-3.
+1.  
+2.  
+3.  
 
 ## web java
 
-1.
-2.
-3.
+1.  
+2.  
+3.  
 
 ## os & sdm
 
-1.
-2.
-3.
+1.  
+2.  
+3.  
 
 ## dsa
 
-1.
-2.
-3.
+1.  
+2.  
+3.  
 
 ## dbt mysql
 
 ### topics
 
-1. DBMS Intro
-2. Data Models, ER,
-3. Codd’s 12 rules for RDBMS
-4. SQL Intro, Categories of SQL Commands: DDL, DML, DCL, DTL/TCL DDL (CREATE/ALTER/DROP/TRUNCATE)
-5. Normalization, Need for Normalization Normal Forms (1st NF, 2nd NF, 3rd NF, BCNF)
-6. DML (INSERT/UPDATE/DELETE), TRUNCATE
-7. MySQL Data Types, Database Constraints, Aggregate Functions, Grouping Things Together, LIKE Operator, DISTINCT, Sorting (Order by clause), BETWEEN… AND Operators, Comparing Nulls (IS NULL/IS Not NULL), IN NOT IN
-8. Relational Algebra Operations, Joins, Sequences (AUTO_INCREMENT)
-9. Subquery, Correlated Subquery, EXISTS/NOT EXISTS
+1.  DBMS Intro
+2.  Data Models, ER,
+3.  Codd’s 12 rules for RDBMS
+4.  SQL Intro, Categories of SQL Commands: DDL, DML, DCL, DTL/TCL DDL (CREATE/ALTER/DROP/TRUNCATE)
+5.  Normalization, Need for Normalization Normal Forms (1st NF, 2nd NF, 3rd NF, BCNF)
+6.  DML (INSERT/UPDATE/DELETE), TRUNCATE
+7.  MySQL Data Types, Database Constraints, Aggregate Functions, Grouping Things Together, LIKE Operator, DISTINCT, Sorting (Order by clause), BETWEEN… AND Operators, Comparing Nulls (IS NULL/IS Not NULL), IN NOT IN
+8.  Relational Algebra Operations, Joins, Sequences (AUTO_INCREMENT)
+9.  Subquery, Correlated Subquery, EXISTS/NOT EXISTS
 10. TCL Commands, DCL Commands, Views
 11. Indexes, ACID Properties, Concept of Database Instance and Schema, MySQL Storage Engines
 12. MySQL Programming, Stored Procedure, IN/OUT/INOUT params, Flow Control Statements(loops), Conditional Statements
@@ -182,9 +182,9 @@
 16. Triggers
 17. Error Handling and Exceptions
 18. Intro to NoSQL database, Structured vs. Semi-structured and Unstructured Data, Difference between RDBMS and NoSQL databases, CAP Theorem, BASE Model, Categories of NoSQL Databases: Key-Value Store, Document Store, Column-Oriented, Graph, Introduction to MongoDB, Features of MongoDB, MongoDB command interface and MongoDB compass
-19. MongoDB Documents & Collections, RDBMS & MongoDB analogies: relations/tables => collections; tuples/records => documents, JSON and BSON documents, Performing CRUD Operations, UPSERT, MongoDB – Operators, Sorting, Indexing
+19. MongoDB Documents & Collections, RDBMS & MongoDB analogies: relations/tables =\> collections; tuples/records =\> documents, JSON and BSON documents, Performing CRUD Operations, UPSERT, MongoDB – Operators, Sorting, Indexing
 
-##
+## 
 
 1.  https://www.careerride.com/online-practice-test/MySQL 20
 2.  https://www.sanfoundry.com/1000-database-management-system-questions-answers/
@@ -194,4 +194,4 @@
 
 ## dbt mongodb
 
-1.
+1.  

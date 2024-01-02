@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: rgb(32, 117, 255);
+  background-color: rgb(36, 38, 42);
 }
 
 .todo-listbox {
@@ -31,7 +31,7 @@ body {
   height: 90px;
   width: 100%;
   border-radius: 8px;
-  background-color: white;
+  background-color: rgb(88, 78, 78);
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -70,7 +70,7 @@ form {
   height: 400px;
   margin-top: 10px;
   width: 100%;
-  background-color: white;
+  background-color:  rgb(88, 78, 78);
   border-radius: 8px;
 }
 

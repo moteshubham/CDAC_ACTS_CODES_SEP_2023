@@ -7,7 +7,7 @@
     <script src="./indexq2.js"></script>
     <title>Question 2</title>
   </head>
-  <body>
+  <body onload="showTodo()"" >
     <div class="todo-listbox">
       <div class="form-box">
         <div class="organize-box">
@@ -20,14 +20,18 @@
             </div>
           </form>
         </div>
-
-        <div class="todo-list">
+        <p id="empty" ></p>
+        <div id="print"></div>
+        <!-- <div class="todo-list" id="print" >
           <div class="todo-field">
-            <input type="text" value="" id="render-todo" />
+            <input type="text" value="" id="render-todo"  />
             <button>Edit</button>
             <button>Delete</button>
           </div>
-        </div>
+
+
+
+        </div> -->
       </div>
 
       <div class="form-desc">
