@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 3</title>
+    <style>
+      .form-fill {
+        background-color: aliceblue;
+        width: 50%;
+        margin: auto;
+      }
+      .display {
+        color: white;
+      }
+      .container {
+        width: 50%;
+        justify-content: center;
+        height: 600px;
+        margin: auto;
+      }
+      form {
+        text-align: end;
+      }
+      body {
+        background-color: rgb(37, 51, 55);
+      }
+      h1 {
+        color: white;
+        text-align: center;
+      }
+    </style>
+
+    <script src="./jquery-3.7.1.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#tell-story").click(function () {
+          var name = $("#name").val()
+          var character = $("#character").val()
+          var adverb = $("#adverb").val()
+          var adjective = $("#adjective").val()
+
+          var story =
+            "One day  " +
+            name +
+            " was  " +
+            adverb +
+            ", then he met " +
+            character +
+            ". " +
+            character +
+            adjective +
+            " was standing."
+
+          $("#output").text(story)
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="h1">Mad Lips</h1>
+      <div class="form-fill">
+        <form onsubmit="return">
+          <table>
+            <tr>
+              <td>Person Name:</td>
+              <td><input type="text" id="name" /></td>
+            </tr>
+            <tr>
+              <td>Character:</td>
+              <td><input type="text" id="character" /></td>
+            </tr>
+            <tr>
+              <td>Adverb:</td>
+              <td><input type="text" id="adverb" /></td>
+            </tr>
+            <tr>
+              <td>Adjective:</td>
+              <td><input type="text" id="adjective" /></td>
+            </tr>
+            <tr>
+              <td colspan="2"><button type="button" id="tell-story">Tell Story</button></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+      <div class="display">
+        <p id="output"></p>
+      </div>
+    </div>
+  </body>
+</html>
