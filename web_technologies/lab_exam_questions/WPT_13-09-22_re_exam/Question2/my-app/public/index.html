@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <title>Bank Account Details</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <div class="container mt-5">
+      <form id="accountForm">
+        <h2>Account Details</h2>
+        <div class="form-group">
+          <label for="accountId">Account Id:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="accountId"
+            value="101"
+            readonly
+          />
+        </div>
+        <div class="form-group">
+          <label for="accountName">Account Name:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="accountName"
+            placeholder="Enter Account Name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="accountType">Account Type:</label>
+          <select class="form-control" id="accountType" required>
+            <option value="Savings">Savings</option>
+            <option value="Current">Current</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="balance">Balance:</label>
+          <input
+            type="number"
+            class="form-control"
+            id="balance"
+            placeholder="Enter Balance"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="creationDate">Creation Date:</label>
+          <input type="date" class="form-control" id="creationDate" required />
+       
+        <button
+          type="button"
+          class="btn btn-secondary"
+          onclick="displayAccountInfo()"
+        >
+          Account Info
+        </button>
+      </form>
+    </div>
+
+   <!-- ... other HTML code ... -->
+
+<button type="button" id="saveInfoButton" class="btn btn-primary" onclick="saveInfo()">Save info</button>
+<button type="button" class="btn btn-secondary" onclick="displayAccountInfo()">Account Info</button>
+
+<!-- ... other HTML code ... -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+<script src="appp.js"></script>
+
+</body>
+</html>
+
+  </body>
+</html>

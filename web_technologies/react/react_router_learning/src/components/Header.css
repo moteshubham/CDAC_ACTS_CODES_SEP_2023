@@ -1,0 +1,13 @@
+.header {
+  background-color: #9db2bf;
+  color: white;
+  padding-top: 13px;
+  height: 90px;
+  position: sticky;
+  z-index: 999;
+  top: -10px;
+  font-size: 50px;
+   text-shadow: 2px 4px 4px #000000; 
+  box-shadow: 0 -6px 50px 5px rgba(0, 0, 0, 0.5);
+  
+}

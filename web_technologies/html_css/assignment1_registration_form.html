@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      #joining_day,
+      #joining_month,
+      #joining_year {
+        width: 20px;
+      }
+      table {
+        width: auto;
+      }
+      #addr {
+        width: 400px;
+      }
+
+      .container {
+        background-color: yellowgreen;
+        height: 900px;
+        display: flex;
+        /* **this i imp
+        <!-- ? 
+        //
+        */
+        justify-content: center;
+        align-items: center;
+      }
+      .field-name {
+        text-align: right;
+      }
+      fieldset {
+        background-color: rgb(147, 191, 191);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="raja"></div>
+    <div class="container">
+      <fieldset>
+        <legend align="center">Registration Form</legend>
+        <table>
+          <form class="form-table" action="#">
+            <tr>
+              <td class="field-name">University</td>
+              <td>
+                <input type="text" autofocus name="uname" id="uname" />
+              </td>
+            </tr>
+            <tr>
+              <td class="field-name">Institute</td>
+              <td>
+                <input type="text" name="icode" id="icode" />
+              </td>
+            </tr>
+            <tr>
+              <td class="field-name">Branch</td>
+              <td>
+                <select name="branch-name" id=""></select>
+                <option value=""></option>
+                <option value="dept">Admin</option>
+                <option value="dept">HR</option>
+                <option value="dept">Technical</option>
+                <option value="dept">Accounts</option>
+              </td>
+            </tr>
+            <tr>
+              <td class="field-name">Date Of Joining</td>
+              <td>
+                <input type="number" name="joining_date" id="joining_day" />
+                date
+                <input type="number" name="joining_date" id="joining_month" />
+                month
+                <input type="number" name="joining_date" id="joining_year" />
+                year
+              </td>
+            </tr>
+            <tr>
+              <td class="field-name">Address</td>
+              <td>
+                <textarea name="addr" id="addr" cols="20" rows="4"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td class="field-name">Training Programs Attended</td>
+              <td>
+                <input type="checkbox" name="dept" />HTML/DHTML <br />
+                <input type="checkbox" name="dept" />JAVA <br />
+                <input type="checkbox" name="dept" />CLIENT/SERVER <br />
+                <input type="checkbox" name="dept" />.NET
+              </td>
+            </tr>
+            <tr>
+              <td class="field-name">Programs need to be attended</td>
+              <td>
+                <select name="attended">
+                  <option value="javascript" selected>javascript</option>
+                  <option value="jquery">jQuery</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td class="field-name">Send the info at</td>
+              <td><a href="mailto:abc@gmail.com">abc@gmail.com</a></td>
+            </tr>
+          </form>
+        </table>
+      </fieldset>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header><h1>Product Management System</h1></header>
+    <form action="/display-add-form">
+      <button type="submit" name="btn" id="btn" value="add">Add new product</button>
+    </form>
+      <table border="2">
+        <thead>
+          <tr>
+            <th>Product id</th>
+            <th>Product name</th>
+            <th>Product qty</th>
+            <th>Product price</th>
+            <th>action</th>
+          </tr>
+        </thead>
+        <tbody>
+            <%for(var i=0;i<productData.length;i++){%>
+                <tr>
+                    <td><%=productData[i].pid%></td>
+                    <td><%=productData[i].pname%></td>
+                    <td><%=productData[i].qty%></td>
+                    <td><%=productData[i].price%></td>
+                    <td><a href="/delete/<%=productData[i].pid%>">delete</a>/<a href="/edit/<%=productData[i].pid%>">edit</a></td>
+                </tr>
+            <%} %>
+        </tbody>
+      </table>
+  </body>
+</html>

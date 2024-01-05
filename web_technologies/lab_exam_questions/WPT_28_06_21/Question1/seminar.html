@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seminar Registration Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <style>
+      body {
+        padding: 20px;
+        background-color: rgb(71, 94, 94);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Seminar Registration Form</h2>
+      <form id="registrationForm">
+        <div class="form-group">
+          <label for="title">Title</label>
+          <select class="form-control" id="title" name="title">
+            <option value="mr">Mr.</option>
+            <option value="mrs">Mrs.</option>
+            <option value="ms">Ms.</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="firstName">First Name</label>
+            <input type="text" class="form-control" id="firstName" name="firstName" required />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" name="lastName" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="confirmEmail">Confirm Email</label>
+          <input type="email" class="form-control" id="confirmEmail" name="confirmEmail" required />
+        </div>
+
+        <div class="form-group">
+          <label for="additionalSeminars">Additional Seminars</label>
+          <select class="form-control" id="additionalSeminars" name="additionalSeminars">
+            <option value="soa">SOA</option>
+            <option value="soa">Design Patterns</option>
+            <option value="bi">Business Intelligence</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Seminar Level</label>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="seminar"
+              id="introductory"
+              value="introductory"
+              checked />
+            <label class="form-check-label" for="introductory">Introductory</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="seminar" id="intermediate" value="intermediate" />
+            <label class="form-check-label" for="intermediate">Intermediate</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="seminar" id="advanced" value="advanced" />
+            <label class="form-check-label" for="advanced">Advanced</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="trainingCost">Training Cost</label>
+          <input type="text" class="form-control" id="trainingCost" name="trainingCost" readonly />
+        </div>
+
+        <div class="form-group">
+          <button type="button" class="btn btn-primary" id="calculateCost">Calculate Training Cost</button>
+        </div>
+
+        <div class="form-group">
+          <button type="button" class="btn btn-info" id="displayDetails">Display Details</button>
+          <button type="submit" class="btn btn-success" id="submitForm">Submit</button>
+        </div>
+      </form>
+
+      <div id="detailsContainer"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#calculateCost").click(function () {
+          var seminarCosts = {
+            introductory: 100,
+            intermediate: 200,
+            advanced: 300,
+          }
+
+          var selectedSeminar = $("input[name='seminar']:checked").val()
+          var cost = seminarCosts[selectedSeminar] || 0
+          $("#trainingCost").val(cost)
+        })
+
+        $("#displayDetails").click(function () {
+          var title = $("#title").val()
+          var firstName = $("#firstName").val()
+          var lastName = $("#lastName").val()
+          var email = $("#email").val()
+          var additionalSeminars = $("#additionalSeminars").val()
+          var seminar = $("input[name='seminar']:checked").val()
+          var trainingCost = $("#trainingCost").val()
+
+          var details =
+            "Title: " +
+            title +
+            "<br>" +
+            "Name: " +
+            firstName +
+            " " +
+            lastName +
+            "<br>" +
+            "Email: " +
+            email +
+            "<br>" +
+            "Additional Seminars: " +
+            additionalSeminars +
+            "<br>" +
+            "Seminar Level: " +
+            seminar +
+            "<br>" +
+            "Training Cost: $" +
+            trainingCost
+
+          $("#detailsContainer").html(details)
+        })
+
+        $("#registrationForm").submit(function (event) {
+          event.preventDefault()
+          // You can add form validation logic here
+          alert("Form submitted successfully!")
+        })
+      })
+    </script>
+  </body>
+</html>

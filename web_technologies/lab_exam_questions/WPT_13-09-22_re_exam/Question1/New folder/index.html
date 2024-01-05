@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+      <script src="./app.js"></script>
+    <style>
+      .myclass {
+        border: 2px solid black;
+      }
+      body {
+        background-color: dimgray;
+      }
+      .col-md-12 column form {
+        display: table;
+        margin: auto;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1>Account Detaisls</h1>
+      <div class="row myclass p-4">
+        <div class="col-md-12">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Account Id</label>
+                <input type="email" class="form-control" id="acid" placeholder="Id" required/>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Name</label>
+                <input type="password" class="form-control" id="name" placeholder="Name" required/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="actype">Type</label>
+              <select id="actype" class="form-control" required >
+                <option value="sav" selected>Savings</option>
+                <option value="cur" >Current</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="inputAddress2">Balance</label>
+              <input type="text" class="form-control" id="bal" placeholder="Balance" required/>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">Date</label>
+                <input type="date" class="form-control" id="date" required/>
+              </div>
+              
+            </div>
+            <div class="form-group mt-2">
+              
+            </div>
+            <button type="submit" class="btn btn-primary">Save Info</button>
+            <button type="submit" class="btn btn-primary">Account Info</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

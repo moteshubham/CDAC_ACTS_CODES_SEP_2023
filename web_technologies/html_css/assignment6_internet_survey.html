@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internet Survey</title>
+    <style>
+      table {
+        width: 100%;
+        padding: 20px;
+        border-spacing: 0 10px;
+      }
+      tr {
+        margin: 30px;
+      }
+      td {
+        padding: 10px;
+      }
+      button {
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <h2>Internet Usage Survey</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque ex eum molestiae nam veniam, facere
+        odio autem libero alias hic!
+      </p>
+      <table>
+        <tr>
+          <td>What type of internet u have</td>
+          <td>
+            <select name="internet-type" id="internet-type" size="4">
+              <option value="">Dial Up</option>
+              <option value="" selected>High Speed</option>
+              <option value="">DSL</option>
+              <option value="">Other</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>What type of computer u have</td>
+          <td><input type="radio" name="dept" />Desktop <input type="radio" name="dept" />HR</td>
+        </tr>
+        <tr>
+          <td>How would you describe your main reason for using internet</td>
+          <td>
+            <input type="radio" name="dept" />to do work related things <br />
+            <input type="radio" name="dept" />Lorem ipsum dolor sit amet. <br />
+            <input type="radio" name="dept" />Lorem ipsum dolor sit amet. <br />
+            <input type="radio" name="dept" />Lorem ipsum dolor sit amet.
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <fieldset>
+              <legend>Types of sites visited</legend>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, voluptas?</p>
+              <input type="radio" name="sites" />Self Improvement <br />
+              <input type="radio" name="sites" />Entertainment <br />
+              <input type="radio" name="sites" />News and Sports <br />
+              <input type="radio" name="sites" />References<br />
+              <input type="radio" name="sites" />Email<br />
+            </fieldset>
+          </td>
+          <td>
+            <fieldset>
+              <legend>Time spent using internet</legend>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, voluptas?</p>
+              <input type="checkbox" name="sites" />0-3 hours<br />
+              <input type="checkbox" name="sites" />0-3 hours <br />
+              <input type="checkbox" name="sites" />0-3 hours<br />
+              <input type="checkbox" name="sites" />0-3 hours<br />
+              <input type="checkbox" name="sites" />0-3 hours<br />
+            </fieldset>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, assumenda?
+            <br />
+            <textarea name="opinion" id="opinion-text" cols="60" rows="5"> </textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>First Name: <input type="text" /></td>
+          <td>Last Name: <input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Age: <input type="text" /></td>
+          <td>Zip Code: <input type="text" /></td>
+        </tr>
+        <tr>
+          <td align="right"><button type="submit">Submit</button></td>
+          <td align="left"><button type="reset">Clear</button></td>
+        </tr>
+      </table>
+    </fieldset>
+  </body>
+</html>

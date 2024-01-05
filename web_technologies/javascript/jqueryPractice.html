@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery practice</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" crossorigin="anonymous"></script>
+    <style>
+      .myclass {
+        background-color: aqua;
+        color: red;
+      }
+      .myc {
+        background-color: white;
+        color: black;
+      }
+      .mycc {
+        background-color: rgb(44, 15, 211);
+        color: rgb(46, 209, 60);
+      }
+      #Images {
+        height: 100px;
+        width: auto;
+      }
+    </style>
+    <!-- <script>
+      $(document).ready(function () {
+        $("#btn").click(function () {
+          $("p").html("shubham");
+        });
+
+        $("p").hover(
+          function () {
+            $("p").removeClass("mycc").addClass("myclass");
+          },
+          function () {
+            $("p").removeClass("myclass");
+          }
+        );
+      });
+    </script> -->
+  </head>
+
+  <script>
+    $(document).ready(function () {
+      var promise1 = fetch("https://dummyjson.com/products/12")
+        .then((result) => result.json())
+        .then(
+          (data) => {
+            console.log(data);
+            $("#btn").click(function () {
+              $("#Brand").html(data.brand);
+              $("#Category").html(data.category);
+              $("#Description").html(data.description);
+              $("#Brand").html(data.brand);
+              $("#Images").attr("src", data.images[0]);
+              $("#Price").html(data.price);
+            });
+          },
+          (error) => console.log(error)
+        );
+    });
+
+    // $(document).ready(function () {
+    //   var promise1 = fetch("https://dummyjson.com/products/5")
+    //     .then((result) => console.log(result))
+    //     .then(
+    //       (data) => {
+    //         console.log(data);
+    //
+    //       },
+    //       (error) => console.log(error)
+    //     );
+    // });
+
+    // .catch((error) => console.log("Error : " + error));
+
+    //   var data = promise1.then(
+    //     (data) => {
+    //       $("#btn").click(function () {
+    //         $("#Brand").html(data);
+    //       });
+    //     },
+    //     (error) => console.log(error)
+    //   );
+    //   console.log(data);
+    nfn
+  </script>
+
+  <body style="text-align: center; margin-top: 120px">
+    <input type="text" id="input" />
+    <button type="submit" id="btn" style="height: 15px; width: 50px"></button>
+    <div>Brand : <span id="Brand"> </span></div>
+    <div>Images : <img id="Images" src="" alt="" /></div>
+    <div>Category : <span id="Category"></span></div>
+    <div>Description : <span id="Description"></span></div>
+    <div>Price : <span id="Price"></span></div>
+    <div>Rating : <span id="Rating"></span></div>
+    <div>Stock : <span id="Stock"></span></div>
+    <div>Brand : <span id="Brand"></span></div>
+  </body>
+</html>

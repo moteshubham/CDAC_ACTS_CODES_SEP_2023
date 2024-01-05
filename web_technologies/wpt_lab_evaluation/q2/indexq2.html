@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./indexq2.css" />
+    <script src="./indexq2.js"></script>
+    <title>Question 2</title>
+  </head>
+  <body onload="showTodo()"" >
+    <div class="todo-listbox">
+      <div class="form-box">
+        <div class="organize-box">
+          <form onsubmit="return addTodo() ">
+            <div class="input-field">
+              <input type="text" id="todo-item" size="10" />
+            </div>
+            <div class="btn">
+              <button type="submit" name="add">Add</button>
+            </div>
+          </form>
+        </div>
+        <p id="empty" ></p>
+        <div id="print"></div>
+        <!-- <div class="todo-list" id="print" >
+          <div class="todo-field">
+            <input type="text" value="" id="render-todo"  />
+            <button>Edit</button>
+            <button>Delete</button>
+          </div>
+
+
+
+        </div> -->
+      </div>
+
+      <div class="form-desc">
+        <h1>TO DO LIST</h1>
+        <h2>With Local Storage</h2>
+        <p class="blackbg">HTML, CSS, JavaScript</p>
+      </div>
+    </div>
+  </body>
+</html>

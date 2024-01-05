@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      #joining_day,
+      #joining_month,
+      #joining_year {
+        width: 20px;
+      }
+      table {
+        width: 450px;
+      }
+      #addr {
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <table border="2px">
+        <form class="form-table" action="#">
+          <tr>
+            <td>Name</td>
+            <td>
+              <input type="text" autofocus name="uname" id="uname" placeholder="Enter username" />
+            </td>
+          </tr>
+          <tr>
+            <td>Employee Code</td>
+            <td>
+              <input type="text" name="ecode" id="ecode" />
+            </td>
+          </tr>
+          <tr>
+            <td>Department</td>
+            <td>
+              <input type="radio" name="dept" />Admin <br />
+              <input type="radio" name="dept" />HR <br />
+              <input type="radio" name="dept" />Technical <br />
+              <input type="radio" name="dept" />Accounts
+            </td>
+          </tr>
+          <tr>
+            <td>Date Of Joining</td>
+            <td>
+              <input type="number" name="joining_date" id="joining_day" />
+
+              date
+              <input type="number" name="joining_date" id="joining_month" />
+
+              month
+              <input type="number" name="joining_date" id="joining_year" />
+
+              year
+            </td>
+          </tr>
+          <tr>
+            <td>Address</td>
+            <td>
+              <textarea name="addr" id="addr" cols="20" rows="4"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>Training Programs Attended</td>
+            <td>
+              <input type="checkbox" name="dept" />HTML/DHTML <br />
+              <input type="checkbox" name="dept" />JAVA <br />
+              <input type="checkbox" name="dept" />CLIENT/SERVER <br />
+              <input type="checkbox" name="dept" />.NET
+            </td>
+          </tr>
+          <tr>
+            <td>Programs need to be attended</td>
+            <td>
+              <select name="attended">
+                <option value="javascript" selected>javascript</option>
+                <option value="jquery">jQuery</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Send the info at</td>
+            <td><a href="mailto:abc@gmail.com">abc@gmail.com</a></td>
+          </tr>
+        </form>
+      </table>
+    </div>
+  </body>
+</html>

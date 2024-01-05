@@ -1,0 +1,4 @@
+db.books.insert([{refNo:1001, name: "Javaprog", Author:"Amruta", Pages:300, Price: 230}, {refNo:1002, name: "Shyamchi aai", Author:"Sane Guruji", Pages:250, Price: 560}, {refNo:1003, name: "Mrutyunjay", Author:"Shivaji Sawant", Pages:788, Price: 999}, {refNo:1004, name: "Facebook", Author:"Mark Zuck", Pages:344, Price: 850}])
+
+
+db.books.insert({refNo:1005, name: "Ratnagiri", Author:"Amruta", Pages:744, Price: 166})

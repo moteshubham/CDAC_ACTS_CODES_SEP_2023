@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      function findGeoLocation() {
+        const showError = (error) => {
+          console.log("error occured", error);
+        };
+        const showPosition = (position) => {
+          document.getElementById("mydiv").innerHTML =
+            "Lattitude: " + position.coords.latitude + " Longitude: " + position.coords.longitude;
+        };
+
+        if (navigator.geolocation) {
+          //getCurrentposition will                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             display current location only once
+          //watchPosition will                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         display live location
+          navigator.geolocation.getCurrentPosition(showPosition, showError);              
+        } else {
+          document.getElementById("mydiv").innerHTML = "geolocation not supported by the browser";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <button type="button" name="btn" id="btn" onclick="findGeoLocation()">get geolocation</button>
+    <div id="mydiv">d</div>
+  </body>
+</html>

@@ -1,10 +1,17 @@
 package tester;
 
-import static utils.CustomerValidationRules.*;
+import static utils.CustomerValidationRules.authenticateCustomer;
+import static utils.CustomerValidationRules.changePassword;
+import static utils.CustomerValidationRules.unsubscribe;
+import static utils.CustomerValidationRules.validateAllInputs;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.TreeMap;
 
 import com.app.core.Customer;
 
@@ -18,22 +25,26 @@ public class CustomerManagement {
 			// exam tip : start with populated sample data and delete before uploading
 			Map<String, Customer> customers = new HashMap<>();
 			boolean exit = false;
-			boolean login = false;
+
 			while (!exit) {
-				System.out
-						.println("\n\n1. Sign up\n" + "2. Sign in\n" + "3. Change password\n" + "4. Unsubscribe customer\n"
-								+ "5. Display all customers.\n" + "6. Logout\n" + "0. Exit\n" + "Choose an option : ");
+				System.out.println("\n\n1. Sign up\n" + "2. Sign in\n" + "3. Change password\n"
+						+ "4. Unsubscribe customer\n" + "5. Display all customers.\n"
+						+ "6. Sort by Email(primary key)\n7. Sort by DOB.\n" + "0. Exit\n" + "Choose an option : ");
 				try {
 					switch (sc.nextInt()) {
 					case 1:
-						System.out.println("\nEnter details : ( firstName, lastName, emailId, password, registrationAmount, dob(yyyy-MM-dd), plan )\n\n");
-						//shubham mote mote@gmail.com mote123 2000 1996-07-22 GOLD
-						//aditya khedkar aditya@gmail.com aditya123 5000 2000-01-01 DIAMOND
-						
-						Customer validatedCustomer = validateAllInputs(sc.next(), sc.next(), sc.next(), sc.next(),
+						sc.nextLine();
+
+						// shubham mote mote@gmail.com mote123 2000 1996-07-22 GOLD
+						// aditya khedkar aditya@gmail.com aditya123 5000 2000-01-01 DIAMOND
+						System.out.println(
+								"Enter firstName,  lastName,  email,  password, regAmount,  dob(yr-mon-day),  plan");
+						Customer customer = validateAllInputs(sc.next(), sc.next(), sc.next(), sc.next(),
 								sc.nextDouble(), sc.next(), sc.next(), customers);
-						customers.put(validatedCustomer.getEmailId(), validatedCustomer);
-						System.out.println(validatedCustomer);
+						customers.put(customer.getEmailId(), customer);
+						System.out.println("customer signed up !");
+						System.out.println(customer);
+
 						break;
 
 					case 2:
@@ -42,7 +53,7 @@ public class CustomerManagement {
 						String passwordInput = sc.next();
 
 						authenticateCustomer(emailInput, passwordInput, customers);
-						login = true;
+
 						break;
 
 					case 3:
@@ -62,13 +73,26 @@ public class CustomerManagement {
 						break;
 					case 5:
 						System.out.println("All customer details : ");
-						if(customers != null) {
-						for (Customer c : customers.values())
-							System.out.println(c);}
-						else
-						throw new CustomerHandlingException("Map is Null..");
+						if (customers != null) {
+							for (Customer c : customers.values())
+								System.out.println(c);
+						} else
+							throw new CustomerHandlingException("Map is Null..");
 						break;
-
+					case 6:
+						System.out.println("Sorted as per Email : ");
+						// List<Customer> listCust = new ArrayList<>(customers.values());
+						TreeMap<String, Customer> tree = new TreeMap<>(customers);
+						tree.forEach((s, c) -> System.out.println(s + "  " + c));
+//						Collections.sort(listCust);
+						break;
+					case 7:
+						System.out.println("Sorted as per DOB : ");
+						ArrayList<Customer> arrlist = new ArrayList<>(customers.values());
+						Comparator<Customer> comp = (c1, c2) -> c1.getDob().compareTo(c2.getDob());
+						Collections.sort(arrlist, comp);
+						arrlist.forEach(c -> System.out.println(c));
+						break;
 					case 0:
 						exit = true;
 					default:

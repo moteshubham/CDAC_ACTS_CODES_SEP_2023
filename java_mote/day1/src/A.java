@@ -12,4 +12,4 @@ public static void main(String[] ss)
      System.out.print("B's main");
  }
  }
-public class C{}
+ class C{}

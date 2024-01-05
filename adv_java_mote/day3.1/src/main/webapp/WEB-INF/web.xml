@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+	<display-name>day3.1</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	<!-- servlet deployment tags -->
+	<servlet>
+		<servlet-name>xyz</servlet-name>
+		<servlet-class>pages.Servlet2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>xyz</servlet-name> 
+		<url-pattern>/test2</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>xyz1</servlet-name>
+		<servlet-class>pages.Servlet4</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>xyz1</servlet-name>
+		<url-pattern>/test4</url-pattern>
+	</servlet-mapping>
+</web-app>

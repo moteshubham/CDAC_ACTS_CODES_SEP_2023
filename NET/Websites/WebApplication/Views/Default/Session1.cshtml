@@ -1,0 +1,13 @@
+﻿@using Microsoft.AspNetCore.Http
+@using System.Text.Json;
+@inject IHttpContextAccessor x
+@{
+	//string b = HttpContext.Session.GetString("b");    //directly http context is not available in view but can be accessed with IHttpContextAccessor
+
+	string s = x.HttpContext.Session.GetString("b");
+}
+<h6>session brought here the below data</h6>
+<br />
+@ViewBag.name
+<br />
+@s

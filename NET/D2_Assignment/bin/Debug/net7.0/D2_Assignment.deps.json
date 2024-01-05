@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "D2_Assignment/1.0.0": {
+        "dependencies": {
+          "Math": "1.0.0"
+        },
+        "runtime": {
+          "D2_Assignment.dll": {}
+        }
+      },
+      "Math/1.0.0": {
+        "runtime": {
+          "Math.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "D2_Assignment/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Math/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
