@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: my-mysql-container
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: sample_db
+      MYSQL_USER: sample_user
+      MYSQL_PASSWORD: sample_password
+    ports:
+      - "3340:3306"
+    networks:
+      - mynetwork
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  tomcat:
+    image: tomcat:latest
+    container_name: my-tomcat-container
+    ports:
+      - "9999:8080"
+    networks:
+      - mynetwork
+    depends_on:
+      - mysql
+    command: bash -c "apt-get update && apt-get install -y mysql-client && catalina.sh run"
+
+networks:
+  mynetwork:
+
+volumes:
+  mysql_data:
+
