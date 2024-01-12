@@ -1,0 +1,316 @@
+Instructions:
+
+1. Create new directory by the name CPP in HOME directory.
+
+2. Open newly created directory in VS code with open folder option.
+
+3. After evaluation compress/zip your folder (named CPP) and upload it on EMIS.
+
+Q1.Sunbeam have multiple courses. Create an application to handle the admission process.
+
+Create a class Student with data members name, rollno, mobile
+
+Create a class called as course with data members course_name, fees
+
+Student can register for multiple courses so have proper relationship between student and courses.
+
+A student can take as many courses he wants (use of STL is allowed)
+
+Write a menu driven code which will have below menus
+
+1. Register Student
+
+2. Take course
+
+3. display specific student's taken courses
+
+4. display all students and their courses registered
+
+Also all registered students need to be stored inside the vector.
+
+create a c++ program and save teh student details in text file
+
+
+using namespace std;
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+class Course {
+public:
+    string course_name;
+    double fees;
+
+    Course(string name, double fees) : course_name(name), fees(fees) {}
+};
+
+class Student {
+public:
+    string name;
+    int rollno;
+    long long mobile;
+    vector<Course> courses;
+
+    Student(string name, int rollno, long long mobile) : name(name), rollno(rollno), mobile(mobile) {}
+
+    void takeCourse(const Course& course) {
+        courses.push_back(course);
+    }
+};
+
+class AdmissionSystem {
+public:
+    vector<Student> students;
+
+    void registerStudent(const string& name, int rollno, long long mobile) {
+        students.emplace_back(name, rollno, mobile);
+    }
+
+    void displayStudentCourses(int rollno) {
+        auto it = find_if(students.begin(), students.end(),
+                               [rollno](const Student& student) { return student.rollno == rollno; });
+
+        if (it != students.end()) {
+            cout << "Courses taken by student with Roll No. " << rollno << ":\n";
+            for (const auto& course : it->courses) {
+                cout << "- " << course.course_name << " (Fees: $" << course.fees << ")\n";
+            }
+        } else {
+            cout << "Student with Roll No. " << rollno << " not found.\n";
+        }
+    }
+
+    void displayAllStudentsAndCourses() {
+        cout << "All registered students and their courses:\n";
+        for (const auto& student : students) {
+            cout << "Student Name: " << student.name << "\n";
+            cout << "Roll No.: " << student.rollno << "\n";
+            cout << "Mobile: " << student.mobile << "\n";
+            cout << "Courses:\n";
+            for (const auto& course : student.courses) {
+                cout << "- " << course.course_name << " (Fees: $" << course.fees << ")\n";
+            }
+            cout << "----------------------\n";
+        }
+    }
+};
+
+int main() {
+    AdmissionSystem admissionSystem;
+
+    int choice;
+    do {
+        cout << "\nMenu:\n";
+        cout << "1. Register Student\n";
+        cout << "2. Take Course\n";
+        cout << "3. Display Specific Student's Taken Courses\n";
+        cout << "4. Display All Students and Their Courses\n";
+        cout << "5. Exit\n";
+        cout << "Enter your choice: ";
+        cin >> choice;
+
+        switch (choice) {
+            case 1: {
+                string name;
+                int rollno;
+                long long mobile;
+                cout << "Enter student name: ";
+                cin >> name;
+                cout << "Enter roll no.: ";
+                cin >> rollno;
+                cout << "Enter mobile number: ";
+                cin >> mobile;
+
+                admissionSystem.registerStudent(name, rollno, mobile);
+                cout << "Student registered successfully!\n";
+                break;
+            }
+            case 2: {
+                if (admissionSystem.students.empty()) {
+                    cout << "No registered students. Please register a student first.\n";
+                    break;
+                }
+
+                int rollno;
+                cout << "Enter roll no. of the student: ";
+                cin >> rollno;
+
+                auto it = find_if(admissionSystem.students.begin(), admissionSystem.students.end(),
+                [rollno](const Student& student) { return student.rollno == rollno; });
+
+                if (it != admissionSystem.students.end()) {
+                    string courseName;
+                    double fees;
+                    cout << "Enter course name: ";
+                    cin >> courseName;
+                    cout << "Enter course fees: $";
+                    cin >> fees;
+
+                    it->takeCourse(Course(courseName, fees));
+                    cout << "Course added successfully!\n";
+                } else {
+                    cout << "Student with Roll No. " << rollno << " not found.\n";
+                }
+                break;
+            }
+            case 3: {
+                if (admissionSystem.students.empty()) {
+                    cout << "No registered students. Please register a student first.\n";
+                    break;
+                }
+
+                int rollno;
+                cout << "Enter roll no. of the student: ";
+                cin >> rollno;
+
+                admissionSystem.displayStudentCourses(rollno);
+                break;
+            }
+            case 4:
+                admissionSystem.displayAllStudentsAndCourses();
+                break;
+            case 5:
+                cout << "Exiting program. Goodbye!\n";
+                break;
+            default:
+                cout << "Invalid choice. Please enter a valid option.\n";
+        }
+    } while (choice != 5);
+
+    return 0;
+}
+
+
+BlackBox-AI
+
+#include <iostream>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+class Course {
+public:
+    string course_name;
+    int fees;
+
+    Course(string course_name, int fees) {
+        this->course_name = course_name;
+        this->fees = fees;
+    }
+};
+
+class Student {
+public:
+    string name;
+    int rollno;
+    long mobile;
+    vector<Course> courses;
+
+    Student(string name, int rollno, long mobile) {
+        this->name = name;
+        this->rollno = rollno;
+        this->mobile = mobile;
+    }
+
+    void addCourse(Course course) {
+        courses.push_back(course);
+    }
+};
+
+int main() {
+    vector<Student> students;
+    int choice;
+
+    do {
+        cout << "1. Register Student\n";
+        cout << "2. Take course\n";
+        cout << "3. display specific student's taken courses\n";
+        cout << "4. display all students and their courses registered\n";
+        cout << "5. Exit\n";
+        cout << "Enter your choice: ";
+        cin >> choice;
+
+        switch (choice) {
+            case 1: {
+                string name;
+                int rollno;
+                long mobile;
+
+                cout << "Enter name: ";
+                cin >> name;
+                cout << "Enter rollno: ";
+                cin >> rollno;
+                cout << "Enter mobile: ";
+                cin >> mobile;
+
+                Student newStudent(name, rollno, mobile);
+                students.push_back(newStudent);
+                break;
+            }
+            case 2: {
+                string course_name;
+                int fees;
+
+                cout << "Enter course name: ";
+                cin >> course_name;
+                cout << "Enter course fees: ";
+                cin >> fees;
+
+                Course newCourse(course_name, fees);
+
+                cout << "Select student rollno: ";
+                int rollno;
+                cin >> rollno;
+
+                for (int i = 0; i < students.size(); i++) {
+                    if (students[i].rollno == rollno) {
+                        students[i].addCourse(newCourse);
+                        break;
+                    }
+                }
+                break;
+            }
+            case 3: {
+                cout << "Enter student rollno: ";
+                int rollno;
+                cin >> rollno;
+
+                for (int i = 0; i < students.size(); i++) {
+                    if (students[i].rollno == rollno) {
+                        cout << "Student: " << students[i].name << endl;
+                        cout << "Courses and Fees: " << endl;
+
+                        for (int j = 0; j < students[i].courses.size(); j++) {
+                            cout << "Course: " << students[i].courses[j].course_name << endl;
+                            cout << "Fees: " << students[i].courses[j].fees << endl;
+                        }
+                        break;
+                    }
+                }
+                break;
+            }
+            case 4: {
+                for (int i = 0; i < students.size(); i++) {
+                    cout << "Student: " << students[i].name << endl;
+                    cout << "Courses and Fees: " << endl;
+
+                    for (int j = 0; j < students[i].courses.size(); j++) {
+                        cout << "Course: " << students[i].courses[j].course_name << endl;
+                        cout << "Fees: " << students[i].courses[j].fees << endl;
+                    }
+                }
+                break;
+            }
+            case 5: {
+                break;
+            }
+            default: {
+                cout << "Invalid choice. Please enter again." << endl;
+            }
+        }
+    } while (choice != 5);
+
+    return 0;
+}
+

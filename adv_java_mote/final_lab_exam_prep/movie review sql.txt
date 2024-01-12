@@ -1,0 +1,27 @@
+CREATE TABLE users(
+id INT PRIMARY KEY AUTO_INCREMENT,
+first_name VARCHAR(20),
+last_name VARCHAR(20),
+email VARCHAR(40) UNIQUE,
+mobile CHAR(12),
+dob DATE,
+password VARCHAR(100)
+);
+
+CREATE TABLE movies(
+id INT PRIMARY KEY AUTO_INCREMENT,
+title VARCHAR(40) UNIQUE,
+rel_date DATE
+);
+
+CREATE TABLE reviews(
+id INT PRIMARY KEY AUTO_INCREMENT,
+movie_id INT,
+review VARCHAR(1024),
+rating INT,
+user_id INT,
+modified TIMESTAMP,
+FOREIGN KEY (user_id) REFERENCES users(id),
+FOREIGN KEY (movie_id) REFERENCES movies(id),
+UNIQUE (user_id, movie_id)
+);

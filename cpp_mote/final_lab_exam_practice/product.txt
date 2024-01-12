@@ -1,0 +1,204 @@
+Instructions:
+
+1. Create new directory by the name CPP in HOME directory.
+
+2. Open newly created directory in VS code with open folder option.
+
+3. After evaluation compress/zip your folder (named CPP) and upload it on EMIS.
+
+Q1.Create an application for e-commerce.
+
+Create a class Person with data members name.
+
+Create a class called as Seller with data members Seller_name, Id Create class Product with data members id,product_name,price Each Saller seles few products.
+
+Have proper relationships.
+
+Write a menu driven code which will have below menus
+
+1. Add Seller
+
+2. Add Product
+
+3. Display products sold by specific seller
+
+4. Display All Sellers
+
+5. Display All Products
+
+use of STL(Vector) is allowed, Inheritance is compulsory.
+
+
+#include <iostream>
+#include <vector>
+using namespece std;
+
+// Class to represent a person
+class Person {
+protected:
+    string name;
+
+public:
+    Person(const string& n) : name(n) {}
+
+    string getName() const {
+        return name;
+    }
+};
+
+// Class to represent a seller, inheriting from Person
+class Seller : public Person {
+private:
+    int id;
+
+public:
+    Seller(const string& sellerName, int sellerId)
+        : Person(sellerName), id(sellerId) {}
+
+    int getId() const {
+        return id;
+    }
+};
+
+// Class to represent a product
+class Product {
+private:
+    int id;
+    string productName;
+    double price;
+
+public:
+    Product(int productId, const string& name, double productPrice)
+        : id(productId), productName(name), price(productPrice) {}
+
+    int getId() const {
+        return id;
+    }
+
+    string getProductName() const {
+        return productName;
+    }
+
+    double getPrice() const {
+        return price;
+    }
+};
+
+// Class to represent the e-commerce system
+class ECommerceSystem {
+private:
+    vector<Seller> sellers;
+    vector<Product> products;
+
+public:
+    void addSeller(const Seller& seller) {
+        sellers.push_back(seller);
+    }
+
+    void addProduct(const Product& product) {
+        products.push_back(product);
+    }
+
+    void displayProductsBySeller(const Seller& seller) const {
+        cout << "Products sold by seller " << seller.getName() << " (ID: " << seller.getId() << "):" << endl;
+
+        for (const Product& product : products) {
+            if (product.getId() == seller.getId()) {
+                cout << "Product ID: " << product.getId() << ", Name: " << product.getProductName() << ", Price: " << product.getPrice() << endl;
+            }
+        }
+    }
+
+    void displayAllSellers() const {
+        cout << "All Sellers:" << endl;
+
+        for (const Seller& seller : sellers) {
+            cout << "Seller ID: " << seller.getId() << ", Name: " << seller.getName() << endl;
+        }
+    }
+
+    void displayAllProducts() const {
+        cout << "All Products:" << endl;
+
+        for (const Product& product : products) {
+            cout << "Product ID: " << product.getId() << ", Name: " << product.getProductName() << ", Price: " << product.getPrice() << endl;
+        }
+    }
+
+    // Added method to get all sellers
+    const vector<Seller>& getAllSellers() const {
+        return sellers;
+    }
+};
+
+int main() {
+    ECommerceSystem ecommerceSystem;
+
+    int choice;
+    do {
+        cout << "\nMenu:"
+                  << "\n1. Add Seller"
+                  << "\n2. Add Product"
+                  << "\n3. Display products sold by specific seller"
+                  << "\n4. Display All Sellers"
+                  << "\n5. Display All Products"
+                  << "\n0. Exit\n";
+
+        cout << "Enter your choice: ";
+        cin >> choice;
+
+        switch (choice) {
+        case 1: {
+            string name;
+            int id;
+            cout << "Enter seller name: ";
+            cin >> name;
+            cout << "Enter seller ID: ";
+            cin >> id;
+            Seller seller(name, id);
+            ecommerceSystem.addSeller(seller);
+            break;
+        }
+        case 2: {
+            string name;
+            int id;
+            double price;
+            cout << "Enter product name: ";
+            cin >> name;
+            cout << "Enter product ID: ";
+            cin >> id;
+            cout << "Enter product price: ";
+            cin >> price;
+            Product product(id, name, price);
+            ecommerceSystem.addProduct(product);
+            break;
+        }
+        case 3: {
+            int sellerId;
+            cout << "Enter seller ID: ";
+            cin >> sellerId;
+            for (const Seller& seller : ecommerceSystem.getAllSellers()) {
+                if (seller.getId() == sellerId) {
+                    ecommerceSystem.displayProductsBySeller(seller);
+                    break;
+                }
+            }
+            break;
+        }
+        case 4:
+            ecommerceSystem.displayAllSellers();
+            break;
+        case 5:
+            ecommerceSystem.displayAllProducts();
+            break;
+        case 0:
+            cout << "Exiting program.\n";
+            break;
+        default:
+            cout << "Invalid choice. Please try again.\n";
+        }
+
+    } while (choice != 0);
+
+    return 0;
+}
