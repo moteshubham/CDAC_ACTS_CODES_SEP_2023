@@ -1,0 +1,7 @@
+echo "Bash scripting lets you automate repetitive tasks" > cdac.txt
+echo "Bash scripting is incredibly versatile" >> cdac.txt
+echo "Fascinating world of Bash scripting" >> cdac.txt
+echo "More bash scripting" >> cdac.txt
+echo "Last line in the file" >> cdac.txt
+
+sed -i '1,3p; 2a\Hello there' cdac.txt //use -n to append only no changes in file

@@ -1,0 +1,246 @@
+set 2
+
+Q1.1
+
+#!/bin/bash
+
+# Accept three numbers from the user
+read -p "Enter the first number: " num1
+read -p "Enter the second number: " num2
+read -p "Enter the third number: " num3
+
+# Find the largest number
+largest=$num1
+
+if [ $num2 -gt $largest ]; then
+    largest=$num2
+fi
+
+if [ $num3 -gt $largest ]; then
+    largest=$num3
+fi
+
+# Print the largest number
+echo "The largest number is: $largest"
+Save this script in a file, for example, find_largest.sh. Make the script executable using the following command:
+
+chmod +x find_largest.sh
+
+Then, you can run the script:
+
+./find_largest.sh
+
+Q1.2
+
+Certainly! You can use the grep command with the -v option to exclude lines containing a specific pattern. In this case, you want to exclude lines containing the word "Java." Here's the command:
+
+grep -v "Java" cdac.txt | wc -l
+
+Explanation:
+
+grep -v "Java": This part of the command selects lines that do not contain the word "Java."
+wc -l: This part of the command counts the number of lines.
+So, the overall command counts the number of lines in 'cdac.txt' that do not contain the word "Java."
+
+Q1.3
+
+# Create a directory called 'one'
+mkdir one
+
+# Change into the 'one' directory
+cd one
+
+# Create two files inside 'one'
+touch file1.txt file2.txt
+
+# Create a directory called 'two' inside 'one'
+mkdir two
+
+# Copy the two files from 'one' to 'two'
+cp file1.txt file2.txt two/
+Now, you should have a directory structure with 'one' containing two files ('file1.txt' and 'file2.txt') and a subdirectory 'two' containing the same two files.
+
+You can check the directory structure and contents using the ls command:
+
+ls -R
+
+This will show the contents of both directories and subdirectories.
+
+Q1.4
+
+find . -type f -name "abc.txt"
+
+This command searches for files (-type f) with the name "abc.txt" in the current directory (.) and its subdirectories. If any such files exist, they will be listed in the output.
+
+Make sure you run this command in the directory where you expect to find the file "abc.txt" or its subdirectories. If the file exists, the command will display its path. If not, it will not output anything.
+
+Q2.a
+
+import java.util.Scanner;
+
+public class FactorialCalculator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Accept a number from the user
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+
+        // Calculate and display the factorial
+        long factorial = calculateFactorial(number);
+        System.out.println("Factorial of " + number + " is: " + factorial);
+
+        scanner.close();
+    }
+
+    private static long calculateFactorial(int n) {
+        if (n == 0 || n == 1) {
+            return 1;
+        } else {
+            return n * calculateFactorial(n - 1);
+        }
+    }
+}
+
+Now, to move this program to GitHub, you can follow these steps:
+
+Create a Git Repository on GitHub:
+
+Go to GitHub and log in to your account.
+Click on the "+" icon in the top right corner and select "New repository."
+Set a name for your repository (e.g., "FactorialCalculator") and provide a brief description.
+Initialize this repository with a README file (optional).
+Click on "Create repository."
+Clone the GitHub Repository to Your Local Machine:
+
+Open a terminal on your local machine.
+Navigate to the directory where you want to store the project.
+Run the following command, replacing <repository_url> with the URL of your GitHub repository:
+git clone <repository_url>
+
+Move Your Java Program into the Local Repository:
+
+Copy your Java program (FactorialCalculator.java) into the local repository.
+Commit and Push to GitHub:
+
+In the terminal, navigate to your local repository:
+bash
+Copy code
+cd FactorialCalculator
+Add the new file and commit the changes:
+git add FactorialCalculator.java
+git commit -m "Add FactorialCalculator program"
+
+Push the changes to GitHub:
+git push origin master
+
+Now, your Java program is on GitHub. You can access it through the repository you created.
+
+Create a Dockerfile:
+
+Create a file named Dockerfile (without any file extension) with the following content:
+
+Dockerfile
+
+# Use a Java runtime as a base image
+FROM openjdk:latest
+
+# Set the working directory in the container
+WORKDIR /usr/src/app
+
+# Copy the Java program into the container
+COPY FactorialCalculator.java .
+
+# Compile the Java program
+RUN javac FactorialCalculator.java
+
+# Run the compiled Java program
+CMD ["java", "FactorialCalculator"]
+This Dockerfile uses the official OpenJDK image, sets the working directory, copies the Java program, compiles it, and then specifies the command to run the compiled program.
+
+Build the Docker Image:
+
+Open a terminal in the directory where your Dockerfile and FactorialCalculator.java are located, and run the following command to build the Docker image:
+
+docker build -t factorial-calculator-java .
+This command will build a Docker image with the tag factorial-calculator-java.
+
+Run the Docker Container:
+
+After successfully building the image, you can run a Docker container based on it:
+
+docker run factorial-calculator-java
+
+Q2.b 
+
+Step 1: Create a New Maven Project with Dependencies
+Open your preferred integrated development environment (IDE) like IntelliJ or Eclipse.
+Create a new Maven project and choose the "Simple Project" or "Quickstart" archetype.
+Configure your project details, such as GroupId and ArtifactId.
+Step 2: Write Selenium Script for Yelp Search
+Create a Selenium script for the Yelp search scenario. Below is a simple example using Java and TestNG:
+
+java
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.*;
+
+public class YelpSearchTest {
+    WebDriver driver;
+
+    @BeforeMethod
+    public void setup() {
+        // Set up WebDriver (Assuming you have ChromeDriver installed)
+        System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
+        driver = new ChromeDriver();
+    }
+
+    @Test
+    public void yelpSearchTest() {
+        // Navigate to Yelp
+        driver.get("https://www.yelp.com/");
+
+        // Enter "Restaurant" in the search box
+        WebElement searchBox = driver.findElement(By.id("find_desc"));
+        searchBox.sendKeys("Restaurant");
+
+        // Click on the search button
+        WebElement searchButton = driver.findElement(By.id("header-search-submit"));
+        searchButton.click();
+
+        // Verify the title of the result page
+        String expectedTitle = "Search Results for 'Restaurant' - Yelp";
+        String actualTitle = driver.getTitle();
+        Assert.assertEquals(actualTitle, expectedTitle, "Title does not match expected");
+    }
+
+    @AfterMethod
+    public void tearDown() {
+        // Close the browser
+        driver.quit();
+    }
+}
+Step 3: Create a New Maven Project in Jenkins
+Open Jenkins and create a new job:
+
+Click on "New Item."
+Enter a name for your job and select "Maven project."
+Click "OK."
+Configure the job:
+
+In the "Source Code Management" section, specify the repository URL.
+In the "Build" section, set the "Root POM" to your project's pom.xml.
+Save the configuration.
+
+Step 4: Execute the Jenkins Job
+Run the Jenkins job:
+
+Click on "Build Now" to trigger the job.
+View the console output:
+
+Once the build is complete, go to the job's build history and click on the build number.
+Check the console output for the results of the Maven build and test execution.

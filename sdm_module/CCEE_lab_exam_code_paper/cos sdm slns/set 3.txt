@@ -1,0 +1,238 @@
+set 3
+
+Q1.1
+
+#!/bin/bash
+
+# Accept three numbers from the user
+read -p "Enter the first number: " num1
+read -p "Enter the second number: " num2
+read -p "Enter the third number: " num3
+
+# Calculate the average
+average=$(echo "scale=2; ($num1 + $num2 + $num3) / 3" | bc)
+
+# Display the average
+echo "The average of $num1, $num2, and $num3 is: $average"
+
+Save this script in a file, for example, calculate_average.sh. Make the script executable using the following command:
+
+
+chmod +x calculate_average.sh
+
+Then, you can run the script:
+
+./calculate_average.sh
+
+Q1.2
+
+wc cdac.txt
+
+This command will provide output in the form:
+
+  5  22 161 cdac.txt
+Here, the numbers represent:
+
+5: Number of lines
+22: Number of words
+161: Number of characters
+
+Q1.3
+
+Certainly! You can use the chmod command to change the permissions of a file. To ensure that only the owner can make changes, you need to set the appropriate permission. Here's how you can do it:
+
+# Create the file
+touch cdac.jsp
+
+# Change permissions to allow only the owner to make changes
+chmod 600 cdac.jsp
+
+In this example:
+
+chmod 600: Sets read and write permissions for the owner (6 corresponds to read and write permission), and no permissions for the group and others.
+Now, only the owner of the file cdac.jsp will have the ability to read and write to it. Adjust the permissions as needed based on your specific requirements.
+
+Q1.4
+
+Certainly! Here are the commands to add a new user named cdac and change the owner of the file cdac.jsp to the cdac user:
+
+# Add a new user named 'cdac'
+sudo adduser cdac
+
+# Change the owner of the file to the 'cdac' user
+sudo chown cdac:cdac cdac.jsp
+
+
+These commands do the following:
+
+sudo adduser cdac: Adds a new user named cdac. You will be prompted to set a password and other user details.
+
+sudo chown cdac:cdac cdac.jsp: Changes the owner of the file cdac.jsp to the user cdac and the group cdac. Adjust the file ownership as needed.
+
+Now, the file cdac.jsp is owned by the cdac user, and you can set permissions accordingly.
+
+
+Q2.a
+
+Step 1: Create Java Program
+Create a Java program, for example, SumOfDigitsCalculator.java, with the following content:
+
+java -
+
+import java.util.Scanner;
+
+public class SumOfDigitsCalculator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Accept a number from the user
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+
+        // Calculate and display the sum of digits
+        int sum = calculateSumOfDigits(number);
+        System.out.println("Sum of digits in " + number + " is: " + sum);
+
+        scanner.close();
+    }
+
+    private static int calculateSumOfDigits(int n) {
+        int sum = 0;
+        while (n != 0) {
+            sum += n % 10;
+            n /= 10;
+        }
+        return sum;
+    }
+}
+
+Step 2: Move to GitHub
+Initialize Git Repository:
+
+git init
+
+Add and Commit the Java Program:
+
+git add SumOfDigitsCalculator.java
+git commit -m "Add SumOfDigitsCalculator program"
+Create a Repository on GitHub:
+
+Go to GitHub and create a new repository.
+Follow the instructions to add a remote to your local Git repository.
+
+Push to GitHub:
+
+git remote add origin <repository_url>
+git push -u origin master
+Step 3: Create Dockerfile
+Create a file named Dockerfile (without any file extension) with the following content:
+
+Dockerfile
+
+# Use a Java runtime as a base image
+FROM openjdk:latest
+
+# Set the working directory in the container
+WORKDIR /usr/src/app
+
+# Copy the Java program into the container
+COPY SumOfDigitsCalculator.java .
+
+# Compile the Java program
+RUN javac SumOfDigitsCalculator.java
+
+# Run the compiled Java program
+CMD ["java", "SumOfDigitsCalculator"]
+Step 4: Build Docker Image and Run Container
+
+Build the Docker Image:
+
+docker build -t sum-of-digits-calculator-java .
+
+Run the Docker Container:
+
+docker run sum-of-digits-calculator-java
+
+Now, your Java program is on GitHub, and you have a Docker container running it. Adjust the script, Dockerfile, or program as needed for your specific requirements.
+
+Q2.b
+
+Step 1: Create a New Maven Project with Dependencies
+Open your preferred integrated development environment (IDE) like IntelliJ or Eclipse.
+Create a new Maven project and choose the "Simple Project" or "Quickstart" archetype.
+Configure your project details, such as GroupId and ArtifactId.
+
+Step 2: Write Selenium Script for Practice Login
+Create a Selenium script for the Practice Login scenario. Below is a simple example using Java and TestNG:
+
+java -
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.*;
+
+public class PracticeLoginTest {
+    WebDriver driver;
+
+    @BeforeMethod
+    public void setup() {
+        // Set up WebDriver (Assuming you have ChromeDriver installed)
+        System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
+        driver = new ChromeDriver();
+    }
+
+    @Test
+    public void practiceLoginTest() {
+        // Navigate to the login page
+        driver.get("https://practice.automationtesting.in/my-account/");
+
+        // Enter first name, last name, and click on Login
+        WebElement firstName = driver.findElement(By.id("reg_username"));
+        WebElement lastName = driver.findElement(By.id("reg_password"));
+        WebElement loginButton = driver.findElement(By.name("register"));
+
+        firstName.sendKeys("John");
+        lastName.sendKeys("Doe");
+        loginButton.click();
+
+        // Verify the error message
+        WebElement errorMessage = driver.findElement(By.xpath("//ul[@class='woocommerce-error']/li"));
+        String actualErrorMessage = errorMessage.getText();
+        String expectedErrorMessage = "Error: Passwords should be at least 12 characters long.";
+        Assert.assertEquals(actualErrorMessage, expectedErrorMessage, "Error message does not match expected");
+    }
+
+    @AfterMethod
+    public void tearDown() {
+        // Close the browser
+        driver.quit();
+    }
+}
+
+Step 3: Create a New Maven Project in Jenkins
+Open Jenkins and create a new job:
+
+Click on "New Item."
+Enter a name for your job and select "Maven project."
+Click "OK."
+Configure the job:
+
+In the "Source Code Management" section, specify the repository URL.
+In the "Build" section, set the "Root POM" to your project's pom.xml.
+Save the configuration.
+
+Step 4: Execute the Jenkins Job
+Run the Jenkins job:
+
+Click on "Build Now" to trigger the job.
+View the console output:
+
+Once the build is complete, go to the job's build history and click on the build number.
+Check the console output for the results of the Maven build and test execution.
+
+
+
+

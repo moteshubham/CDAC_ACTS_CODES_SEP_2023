@@ -1,0 +1,272 @@
+set 4 
+
+Q1.1
+
+#!/bin/bash
+
+# Accept Sales and Cost from the user
+read -p "Enter Sales: " sales
+read -p "Enter Cost: " cost
+
+# Calculate Profit
+profit=$((sales - cost))
+
+# Calculate Taxes (10% of Profit)
+taxes=$(echo "scale=2; 0.1 * $profit" | bc)
+
+# Calculate Net Profit
+net_profit=$(echo "scale=2; $profit - $taxes" | bc)
+
+# Display the result
+echo "Profit: $profit"
+echo "Taxes (10%): $taxes"
+echo "Net Profit: $net_profit"
+
+Save this script in a file, for example, calculate_profit.sh. Make the script executable using the following command:
+
+chmod +x calculate_profit.sh
+
+Then, you can run the script:
+
+./calculate_profit.sh
+
+Q1.2
+
+# Create the file and write 5 lines
+echo "Bash scripting lets you automate repetitive tasks" > cdac.txt
+echo "Bash scripting is incredibly versatile" >> cdac.txt
+echo "Fascinating world of Bash scripting" >> cdac.txt
+echo "Line 4" >> cdac.txt
+echo "Line 5" >> cdac.txt
+
+# Display lines between 1 and 3
+sed -n '1,3p' cdac.txt
+
+# Append a new line 'Hello there' after line 2
+sed '2a Hello there' cdac.txt -i
+
+Explanation:
+
+echo "text" > cdac.txt: Writes the specified text to the file.
+sed -n '1,3p' cdac.txt: Displays lines 1 to 3 of the file.
+sed '2a Hello there' cdac.txt -i: Appends "Hello there" after line 2 in the file. The -i option modifies the file in place.
+After running these commands, you'll have the lines displayed and the new line appended in the cdac.txt file.
+
+Q1.3
+
+# Create directory 'one' and add two files
+mkdir one
+echo "File 1 in one directory" > one/file1.txt
+echo "File 2 in one directory" > one/file2.txt
+
+# Create directory 'two' inside 'one' and add two files
+mkdir one/two
+echo "File 1 in two directory" > one/two/file1.txt
+echo "File 2 in two directory" > one/two/file2.txt
+
+# Create directory 'three' inside 'two' and add two files
+mkdir one/two/three
+echo "File 1 in three directory" > one/two/three/file1.txt
+echo "File 2 in three directory" > one/two/three/file2.txt
+
+# Go to 'one' directory and remove everything under it
+cd one
+rm -r *
+
+This sequence of commands does the following:
+
+Creates the directory structure ('one', 'two', 'three').
+Adds two files in each directory.
+Goes to the 'one' directory and removes everything under it using rm -r *.
+Please be cautious while using rm -r *, as it recursively removes all files and directories in the specified location. Ensure that you are in the correct directory and that you intend to remove the contents. Adjust the commands as needed for your specific requirements.
+
+Q1.4
+
+Add a new user 'cdac':
+
+sudo adduser cdac
+
+This command will prompt you to set a password and provide additional information for the new user.
+
+Remove the user 'cdac':
+
+sudo deluser cdac
+
+This command will remove the user 'cdac'. If you want to remove the home directory and mail spool associated with the user, you can use the following:
+
+sudo deluser --remove-home cdac
+
+Q2.a
+
+Step 1: Create Java Program
+Create a Java program, for example, ReverseNumber.java, with the following content:
+
+java-
+
+import java.util.Scanner;
+
+public class ReverseNumber {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Accept a number from the user
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+
+        // Reverse the digits of the number
+        int reversedNumber = reverseDigits(number);
+
+        // Display the reversed number
+        System.out.println("Reversed number: " + reversedNumber);
+
+        scanner.close();
+    }
+
+    private static int reverseDigits(int n) {
+        int reversed = 0;
+        while (n != 0) {
+            int digit = n % 10;
+            reversed = reversed * 10 + digit;
+            n /= 10;
+        }
+        return reversed;
+    }
+}
+
+Step 2: Move to GitHub
+Initialize Git Repository:
+
+git init
+
+Add and Commit the Java Program:
+
+git add ReverseNumber.java
+git commit -m "Add ReverseNumber program"
+
+Create a Repository on GitHub:
+
+Go to GitHub and create a new repository.
+Follow the instructions to add a remote to your local Git repository.
+Push to GitHub:
+
+git remote add origin <repository_url>
+git push -u origin master
+
+Step 3: Create Dockerfile
+Create a file named Dockerfile (without any file extension) with the following content:
+
+Dockerfile-
+
+# Use a Java runtime as a base image
+FROM openjdk:latest
+
+# Set the working directory in the container
+WORKDIR /usr/src/app
+
+# Copy the Java program into the container
+COPY ReverseNumber.java .
+
+# Compile the Java program
+RUN javac ReverseNumber.java
+
+# Run the compiled Java program
+CMD ["java", "ReverseNumber"]
+
+Step 4: Build Docker Image and Run Container
+Build the Docker Image:
+
+docker build -t reverse-number-java .
+Run the Docker Container:
+
+docker run reverse-number-java
+
+Q2.b
+
+Step 1: Create a Maven Project with Dependencies
+Open your IDE (Eclipse, IntelliJ, etc.).
+
+Create a new Maven project:
+
+Choose "File" -> "New" -> "Project..."
+Select "Maven" -> "Maven Project" -> "Next."
+Check "Create a simple project" and "Use default Workspace location."
+Click "Next" and provide the "Group Id" and "Artifact Id" (e.g., com.example, selenium-test).
+Click "Finish."
+Add Selenium dependencies to your pom.xml file:
+
+xml -
+
+<dependencies>
+    <!-- Selenium WebDriver -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>3.141.59</version>
+    </dependency>
+</dependencies>
+Make sure to use the latest version of Selenium WebDriver.
+
+Step 2: Write Selenium Script
+Create a Java class (e.g., LoginTest.java) in the src/test/java folder and write the Selenium script:
+
+java-
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class LoginTest {
+
+    public static void main(String[] args) {
+        // Set the path to the chromedriver executable
+        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+
+        // Create a new instance of the ChromeDriver
+        WebDriver driver = new ChromeDriver();
+
+        // Navigate to the login page
+        driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
+
+        // Enter username and password
+        WebElement usernameInput = driver.findElement(By.id("login1"));
+        WebElement passwordInput = driver.findElement(By.id("password"));
+        WebElement loginButton = driver.findElement(By.name("proceed"));
+
+        usernameInput.sendKeys("your_username");
+        passwordInput.sendKeys("your_password");
+        loginButton.click();
+
+        // Verify the error message
+        WebElement errorMessage = driver.findElement(By.id("div_login_error"));
+        String actualErrorMessage = errorMessage.getText();
+        String expectedErrorMessage = "Invalid Username or Password";
+
+        if (actualErrorMessage.equals(expectedErrorMessage)) {
+            System.out.println("Login Test Passed!");
+        } else {
+            System.out.println("Login Test Failed!");
+        }
+
+        // Close the browser
+        driver.quit();
+    }
+}
+
+Step 3: Create a Maven Project in Jenkins
+Open Jenkins and click on "New Item."
+Enter a name for your project (e.g., SeleniumTest) and select "Maven Project."
+Click "OK."
+
+Step 4: Configure Jenkins
+In the project configuration, under "Source Code Management," select your version control system (e.g., Git).
+
+Set the repository URL.
+
+In the "Build" section, add the following goals under "Goals and options":
+
+clean test
+
+Set the "Root POM" to the path of your project's pom.xml file.
+
+Save the configuration.

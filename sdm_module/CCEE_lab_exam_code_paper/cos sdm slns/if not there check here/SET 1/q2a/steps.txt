@@ -1,0 +1,2 @@
+docker build -t greatest3 .
+docker run greatest3

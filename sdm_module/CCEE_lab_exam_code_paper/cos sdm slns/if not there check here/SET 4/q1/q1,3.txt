@@ -1,0 +1,8 @@
+mkdir one
+touch one/file1.txt one/file2.txt
+mkdir one/two
+touch one/two/file3.txt one/two/file4.txt
+mkdir one/two/three
+touch one/two/three/file5.txt one/two/three/file6.txt
+cd one
+rm -rf *

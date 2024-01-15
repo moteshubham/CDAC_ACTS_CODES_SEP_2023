@@ -1,0 +1,2 @@
+sudo useradd -m akhil
+sudo chown akhil:akhil abc.txt

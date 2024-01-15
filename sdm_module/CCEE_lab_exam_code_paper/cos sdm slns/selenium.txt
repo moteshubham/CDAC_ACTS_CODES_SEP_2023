@@ -1,0 +1,46 @@
+public void testLogin() {
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		
+		driver.get("https://practice.automationtesting.in/my-account/");
+		driver.manage().window().maximize();
+		
+		driver.findElement(By.id("username")).sendKeys("FirstName");
+		driver.findElement(By.id("password")).sendKeys("FirstName");
+		driver.findElement(By.cssSelector("#customer_login > div.u-column1.col-1 > form > p:nth-child(3) > input.woocommerce-Button.button")).click() ;
+		
+		String expected = "Error: The password you entered for the username FirstName is incorrect. Lost your password?";
+		String act = driver.findElement(By.cssSelector("#page-36 > div > div.woocommerce > ul > li")).getText();
+
+		
+		System.out.println(act);
+
+		assertEquals(expected,act);
+		
+	}
+
+
+
+
+
+
+public void testLogin() {
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		
+		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
+		driver.manage().window().maximize();
+		
+		driver.findElement(By.id("login1")).sendKeys("email@email.com");
+		driver.findElement(By.id("password")).sendKeys("password");
+		driver.findElement(By.cssSelector("body > div.wrapper > div.lft_wrap > div.top_bar > div:nth-child(2) > form > div.floatL.leftwidth > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > input.signinbtn")).click() ;
+		
+		String expected = "Wrong username and password combination.";
+		String act = driver.findElement(By.id("div_login_error")).getText();
+
+		
+		System.out.println(act);
+
+		assertEquals(expected,act);
+		
+	}

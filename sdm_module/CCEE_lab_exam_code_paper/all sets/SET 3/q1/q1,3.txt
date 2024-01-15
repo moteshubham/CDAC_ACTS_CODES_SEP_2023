@@ -1,0 +1,2 @@
+chmod 600 <filename>
+chmod -R <directory-name>

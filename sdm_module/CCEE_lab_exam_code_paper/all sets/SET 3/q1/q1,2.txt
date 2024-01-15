@@ -1,0 +1,7 @@
+
+
+
+wc -l cdac.txt //no of lines
+wc -w cdac.txt //no of words
+wc -c cdac.txt //no of characters
+wc cdac.txt // all three functions

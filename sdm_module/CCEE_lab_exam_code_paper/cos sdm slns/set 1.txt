@@ -1,0 +1,203 @@
+set 1
+
+Q1.1
+
+#!/bin/bash
+
+# Accept two strings from the user
+read -p "Enter the first string: " string1
+read -p "Enter the second string: " string2
+
+# Check if the two strings match
+if [ "$string1" == "$string2" ]; then
+    echo "The two strings match"
+else
+    echo "The two strings do not match"
+fi
+Save this script in a file, for example, compare_strings.sh.
+
+Make the script executable using the following command:
+
+chmod +x compare_strings.sh
+
+Then, you can run the script:
+
+./compare_strings.sh
+
+Q1.2
+
+# Create 'cdac.txt' and write 5 lines
+echo "Bash scripting lets you automate repetitive tasks" > cdac.txt
+echo "Bash scripting is incredibly versatile" >> cdac.txt
+echo "Fascinating world of Bash scripting" >> cdac.txt
+
+# Count the number of lines containing the word "Bash"
+grep -c "Bash" cdac.txt
+
+Q1.3
+
+To rename a file in Linux, you can use the mv command. In your case, you want to rename the file "cdac.jsp" to "dac.jsp." Here's the command to achieve that:
+
+mv cdac.jsp dac.jsp
+
+This command will rename the file "cdac.jsp" to "dac.jsp" in the same directory. If you want to move the file to a different directory while renaming it, you can provide the full path to the destination directory:
+
+mv cdac.jsp /path/to/destination/dac.jsp
+
+Make sure you have the necessary permissions to perform these operations, and be cautious to avoid accidental overwrites.
+
+Q1.4
+
+To find a process running with a specific Process ID (PID) in Linux, you can use the ps command or pgrep command. Here's how you can do it with both:
+
+Using ps:
+
+ps -p 2391
+
+This command will display information about the process with PID 2391.
+
+Using pgrep:
+
+pgrep -l 2391
+
+Q2.a
+
+javacode -
+public class SumOfLargestNumber {
+    public static void main(String[] args) {
+        // Initialize three integers
+        int num1 = 15;
+        int num2 = 8;
+        int num3 = 20;
+
+        // Find the largest number among the three
+        int largest = findLargest(num1, num2, num3);
+
+        // Display the largest number
+        System.out.println("The largest number is: " + largest);
+
+        // Display the sum of the largest number
+        int sum = num1 + num2 + num3;
+        System.out.println("The sum of the largest number and other two numbers is: " + sum);
+    }
+
+    // Method to find the largest number among three
+    private static int findLargest(int a, int b, int c) {
+        return Math.max(Math.max(a, b), c);
+    }
+}
+
+Save this program in a file named SumOfLargestNumber.java. Compile it using the following command:
+
+javac SumOfLargestNumber.java
+
+Execute the compiled program:
+
+java SumOfLargestNumber
+
+
+Create a file named Dockerfile (without any file extension) with the following content:
+
+Dockerfile -
+# Use a Java runtime as a base image
+FROM openjdk:latest
+
+# Set the working directory in the container
+WORKDIR /usr/src/app
+
+# Copy the Java program into the container
+COPY SumOfLargestNumber.java .
+
+# Compile the Java program
+RUN javac SumOfLargestNumber.java
+
+# Run the compiled Java program
+CMD ["java", "SumOfLargestNumber"]
+This Dockerfile uses the official OpenJDK image, sets the working directory, copies the Java program, compiles it, and then specifies the command to run the compiled program.
+
+Build the Docker Image:
+
+Open a terminal in the directory where your Dockerfile and SumOfLargestNumber.java are located, and run the following command to build the Docker image:
+
+docker build -t sum-of-largest-number-java .
+
+Run the Docker Container:
+After successfully building the image, you can run a Docker container based on it:
+
+docker run sum-of-largest-number-java
+
+Make sure you have Docker installed on your system, and you are running these commands in the same directory where the Dockerfile and SumOfLargestNumber.java are located. Adjust the Dockerfile or program as needed for your specific requirements.
+
+Q2.b
+
+Step 1: Create a New Maven Project with Dependencies
+Open your preferred integrated development environment (IDE) like IntelliJ or Eclipse.
+Create a new Maven project and choose the "Simple Project" or "Quickstart" archetype.
+Configure your project details, such as GroupId and ArtifactId.
+Step 2: Write Selenium Script for Amazon Search
+Create a Selenium script for the Amazon search scenario. Below is a simple example using Java and TestNG:
+
+java -
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.*;
+
+public class AmazonSearchTest {
+    WebDriver driver;
+
+    @BeforeMethod
+    public void setup() {
+        // Set up WebDriver (Assuming you have ChromeDriver installed)
+        System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
+        driver = new ChromeDriver();
+    }
+
+    @Test
+    public void amazonSearchTest() {
+        // Navigate to Amazon.in
+        driver.get("https://www.amazon.in");
+
+        // Enter a product in the search bar
+        WebElement searchBox = driver.findElement(By.id("twotabsearchtextbox"));
+        searchBox.sendKeys("Laptop");
+
+        // Click on the search button
+        WebElement searchButton = driver.findElement(By.id("nav-search-submit-button"));
+        searchButton.click();
+
+        // Verify the title of the result page
+        String pageTitle = driver.getTitle();
+        Assert.assertTrue(pageTitle.contains("Laptop"), "Title does not contain the expected keyword");
+    }
+
+    @AfterMethod
+    public void tearDown() {
+        // Close the browser
+        driver.quit();
+    }
+}
+Step 3: Create a New Maven Project in Jenkins
+Open Jenkins and create a new job:
+
+Click on "New Item."
+Enter a name for your job and select "Maven project."
+Click "OK."
+Configure the job:
+
+In the "Source Code Management" section, specify the repository URL.
+In the "Build" section, set the "Root POM" to your project's pom.xml.
+Set the "Goals and options" to "clean test."
+Save the configuration.
+
+Step 4: Execute the Jenkins Job
+Run the Jenkins job:
+
+Click on "Build Now" to trigger the job.
+View the console output:
+
+Once the build is complete, go to the job's build history and click on the build number.
+Check the console output for the results of the Maven build and test execution.
+Ensure that you have Maven and ChromeDriver installed on the Jenkins server, and the paths are correctly set in your Selenium script. Adjust the script and Jenkins job configuration based on your project structure and requirements.
