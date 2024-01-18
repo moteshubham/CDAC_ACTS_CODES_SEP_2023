@@ -1,0 +1,404 @@
+Today's topics
+
+
+Enter REST (Concepts n implementation)
+Create Spring Boot application for backend of Full Stack application.
+Lombok installation
+
+
+Spring java docs links
+Link : https://docs.spring.io/spring-framework/docs/5.3.26/javadoc-api/
+Spring Data JPA Links (Bookmark them!)
+1. API Docs : https://docs.spring.io/spring-data/jpa/docs/2.7.14/api/
+2. Ref docs : https://docs.spring.io/spring-data/jpa/docs/2.7.14/reference/html/
+
+
+1. Spring boot REST
+Understand RESTful web services n it's architecture , which sits on the top of Spring MVC
+(Draw a comparison , with existing Spring MVC Flow Diagram)
+1.1 Ref : Full Stack Overview.png
+
+1.2 refer to : REST Simplified
+1.3 Diag : web app vs web service
+1.4 Readme : RestController vs MVC Controller n Annotations.txt
+
+1.5 Walk through React Code
+1.6 Develop the backend for the react app.
+
+Steps
+1. Create spring boot app : using spring boot starter project (choose packaging as JAR)
+2. Use same spring boot starters as earlier.
+Spring web , Mysql driver , Spring data JPA , Lombok , Spring Dev Tools,validation
+2.1 Since Spring boot starter DOES NOT support spring boot 2.x , choose Spring boot 3.2 n JDK 17.
+After the whole project is built , it will show you build errors(since currently we don't have JDK 17 with us !)
+2.2 Open pom.xml n edit Spring Boot parent version (line no 8)
+<version>2.7.18</version>
+And Edit Java version
+<java.version>11</java.version> (line no 17)
+
+2.3 Force update Maven . Open Maven dependencies n conform that you are actually using spring boot 2.7.x 
+
+3. NO additional dependencies for view layer(i.e no jstl n no tomcat-embeded jasper  dependencies , in pom.xml
+
+4. Copy application.properties from earlier spring boot project
+(Do not add view resolver related properties)
+
+5. Add additional dependencies , in pom.xml
+<!-- Swagger UI -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.modelmapper/modelmapper -->
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.11.0</version>
+		</dependency>
+	
+
+OR 
+If you don't want to invest time in all of above , simply import "template projects\spring_boot_backend_template" n start with the actual development .
+
+For advanced Java Lab exam , you will be getting this template project. You will have to develop the RestController, Service n DAO layer n Entities on your own , as per the requirements.
+
+5.1 Write simple RestController to serve simple resource , to confirm.
+
+5. Build the layers in bottoms up manner, for the following objectives.
+
+Objective : Complete backend for the Emp management's  front end(which is created in React)
+This DOES NOT involve YET E-R (associations between the entities) .
+E-R demo will be shared later.
+
+5.1 Continue to use advjava DB .
+5.2 Create the empty packages 
+com.app.controller
+com.app.service
+com.app.dao
+com.app.entities
+
+Copy the entities (Employee n BaseEntity) from : day17_help\ready code\entities 
+
+5.3 To reduce boilerplate code from the entities Layer , add Lombok annotations
+Ref : https://www.baeldung.com/intro-to-project-lombok
+
+What is Lombok ?
+It's helper 3rd party library , to reduce boilerplate code from java classes  , using annotations
+eg : @NoArgsConstructor , @AllArgsConstructor
+@Getter
+@Setter
+@ToString(exclude = ...,callSuper = true)
+@Data n many more
+
+Steps 
+1. Add lombok dependency : pom.xml (already done !)
+2. install lombok jar , from 
+<home dir> \.m2\repository\org\projectlombok\lombok\1.18.30
+OR open terminal/cmd prompt
+java -jar lombok-1.18.30.jar
+Specify location : IDE (STS : IDE app)
+2.5 Maven force update +  cleaning steps
+3. use annotations.
+
+To Locate IDE installation : 
+From STS IDE  --Help --Installation Details -- Configuration
+eg : C:\sts-bundle\sts-3.9.18.RELEASE\STS.exe 
+n Install Lombok JAR.
+
+OR
+
+To install Lombok jar : On Ubuntu
+1. cd /.m2/repository/org/projectlombok/lombok/1.18.28
+
+2. /usr/lib/jvm/java-11-openjdk-amd64/bin/java -jar lombok-1.18.28.jar
+
+
+
+5.5 Run the project
+R click --Run as Spring Boot App
+After running spring boot app , you will get empty emps table , in advjava DB
+Instead of inserting the data directly in DB 
+OR 
+Instead of writing all the layers (Controller , Service , DAO ) n then testing it ,
+let's write a test case 
+Refer : "day17_help\Regarding Spring Boot Testing.txt"
+
+Objetctive : Write a unit test case to insert emp recs in DB
+
+
+5.6 
+Sample data for emps.
+List<Employee> list = List.of(
+				new Employee("a1", "b1", "a1@gmail.com", "1234", LocalDate.parse("2020-10-20"), 34567, "Pune", "RnD"),
+				new Employee("a2", "b2", "a2@gmail.com", "2234", LocalDate.parse("2020-11-20"), 44567, "Pune", "RnD"),
+				new Employee("a3", "b3", "a3@gmail.com", "1274", LocalDate.parse("2023-10-20"), 14567, "Pune", "RnD"),
+				new Employee("a4", "b4", "a4@gmail.com", "2234", LocalDate.parse("2022-10-20"), 40567, "Mumbai","Finance"));
+
+Write a Test case n insert data in emps table.
+
+
+7. Create REST APIS for the following (in a very simple manner)	
+				
+1. Get All Employees :
+Steps
+Employee entity (already exists)
+EmployeeDao : extends JpaRepository
+which method : Inherited API | Finder Method | Custom Query Method ??? : findAll (inherited from JpaRepo.)
+EmployeeService
+EmployeeController
+Test it with postman | swagger
+
+Standard testing n documentation tool for REST APIs : OAS (Open API specification n Swagger)
+
+OpenAPI Specification (OAS):
+
+The OAS, is an open standard(spec) for describing and documenting n testing RESTful APIs.
+
+It provides a machine-readable representation of an API, allowing developers to understand its endpoints, request/response data formats(payloads) , authentication methods etc.. 
+
+The specification is written in YAML(Yet Another Markup Language) or JSON format and serves as a contract between the API provider(REST server) n it's  consumer(REST clnt) 
+
+It is widely used in the industry to build, test, and consume APIs, supplying better communication and collaboration between development teams.
+
+Swagger:
+ Swagger is a collection of open-source tools(eg. swagger-ui) that support this specification and provide additional functionalities like API documentation and code generation.
+Swagger is an open-source set of tools built around the OpenAPI Specification.
+
+How to use ?
+ 
+1.1 Add swagger dependency in pom.xml
+(Already added in spring boot backend template project)
+<!-- Swagger UI -->
+		
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+
+1.2 From web browser , access swagger endpoint
+http://localhost:8080/swagger-ui/index.html
+
+1.5 Get all emps from specified dept 
+eg : URL : 
+http://host:port/employees/dept/{deptName}
+method =GET
+path var : dept name
+
+
+2. Add Emp Details : 
+URL : http://host:port/employees , method =POST
+Form Data : JSON representation of emp(transient)
+
+3. Delete Emp Details
+Better Practice : Instead of a plain string message , wrap it in the java object (ApiResponse) n send it to front end
+
+4. Update Emp details 
+4.1 Get Emp details By Id
+4.2 Update Emp details
+
+
+As far as the RESTful API contents is concerned ,  it ends here. So this much is MANDATORY for everyone.
+BUT if you develop the REST APIs , with this much alone , i.e without ResponseEntity, proper validations , global exc handling , image handling , E-R  the project won't be really impressive....
+
+So enter additional recommended sections here !
+-----------------------------------------------------
+1. What will be easier to parse from React front end , a string or JSON ? 
+
+Project tip :
+Better Practice : Instead of sending a plain string message to the REST clnt , wrap it in the java object (eg : ApiResponse) n send it to front end
+ApiResponse : DTO pattern (Data transfer object  : to be used as payloads between clnt n server)
+Test it .
+
+2. NOTE : SC (using Jackson=Spring boot's default vendor for marshalling n un marshalling support)
+It uses :
+getters : During serialization(=marshalling , java---> json)
+setters : During de-serialization (=un marshalling , json --> java)
+
+3 @JsonProperty : Jackson annotation 
+Default  access : read(getter) n write(setter)
+If you want to ONLY de serialize a property(eg : password) but don't want to send it during ser.
+How to control the property/field access during ser/de-serial
+@JsonProperty(access = Access.WRITE_ONLY) : property/field will be ignored during serialization
+@JsonProperty(access = Access.READ_ONLY) :  property/field will be ignored during de serialization
+
+
+4.Replace actual Resource(eg : Employee / Customer / User )  by ResponseEntity
+
+Standard design practice for back end : DO NOT directly send response body , instead wrap it in ResponseEntity object, which represents ENTIRE HTTP response(sts code,header, body)
+
+4.1 Introduction to ResponseEntity
+o.s.http.ResponseEntity<T>  : generic class
+T : type of the response body
+
+4.2 o.s.http.ResponseEntity<T>
+Ctor : ResponseEntity(T body, HttpStatus status);
+HttpStatus : enum containing Resp sts codes
+
+OR Methods
+ResponseEntity.status(HttpStatus status).body(T body)
+
+
+5. Objective : Employee signin endpoint 
+URL : http://host:port/employees/signin
+Method : POST (for adding email n pwd : in request body as additional security.)
+
+Rest Controller : method annotation : @PostMapping
+
+Request Body : DTO (eg : AuthRequestDTO)
+Resp : ResponseEntity
+Success : SC 200 + AuthRespDTO
+Failure : SC 404 + ApiResp : err mesg +timestamp
+
+In case of successful signin : REST server should ret Resp packet with : SC 200 n Emp details(id , firstname,lastname , salary) in resp body.
+
+In case of failure : Client SHOULD NOT see the error stack trace 
+INSTEAD
+REST server should ret Resp packet with : SC 404 n resp body containing : DTO 
+with time stamp n err mesg (Hint : Use ApiResponse DTO)
+
+
+
+
+5.5. Project Tip : 
+ Typically , do not use entities as request or response payloads.
+i.e DO NOT expose your entities directly to the REST client
+
+eg : Instead of returning JSON representation of Employee , use DTO pattern.
+
+6. Project Tip
+In order to automatically  convert Entity <-----> DTO , there are multiple 3rd party libraries.
+eg : MapStruct , ModelMapper ...
+
+6.1 Add model mapper dependency in pom.xml
+<!-- https://mvnrepository.com/artifact/org.modelmapper/modelmapper -->
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+
+6.2 How to configure ModelMapper object as a spring bean (so that it can be injected as a dependency in other spring beans ) ?
+Ans : Either use xml <bean> tag OR use
+@Bean annotated method , to ret ModelMapper instance to SC.
+
+Bean config xml file  --- @Configuration : class level annotation
+<bean> --- @Bean : method level annotation(this method should ret bean instance to the caler : SC)
+
+
+What is the difference between @Bean vs @Component ?
+@Component n it's subtypes are Preferable for component scanning and automatic wiring.
+When should you use @Bean?
+Sometimes automatic configuration is not an option. 
+When? 
+Imagine that you want to wire components from 3rd-party libraries , eg : PasswordEncoder in SpringSecurity or ModelMapper  (you don't have the source code so you can't annotate its classes with @Component), so automatic configuration is not possible.
+
+The @Bean , method level annotation , which returns an object that spring should register as bean in application context. 
+The body of the method should create the instance n ret it to the caller (SC) , for it's auto management as a spring bean.
+
+eg : 
+@Bean //equivalent to <bean id ..../> in xml file
+	public ModelMapper modelMapper() {
+		ModelMapper modelMapper = new ModelMapper();	
+		modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT) //only MATCHING prop names between src n dest will be transferred , during the mapping
+		.setPropertyCondition(Conditions.isNotNull());// only non null properties will be transferred from src --> dest , during the mapping
+	return modelMapper;
+
+	}
+
+6.3 Use ModelMapper's map method , to map Employee --> EmployeeRespDTO
+
+7. What will happen ?
+7.1 For adding emp (POST)
+in the JSON payload : send empty payload
+Observe n conclude -- 
+7.2 Add only password
+Observe n conclude --
+Any problem n any solution ?
+
+8. Enter :  REST Server side Validations
+(Refer to readme : templates.txt & "regarding spring boot exc handling n validations.txt") 
+
+
+9. More Practice of Spring Data JPA along with Unit testing with spring boot.
+(refer : regarding Spring Data JPA)
+Ref : https://docs.spring.io/spring-data/jpa/docs/current/reference/html/
+
+9.1 Inherited APIs (eg : findAll , findById,save, deleteAll,count ....)
+9.2 Derived Query methods(derived finder methods)
+
+9.3 Custom Query Methods
+If you can't solve the requirement using inherited methods or finder methods , you can use custom query methods
+How  ?
+Can inject JPQL using @Query annotations n can pass named IN param using @Param .
+Simpler replacement of named IN param , will be positional IN params.
+Solve : Get emp complete names drawing salary > specific salary
+
+10. Image Handling
+"spring boot image handling.txt"
+Eclipse Project : day17_demo
+
+11. Spring Boot AOP
+Ref : readme
+Ref : spring_boot_aop
+
+
+------------------
+Solve 
+1. Emp signin
+URL : http://host:port/employees/signin Method: POST
+Payload : email n password , encapsulate it in a LoginRequestDto dto
+I
+eg : Optional<Emp> findByEmailAndPassword(String em,String pass);
+Ret type Optional can be replaced by Emp (But not recommended  in modern programming : since it involves null checking)
+
+2. Find all emps joined after a specific date and from specific department
+URL : http://host:port/employees/date/2020-1-1/dept/rnd , method =GET
+eg : List<Emp> findByJoinDateAfterAndDepartment(LocalDate dt,String dept)
+
+3.Find Emps , drawing salary between a range
+Supply range as req params
+
+4. Find all emps having lastname containing some keyword
+
+3.3 Custom Query Methods
+If you can't solve the requirement using inherited methods or finder methods , you can use custom query methods
+How  ?
+Can inject JPQL using @Query annotations n can pass named IN param using @Param .
+Simpler replacement of named IN param , will be positional IN params.
+
+Solve : 
+1.Get emp complete names drawing salary between the specified range
+
+2. Apply salry increment(UPDATE) to those emps from specific department , joined before a particular date.
+
+More Examples
+One Can inject JPQL using @Query annotations
+@Query("select p from Product p where p.productCategory.name=?1")
+List<Product> fetchProductsByCategoryName(String name);
+OR
+@Query("select p from Product p where p.productCategory.name=:nm")
+List<Product> fetchProductsByCategoryName(@Param(name="nm") String name);
+
+If you want to use  sql instead of a JPQL (as a last resort in the project phase! : not recommended )
+
+@Query(value = "select * from tutorials t WHERE t.published=true", nativeQuery = true)
+List<Tutorial> findByPublishedNative();
+
+Project Tips : 
+
+1. If you see json response of a user who has not yet  linked his Aadhar card , you will see aadhar card : null , or empty collection : []
+Currently for testing : set location : null 
+How to exclude null or absent values ?
+You can add at the POJO class level ,
+@JsonInclude(Include.NON_EMPTY)
+
+
+

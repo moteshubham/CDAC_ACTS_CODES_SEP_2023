@@ -1,0 +1,27 @@
+Regarding Multipart HTTP request 
+
+It's an  HTTP request with multipart encoding(enctype="multipart/form-data") , which is typically used to send binary or text data,  over the HTTP protocol. 
+
+It provides a flexible way to send complex data, such as files or form inputs, within a single HTTP request.
+
+It allows you to include multiple parts within a single HTTP request.
+
+In a multipart request, the data is divided into different sections or "parts," each with its own headers and content. 
+
+These parts are separated by a boundary string, which is specified in the request headers.
+
+Each part typically consists of a header section,  followed by the actual content itself. 
+
+The headers contain details like the content type, content disposition, and any additional metadata.
+
+If you're uploading a file via a multipart request, the file's binary data would be included in one of the parts.
+
+Multipart requests are commonly used in HTML forms with file uploads. 
+
+The form's enctype attribute is set to "multipart/form-data," indicating that the data will be sent as multipart. This allows the form to include file inputs, which are then sent as separate parts in the multipart request.
+
+When a server receives a multipart request, it has to parse each part individually. 
+
+
+
+

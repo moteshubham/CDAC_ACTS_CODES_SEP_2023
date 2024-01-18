@@ -1,0 +1,16 @@
+	@NotBlank : use it over a string property(non null + non blank)
+	
+	@Email : valid email format
+	private String email;
+	@NotBlank
+	@Pattern(regexp="((?=.*\\d)(?=.*[a-z])(?=.*[#@$*]).{5,20})")
+	private String password;
+	@NotNull : use it over a non string property(non null) to avoid NPExc.
+	@Range(min=200,max=2000) OR @Min and @Max
+	private double regAmt;
+	@NotNull //MUST add @NotNull for non string props to avoid NPExc.
+     @Future //reg date must be from future
+//def date format : yyyy-MM-dd  
+	@DateTimeFormat(pattern="dd-MMM-yyyy") //to customize date time format
+	private LocalDate regDate;
+	

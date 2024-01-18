@@ -1,0 +1,21 @@
+Same origin vs Cross Origin
+A same-origin HTTP request is a request to a specific resource, which is located at a same  domain,uses same protocol and same port no , as the one of the client performing the request.
+
+Cross origin is HTTP request is a request to a specific resource, where any or all of above is different.
+
+
+
+The CORS protocol is enforced only by the browsers.
+
+ The browser does this by sending a set of CORS headers to the cross-origin server which returns specific header values in the response. 
+
+Based on the header values returned in the response from the cross-origin server, the browser provides access to the response or blocks the access by showing a CORS error in the browser console
+
+
+1. When a request for fetching a resource is made from a web page, the browser detects whether the request is to the origin server or the cross-origin server and applies the CORS policy if the request is for the cross-origin server.
+
+2. The browser sends a header named Origin with the request to the cross-origin server. The cross-origin server processes this request and sends back a header named Access-Control-Allow-Origin in the response.
+
+3. The browser checks the value of the Access-Control-Allow-Origin header in the response and renders the response only if the value of the Access-Control-Allow-Origin header is the same as the Origin header sent in the request.
+
+Confirm all of above using Request n response headers

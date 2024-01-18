@@ -1,0 +1,451 @@
+Download n extract day1-data please! (Currently uploaded under core java g drive)
+
+Day 1
+1. import day1.2 , to revise DB layered application
+(Edit JDBC connector n user name , password)
+
+Hands on : 
+1. Refer to online voting case study
+Prepare DAO, POJO layers , Write a simple tester/s to test it in standalone application.
+
+1.1 User Authentication(validation)
+(You can continue with day1.2)
+OR
+List all candidates
+day1_lab
+Table : candidates
+POJO : Candidate
+DBUtils : copy/ or write
+DAO : CandidateDao i/f
+List<Candidate> getAllCandidates() throws SE
+CandidateDaoImpl
+1. import : java.sql , import static : utils
+2. state : cn , pst1
+3. def ctor : openCn , pst1=cn.prepareStatement(sql);
+4. clean up : close pst1, cn
+5. getAllCandidates() : exec query --RST --while loop --ORM 
+
+
+1.2 Add new Candidate
+
+2. Add tomcat web server in Eclipse(STS 3.9.18) IDE.
+(Refer : "day1-data\day1_help\Web Server n Java EE docs\Installation steps for Tomcat.txt")
+
+Optional Hands on
+
+1. Get all candidates.
+2. Update Voting status
+3. Increment candidate votes
+
+Reading H.W
+Revise JDBC drivers 
+SQL Injection readme.
+
+
+Day 2
+IMPORTANT 
+Please complete below steps (if  needed  : with lab faculty's help.)
+Every one MUST have Tomcat server added in the workspace , created 1st web app with HTML n Servlet.
+Servlet concepts are not yet covered , BUT you should create one servlet , to generate dyn. resp 
+
+Detailed steps 
+1.Confirm that you have extracted tomcat zip file.
+
+2. Confirm 
+2.1 JDK version : JDK 11
+2.2 IDE : Eclipse STS 3.9.18
+2.3 Create NEW workspace , for advanced java.
+2.4 Add Apache Tomcat web server , in the new workspace
+2.5 Confirm if server is  starting properly , without any exceptions
+2.6 Create dynamic web app n test index.html (eg : day2_web_lab project)
+
+3. Extract Java EE docs from : "day1-data\day1_help\Web Server n Java EE docs\javaee-api-8.0-javadoc.jar"
+
+4. In index.html , add a link to test the servlet , deployed using annotations
+(Servlet1)
+Confirm complete servlet life cycle (init , service , destroy)
+(by printing messages on the server console)
+
+
+6. Copy day1_lab project as day2_lab n continue.
+Complete DAO , POJO layer for Online voting assignment (at least the voter flow)
+6.1 Voter authentication
+i/p : email , password
+o/p : User (containing complete voter details) (already done)
+6.2 Get all candidates. (already done)
+6.3 Update Voting status
+6.4 Increment candidate votes
+
+7. Optional work 
+Execute a stored function.
+Refer : "day1-data\day1_help\jdbc help\sql\sql cmds.txt"
+Look for "transfer_funds_func" .
+Copy accounts table n stored function.
+Write layered java app to invoke a stored function.
+
+
+Day 3
+1. import day3.1 in your adv java workspace.
+Open index.html n trace all the links , to revise
+Servlet creation , deployments , lazy vs eager loading
+
+2. import day3.2 in your adv java workspace.
+Open login.html(welcome page) n trace the flow
+Revise Servlet -JDBC integration , centralized exc handling , page navigation(redirect)
+
+
+Hands on (Completely OPTIONAL) Even if you revise n understand servlets today, it's fine !
+
+New Voter registration
+Add a Voter SignUp link in login.html
+Accept : first_name , last_name , email, password , dob .
+(Refer : register.html , already supplied)
+Submit it to RegisterVoterServlet
+Read request parameters.
+Add a validation rule. 
+Voter's age must be > 21 .
+If yes insert voter details in DB (using DAO n POJO , DBUtils)
+id : will be auto incremented , role assigned should be voter , the status : false (i.e not yet voted) . Send registration success message to the client
+
+Otherwise , send  suitable error mesg to the client.
+
+
+Day 4
+
+1. import day4.1 in your workspace to revise cookie based session tracking.
+2. import day4.2 in your workspace to revise HttpSession  based session tracking.
+3. import day4.3 to revise , voter flow of the Online voting case study.
+
+Suggestions for the quick n smart revision
+Refer to day wise sequence , open the code n read required java docs.
+eg : While revising cookies , open day4.1 , refer to our cookie flow diagrams n session tracking readme n if required go throught corresponding javadocs (Cookie class n it's methods)
+
+Hands on 
+Options
+Easiest 1st option.
+1. Try to solve voter part of the case study , on your own  ,as already discussed n shown.
+
+2. Next level 
+Try to add Voter registration
+
+3. Try something completely new ! 
+IPL assignment . Use supplied tables (teams n players) , follow assignment help n try it out
+
+Even if you solve one of above , you will get confidence in servlets.
+
+Reading H.W 
+1. "day3-data\day3_help\page navigation\page navigation techniques.txt"
+client pull part
+
+2. "day4-data\day4_help\session tracking\regarding session tracking.txt"
+cookie based n HttpSession i/f based techniques.
+
+
+Day 5
+Hands on first !
+1. Start n complete 2 page based IPL assignment
+
+2. import day5.1 , to revise online voting case study (voter flow)
+
+3. import day5.2 , to revise , ServletConfig , init params , DB independent web app.
+
+4. import day5.3 to revise server pull (Request Dispatching) : forward technique.
+
+5. import day5.4 to revise server pull (Request Dispatching) :include technique.
+(Differentiate between forward vs include)
+
+
+6. Try to complete pending work
+If you have completed all of the earlier work , try admin flow of the case study.
+
+OR Take student admission n fit it with DB
+(i.e students , courses tables
+E-R 
+courses 1----->* students (one-to-many , with FK)
+
+OR you can also go for 
+
+courses *----->* students (many-to-many , with link table : admissions)
+
+Reading H.W
+Pls go through
+"day5-data\day5_help\diagrams\page navigation summary.png" , 
+"day5-data\day5_help\diagrams\HttpSession Internals.png"
+
+Readmes : 
+"day5-data\day5_help\diagrams\page navigation techniques.txt"
+"day5-data\day5_help\readmes\regarding servletconfig.txt"
+
+Day 6
+Special request to lab faculties
+1. Please revise 
+ JSP syntax : comments , JSP implicit objects ,  scripting elements n EL syntax
+(import day6.2 in your workspace n trace all the links from index.jsp)
+
+2. Discuss n solve with the students , JSP assignment
+Refer to : 
+"JSP basic assignment.png"
+(Initially solve it using client pull n then with server pull)
+
+3. Discuss day5's student admission assignment
+(refer : "student admission.png")
+Help students to solve the same.
+
+After this complete pending work !
+
+
+Day 7
+
+1. import day7.1 to revise JSP basics
+JSP error handling , Request Dispatching related actions
+
+2. import day7.2 to revise advanced JSP 
+Flow : JSP -- Java Bean -- DAO -- POJO --DB
+
+Mandatory Hands on (To be done with the help of Lab Faculty)
+New Voter registration.
+Complete it with : JSP -- Java Bean -- DAO -- POJO --DB
+
+3. With the help of lab faculty , import Maven projects n keep the hibernate dependencies downloaded.
+Tomorrow , we are definitely entring hibernate.
+Reference project : "day7-data\code\test_hibernate"
+
+
+Day 8
+
+Hands on first
+With the help of lab faculty : 
+1. Create hibernate based standalone Java application , for inserting a new record in IPL teams table
+1.1 Continue with test_hibernate (or copy test_hibernate in day8_lab)
+1.2 Follow the steps in : "day8-data\hibernate steps.txt"
+1.3 Create hibernate utils , Team POJO , Team DAO n insert a record.
+
+
+2. Revise
+2.1 import day8.2 , for revising URL rewriting , along with basic JSP assignment.
+2.2 import day8.1 , to revise JSTL n admin flow of the voting case study.
+
+
+
+Day 9
+Hands on first
+1. Copy day8_lab project (or test_hibernate) into day9_lab
+1.1 drop table teams
+1.2 Modify Team POJO annotations , to match it with this table
+
+create table teams (team_id int primary key auto_increment,name varchar(100),abbrevation varchar(10),owner varchar(20),max_age int,
+batting_avg double,wickets_taken int);
+
+1.3 Create DAO n testers Layers for the following 
+1. Add new team
+2. Find out n display team details by it's abbreviation
+3. Find out the teams , who need players with max age of the player> specified age
+4. Update the team's no of wickets taken n batting avg 
+Team will be specified by it's team id.
+
+
+2. import day9.1 as existing Maven project in your workspace n revise hibernate API , along with the readmes n diagrams.
+
+
+
+Day 10
+
+1. Revise JPA associations n inhertamce using @MappedSuperClass
+import standalone Maven project : day10.2 (as existing Maven project)
+Highlights : 
+one to many bi dir associaton
+annotations
+n mappedBy n @JoinColumn
+
+
+2. Mandatory Hands on 
+2.1 Integrate web app + hibernate
+2.2 Flow diagram : "day10_data\day10_help\IPL assignment.png"
+
+2.3 import template project : web_maven_hibernate ,already uploaded under template_projects folder) , as  existing Maven project
+
+2.4 R click on the project --Maven --Update Project --Force Update
+(It should download the plugin) 
+
+2.5 Edit hibernate.cfg.xml , as per your DB settings
+(Hint : you can create a new DB : ipl , for solving this)
+
+2.6 Copy earlier POJOs , establish bi dir association
+Team 1<----->* Player
+
+2.7 Create Hibernate based DAO layers(Team n Player Dao) 
+
+2.8 Layers : JSP --Java Bean --Hibernate based DAO --HibernateUtils --Entities --DB
+
+
+
+Day 11
+1. MUST complete Day 10's assignment.
+
+2. If time permits , revise Entity to Entity associations n solve this
+2.1  Delete dept details 
+i/p : dept name
+(cascade on delete)
+
+2.2 Display all dept's details along with emps , in a SINGLE select query
+
+2.3  Assign(link) emp address
+i/p : emp id n address details
+
+2.4 Display emp address or error mesg (in case of invalid id)
+i/p : emp id 
+
+2.5 Display last names of all emps from specified city.
+i/p : city
+
+Day 12
+
+1. import day13.1 to revise all Entity-Entity associations
+n Entity n Value types associations
+Revise get vs load
+
+1.5 Complete day 11 assignments(2nd point--Entity -Entity assocaiation)
+
+
+2. Solve this
+2.1 Launch new project
+2.2 Assign existing emp to the project.
+2.3 Remove an emp from the project.
+2.4 Assign adhaar card details to emp
+2.5 Assign emp skills
+2.6 Assign payment options
+
+Mandatory : (last 15 minutes of the lab)
+1. import test_spring as existing Maven project, to dowload all spring dependencies
+2. download spring reference material.
+
+
+Day 13
+1. import day13.2 , as EXISTING MAVEN PROJECT , in your workspace.
+Maven update .
+Revise spring bean life cycle n explicit setter based DI
+
+2. import day13.3 , as EXISTING MAVEN PROJECT , in your workspace.
+Revise explicit constructor based DI
+
+3. import day13.4 , as EXISTING MAVEN PROJECT , in your workspace.
+Revise explicit factory method based DI
+
+Hands on 
+In our scenario : 
+Dependent Object : ATM Impl
+Can you add more dependencies ? YES
+ Transport layer (already exists !)
+Additional Dependencies :
+ATM depends upon : cash component (double) . After any funds related operation , you have to inform bank n notify the customer.
+
+
+1. cash : double
+2. CustomerNotification Service (dependency i/f)
+Add a method : public void alertCustomer(String mesg);
+Implementations : EmailBased notification , Sms based notification
+(Actual B.L is NOT expected . Just print the messages)
+
+Wire cash component : using Constructor based DI (since it's MANDATORY : REQUIRED dependency of the ATM)
+
+Wire : CustomerNotification Service using setter based DI
+
+Test it out !
+
+
+Day 14
+Hands on first
+1. import spring_mvc_template , as existing Maven project in the workspace
+(First copy n then import)
+
+2. Create from scratch Spring MVC based web app , for the following objectives
+1. Test Spring MVC Flow
+
+We have completed only till this in theory session.
+We will try to complete as many objectives as possible (as time permits )
+2. Deliver/render the index.jsp from SC (using spring MVC architecture)
+3. Enter Case study (EMS) 
+index.jsp 
+Link to :  List All Departments
+
+-----------------Pending(Will be done tomorrow)---------------------
+
+(Attach data to a drop drown list)
+3.2 Allow user to choose a dept
+3.3 Display all emps from a chosen dept.
+
+3. Revise
+import day14.1 : autowire=byName
+import day14.2 : autowire=byType
+import day14.3 : autowire=constructor
+import day14.4 : Hybrid approach(less xml, lesser java code ,majority annotations)
+import day14.5 : no xml ,  java config class n annotations
+import day14_spring_mvc : to revise Spring MVC Flow
+
+In Lab session of Batch 2 : we have completed spring MVC n hibernate integration. Concepts are still pending !
+
+You can import spring_mvc_hibernate , to see the integration.
+BUT it will be BEST , if you try it along with Lab faculty's help
+
+
+Day 15
+Hands on First
+1. import "template projects\spring_boot_template_mvc" in your workspace.
+2. Edit application.properties file , from src/main/resources , as per your DB settings
+3. Change the context path from application.properties file to : day15_lab
+(URL to access the monolithic web app : http://localhost:8080/day15_lab)
+4. Refer to IPL project ("day15_data\code\day11_lab_ipl")
+Port this web app to spring boot , as much as possible)
+
+4. In the remaining time :
+4.1 Revise MVC n Hibernate integration , w/o boot
+4.2 Go through : 
+"day15_data\day15_help\spring boot\spring-boot-steps.txt"
+"day15_data\day15_help\spring boot\diagrams\jpa-entitymgr-session-layers.png"
+"day15_data\day15_help\spring boot\Why n What is spring boot.txt"
+
+5. MANDATORY 
+Download , extract n import as existing Maven app
+"template projects\spring_boot_backend_template"
+
+
+Day 16
+1. import day16.1 , as existing Maven Project , in your workspace
+It's a Spring Boot App , for monolithic web app(with JSP based view layer)
+It's NOT using Spring Data JPA.
+Edit DB user name n password from application.properties file n revise
+Spring MVC along with , form data binding , <spring:url> , redirect n HttpSession.
+
+
+2. import day16.2 , as existing Maven Project , in your workspace
+It's a Spring Boot App , for monolithic web app(with JSP based view layer)
+It's  using Spring Data JPA. (Use it as Introduction to Spring Data JPA)
+Edit DB user name n password from application.properties file n revise
+
+3. Lab Evaluation
+Uploaded as DAC-Assignment.txt , on g drive.
+
+Later I will share list of important readmes to read over the weekend.
+
+
+
+Day 17
+Create a RESTful Web service (backend of the Full Stack application ) using Spring Boot n Spring Data JPA
+
+Student Details.
+(Student POJO extends BaseEntity)
+The details to be maintained in the table are: id, Rollno, StudentFirstName, StudentLastName, City, CourseName,DoB
+The application should allow a user to:
+1. Add Student details from Postman / Swagger
+Validation Rules :
+student name must be supplied , city string len must < 15 , DoB must be in the past.
+2. Send all student details from backend to REST clnt
+3. Accept course name from user and display all Students' Rollno and Student Name enrolled for that course.
+4. Change CourseName of the student specified by id.
+5. Delete Studentdetails  , specified by id.
+
+Create the necessary POJOS, DAO , Service and Rest Controller classes,
+
+
+
+

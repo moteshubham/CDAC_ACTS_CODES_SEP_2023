@@ -1,0 +1,90 @@
+What is REST ?
+
+REST stands for REpresentational State Transfer. 
+
+Meaning : Transfer(manipulation)  of the representation of the state of resource(eg : Employee,Order,Cart,Student....) between client (accessor of the resource) n the server(provider of the resource)
+
+
+In short : Resource oriented architecture. (ROA)
+
+REST is web standards based architecture and uses HTTP Protocol for data communication. 
+
+It revolves around resource where every component is a resource and a resource is accessed by a common interface using HTTP standard methods. 
+
+REST was first introduced by Roy Fielding in 2000.
+
+In REST architecture, a REST Server(provider) simply provides access to resources and REST client (consumer)accesses and presents the resources. 
+
+Here each resource is identified by URIs
+
+REST uses various representations to represent a resource like text, JSON and XML. Most popular light weight data exchange format  used in web services = JSON
+
+HTTP Methods
+Following well known HTTP methods are commonly used in REST based architecture.
+
+GET - Provides a read only access to a resource.
+
+POST - Used to create a new resource.
+
+DELETE - Used to remove a resource.
+
+PUT  - Used to update a existing resource or create a new resource.
+
+PATCH -- Used to perform partial updates to the resource.
+
+
+REST API Meaning 
+
+REST stands for REpresentational State Transfer.
+API stands for Application Program Interface. 
+
+REST is a software architectural style that defines the set of rules to be used for creating web services(that are resource oriented)
+
+What is a web service ?
+A solution to distributed computing, which is platform independent as well as technology independent.
+
+Web services which follow the REST architectural style are known as RESTful web services. 
+
+It allows requesting systems)(REST Client)  to access and manipulate web resources by using a uniform and predefined set of rules , using standard  Hypertext Transfer Protocol (HTTP).
+
+What does a  Restful web system consists of
+
+1. client who requests for the resources.
+2. server who has the resources.
+
+It is MANDATORY to create REST API as per  industry standards which results in ease of development and increase client support.
+
+Architectural Constraints of RESTful API
+
+Uniform Interface
+Stateless
+Cacheable
+Client-Server
+Layered System
+Code on Demand
+The only optional constraint of REST architecture is code on demand. If a service violates any other constraint, it cannot strictly be referred to as RESTful.
+
+
+Details :
+
+What is Restful Web Service?
+
+REST is used to build Web services that are lightweight, maintainable, and scalable in nature. A service which is built on the REST architecture is called a RESTful service. The underlying protocol for REST is HTTP, which is the basic web protocol. REST stands for REpresentational State Transfer
+
+The key elements of a RESTful implementation are as follows:
+
+1. Resources  The first key element is the resource itself. Let us assume that a web application on a server has records of several employees. Let's assume the URL of the web application is http://www.server.com. Now in order to access an employee record resource via REST, one can issue the command http://www.server.com/employee/1 - This command tells the web server to please provide the details of the employee whose employee number is 1.
+
+2. Request Verbs - These describe what you want to do with the resource. A browser issues a GET verb to instruct the endpoint it wants to get data. However, there are many other verbs available including things like POST, PUT, and DELETE. So in the case of the example http://www.server.com/employee/1 , the web browser is actually issuing a GET Verb because it wants to get the details of the employee record.
+
+3. Request Headers  These are additional instructions sent with the request. These might define the type of response required or the authorization details.
+
+4. Request Body - Data is sent with the request. Data is normally sent in the request when a POST request is made to the REST web service. In a POST call, the client actually tells the web service that it wants to add a resource to the server. Hence, the request body would have the details of the resource which is required to be added to the server.
+
+5. Response Body  This is the main body of the response. So in our example, if we were to query the web server via the request http://www.server.com/employee/1 , the web server might return an XML document with all the details of the employee in the Response Body or JSON
+
+6. Response Status codes  These codes are the general codes which are returned along with the response from the web server. An example is the code 200 which is normally returned if there is no error when returning a response to the client.
+
+
+Links
+1. https://gist.github.com/alexserver/2fcc26f7e1ebcfc9f6d8
