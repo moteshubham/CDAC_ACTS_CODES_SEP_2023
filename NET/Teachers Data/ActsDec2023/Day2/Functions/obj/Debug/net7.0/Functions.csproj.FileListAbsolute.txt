@@ -1,0 +1,15 @@
+D:\Trainings\ActsDec2023\Day2\Functions\bin\Debug\net7.0\Functions.exe
+D:\Trainings\ActsDec2023\Day2\Functions\bin\Debug\net7.0\Functions.deps.json
+D:\Trainings\ActsDec2023\Day2\Functions\bin\Debug\net7.0\Functions.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day2\Functions\bin\Debug\net7.0\Functions.dll
+D:\Trainings\ActsDec2023\Day2\Functions\bin\Debug\net7.0\Functions.pdb
+D:\Trainings\ActsDec2023\Day2\Functions\obj\Debug\net7.0\Functions.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day2\Functions\obj\Debug\net7.0\Functions.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day2\Functions\obj\Debug\net7.0\Functions.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day2\Functions\obj\Debug\net7.0\Functions.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day2\Functions\obj\Debug\net7.0\Functions.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day2\Functions\obj\Debug\net7.0\Functions.dll
+D:\Trainings\ActsDec2023\Day2\Functions\obj\Debug\net7.0\refint\Functions.dll
+D:\Trainings\ActsDec2023\Day2\Functions\obj\Debug\net7.0\Functions.pdb
+D:\Trainings\ActsDec2023\Day2\Functions\obj\Debug\net7.0\Functions.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day2\Functions\obj\Debug\net7.0\ref\Functions.dll

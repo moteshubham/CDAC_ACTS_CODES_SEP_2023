@@ -1,0 +1,28 @@
+Db first approach
+
+1. Add Nuget Packages 
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+
+2. Package Manager Console
+ Scaffold-DbContext "Data Source=(localdb)\MsSqlLocalDb;Initial Catalog=Yash1;Integrated Security=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+Note : read more at https://docs.microsoft.com/en-us/ef/core/managing-schemas/scaffolding?tabs=vs
+
+
+3. Add EF service in Program.cs
+
+        public static void Main(string[] args)
+        {
+            builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<Yash1Context>(options =>
+                        options.UseSqlServer(builder.Configuration.GetConnectionString("Yash1Context")));
+
+        }
+
+4. Specify connection string in appsettings.json
+"ConnectionStrings": {
+    "Yash1Context": "Data Source=(localdb)\\MsSqlLocalDb;Initial Catalog=Yash1;Integrated Security=true;MultipleActiveResultSets=true"
+  }
+

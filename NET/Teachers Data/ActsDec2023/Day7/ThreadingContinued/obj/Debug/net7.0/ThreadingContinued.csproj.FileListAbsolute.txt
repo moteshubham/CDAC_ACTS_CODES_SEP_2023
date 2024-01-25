@@ -1,0 +1,30 @@
+D:\Trainings\ActsDec2023\Day7\ThreadingContinued\bin\Debug\net7.0\ThreadingContinued.exe
+D:\Trainings\ActsDec2023\Day7\ThreadingContinued\bin\Debug\net7.0\ThreadingContinued.deps.json
+D:\Trainings\ActsDec2023\Day7\ThreadingContinued\bin\Debug\net7.0\ThreadingContinued.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day7\ThreadingContinued\bin\Debug\net7.0\ThreadingContinued.dll
+D:\Trainings\ActsDec2023\Day7\ThreadingContinued\bin\Debug\net7.0\ThreadingContinued.pdb
+D:\Trainings\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\ThreadingContinued.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\ThreadingContinued.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\ThreadingContinued.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\ThreadingContinued.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\ThreadingContinued.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\ThreadingContinued.dll
+D:\Trainings\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\refint\ThreadingContinued.dll
+D:\Trainings\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\ThreadingContinued.pdb
+D:\Trainings\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\ThreadingContinued.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\ref\ThreadingContinued.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\ThreadingContinued\bin\Debug\net7.0\ThreadingContinued.exe
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\ThreadingContinued\bin\Debug\net7.0\ThreadingContinued.deps.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\ThreadingContinued\bin\Debug\net7.0\ThreadingContinued.runtimeconfig.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\ThreadingContinued\bin\Debug\net7.0\ThreadingContinued.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\ThreadingContinued\bin\Debug\net7.0\ThreadingContinued.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\ThreadingContinued.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\ThreadingContinued.AssemblyInfoInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\ThreadingContinued.AssemblyInfo.cs
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\ThreadingContinued.csproj.CoreCompileInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\ThreadingContinued.sourcelink.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\ThreadingContinued.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\refint\ThreadingContinued.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\ThreadingContinued.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\ThreadingContinued.genruntimeconfig.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\ThreadingContinued\obj\Debug\net7.0\ref\ThreadingContinued.dll

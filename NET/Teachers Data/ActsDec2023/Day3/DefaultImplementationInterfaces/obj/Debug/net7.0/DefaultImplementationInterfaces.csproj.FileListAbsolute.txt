@@ -1,0 +1,15 @@
+D:\Trainings\ActsDec2023\Day3\DefaultImplementationInterfaces\obj\Debug\net7.0\DefaultImplementationInterfaces.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day3\DefaultImplementationInterfaces\obj\Debug\net7.0\DefaultImplementationInterfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day3\DefaultImplementationInterfaces\obj\Debug\net7.0\DefaultImplementationInterfaces.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day3\DefaultImplementationInterfaces\obj\Debug\net7.0\DefaultImplementationInterfaces.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day3\DefaultImplementationInterfaces\obj\Debug\net7.0\DefaultImplementationInterfaces.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day3\DefaultImplementationInterfaces\bin\Debug\net7.0\DefaultImplementationInterfaces.exe
+D:\Trainings\ActsDec2023\Day3\DefaultImplementationInterfaces\bin\Debug\net7.0\DefaultImplementationInterfaces.deps.json
+D:\Trainings\ActsDec2023\Day3\DefaultImplementationInterfaces\bin\Debug\net7.0\DefaultImplementationInterfaces.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day3\DefaultImplementationInterfaces\bin\Debug\net7.0\DefaultImplementationInterfaces.dll
+D:\Trainings\ActsDec2023\Day3\DefaultImplementationInterfaces\bin\Debug\net7.0\DefaultImplementationInterfaces.pdb
+D:\Trainings\ActsDec2023\Day3\DefaultImplementationInterfaces\obj\Debug\net7.0\DefaultImplementationInterfaces.dll
+D:\Trainings\ActsDec2023\Day3\DefaultImplementationInterfaces\obj\Debug\net7.0\refint\DefaultImplementationInterfaces.dll
+D:\Trainings\ActsDec2023\Day3\DefaultImplementationInterfaces\obj\Debug\net7.0\DefaultImplementationInterfaces.pdb
+D:\Trainings\ActsDec2023\Day3\DefaultImplementationInterfaces\obj\Debug\net7.0\DefaultImplementationInterfaces.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day3\DefaultImplementationInterfaces\obj\Debug\net7.0\ref\DefaultImplementationInterfaces.dll

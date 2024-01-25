@@ -1,0 +1,83 @@
+﻿@model HtmlHelpersExample.ViewModels.EmployeeViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Employee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+       @* <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="EmpNo" class="control-label"></label>
+                <input asp-for="EmpNo" class="form-control" />
+                <span asp-validation-for="EmpNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Basic" class="control-label"></label>
+                <input asp-for="Basic" class="form-control" />
+                <span asp-validation-for="Basic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DeptNo" class="control-label"></label>
+                <input asp-for="DeptNo" class="form-control" />
+                <span asp-validation-for="DeptNo" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsActive" /> @Html.DisplayNameFor(model => model.IsActive)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>*@
+    </div>
+    @using (Html.BeginForm())
+    {
+    <div class="form-horizontal">
+        <h4>Employee</h4>
+        <hr />
+        ActionLink @Html.ActionLink("Go to Edit", "Edit")<br /><br />
+
+        TextBox @Html.TextBox("txtBasic",Model.Basic)<br />
+        <input type="text" name="txtBasic1" value="@Model.Basic" />
+        TextBoxFor @Html.TextBoxFor(x => x.Basic) <br /><br />
+
+        CheckBox @Html.CheckBox("chk1")<br />
+        CheckBoxFor @Html.CheckBoxFor(x => x.IsActive)<br /><br />
+
+        @Html.RadioButton("btn1", "Yes") Yes<br />
+        @Html.RadioButton("btn1", "No") No<br />
+        @Html.RadioButton("btn1", "Maybe") Maybe<br /><br />
+
+         DropDownList @Html.DropDownList("ddlDepts", Model.Departments)
+        <br />
+        DropDownListFor @Html.DropDownListFor(model => model.DeptNo, Model.Departments)
+        <br />
+        DropDownListFor @Html.DropDownListFor(model => model.DeptNo, ViewBag.Departments as IEnumerable<SelectListItem>)
+        <br />
+        <select asp-for="DeptNo" asp-items="Model.Departments"></select>
+
+        <input type="submit">
+    </div>
+    }
+
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

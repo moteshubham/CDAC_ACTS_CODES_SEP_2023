@@ -1,0 +1,15 @@
+D:\Trainings\YcpJan23\InheritanceAssignment\bin\Debug\net6.0\InheritanceAssignment.exe
+D:\Trainings\YcpJan23\InheritanceAssignment\bin\Debug\net6.0\InheritanceAssignment.deps.json
+D:\Trainings\YcpJan23\InheritanceAssignment\bin\Debug\net6.0\InheritanceAssignment.runtimeconfig.json
+D:\Trainings\YcpJan23\InheritanceAssignment\bin\Debug\net6.0\InheritanceAssignment.dll
+D:\Trainings\YcpJan23\InheritanceAssignment\bin\Debug\net6.0\InheritanceAssignment.pdb
+D:\Trainings\YcpJan23\InheritanceAssignment\obj\Debug\net6.0\InheritanceAssignment.csproj.AssemblyReference.cache
+D:\Trainings\YcpJan23\InheritanceAssignment\obj\Debug\net6.0\InheritanceAssignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\YcpJan23\InheritanceAssignment\obj\Debug\net6.0\InheritanceAssignment.AssemblyInfoInputs.cache
+D:\Trainings\YcpJan23\InheritanceAssignment\obj\Debug\net6.0\InheritanceAssignment.AssemblyInfo.cs
+D:\Trainings\YcpJan23\InheritanceAssignment\obj\Debug\net6.0\InheritanceAssignment.csproj.CoreCompileInputs.cache
+D:\Trainings\YcpJan23\InheritanceAssignment\obj\Debug\net6.0\InheritanceAssignment.dll
+D:\Trainings\YcpJan23\InheritanceAssignment\obj\Debug\net6.0\refint\InheritanceAssignment.dll
+D:\Trainings\YcpJan23\InheritanceAssignment\obj\Debug\net6.0\InheritanceAssignment.pdb
+D:\Trainings\YcpJan23\InheritanceAssignment\obj\Debug\net6.0\InheritanceAssignment.genruntimeconfig.cache
+D:\Trainings\YcpJan23\InheritanceAssignment\obj\Debug\net6.0\ref\InheritanceAssignment.dll

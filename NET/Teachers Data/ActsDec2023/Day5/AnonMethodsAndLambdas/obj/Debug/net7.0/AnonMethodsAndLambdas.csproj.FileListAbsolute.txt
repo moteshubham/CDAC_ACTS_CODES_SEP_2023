@@ -1,0 +1,15 @@
+D:\Trainings\ActsDec2023\Day5\AnonMethodsAndLambdas\bin\Debug\net7.0\AnonMethodsAndLambdas.exe
+D:\Trainings\ActsDec2023\Day5\AnonMethodsAndLambdas\bin\Debug\net7.0\AnonMethodsAndLambdas.deps.json
+D:\Trainings\ActsDec2023\Day5\AnonMethodsAndLambdas\bin\Debug\net7.0\AnonMethodsAndLambdas.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day5\AnonMethodsAndLambdas\bin\Debug\net7.0\AnonMethodsAndLambdas.dll
+D:\Trainings\ActsDec2023\Day5\AnonMethodsAndLambdas\bin\Debug\net7.0\AnonMethodsAndLambdas.pdb
+D:\Trainings\ActsDec2023\Day5\AnonMethodsAndLambdas\obj\Debug\net7.0\AnonMethodsAndLambdas.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day5\AnonMethodsAndLambdas\obj\Debug\net7.0\AnonMethodsAndLambdas.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day5\AnonMethodsAndLambdas\obj\Debug\net7.0\AnonMethodsAndLambdas.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day5\AnonMethodsAndLambdas\obj\Debug\net7.0\AnonMethodsAndLambdas.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day5\AnonMethodsAndLambdas\obj\Debug\net7.0\AnonMethodsAndLambdas.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day5\AnonMethodsAndLambdas\obj\Debug\net7.0\AnonMethodsAndLambdas.dll
+D:\Trainings\ActsDec2023\Day5\AnonMethodsAndLambdas\obj\Debug\net7.0\refint\AnonMethodsAndLambdas.dll
+D:\Trainings\ActsDec2023\Day5\AnonMethodsAndLambdas\obj\Debug\net7.0\AnonMethodsAndLambdas.pdb
+D:\Trainings\ActsDec2023\Day5\AnonMethodsAndLambdas\obj\Debug\net7.0\AnonMethodsAndLambdas.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day5\AnonMethodsAndLambdas\obj\Debug\net7.0\ref\AnonMethodsAndLambdas.dll

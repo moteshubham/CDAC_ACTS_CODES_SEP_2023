@@ -1,0 +1,848 @@
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\appsettings.Development.json
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\appsettings.json
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\CookiesExample.exe
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\CookiesExample.deps.json
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\CookiesExample.runtimeconfig.json
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\CookiesExample.runtimeconfig.dev.json
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\CookiesExample.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\ref\CookiesExample.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\CookiesExample.pdb
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\CookiesExample.Views.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\CookiesExample.Views.pdb
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.AssemblyReference.cache
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\CookiesExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\CookiesExample.AssemblyInfoInputs.cache
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\CookiesExample.AssemblyInfo.cs
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.CoreCompileInputs.cache
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\CookiesExample.MvcApplicationPartsAssemblyInfo.cache
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorAssemblyInfo.cache
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorAssemblyInfo.cs
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\staticwebassets\CookiesExample.StaticWebAssets.Manifest.cache
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\staticwebassets\CookiesExample.StaticWebAssets.xml
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\scopedcss\bundle\CookiesExample.styles.css
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\CookiesExample.TagHelpers.input.cache
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\CookiesExample.TagHelpers.output.cache
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorCoreGenerate.cache
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorTargetAssemblyInfo.cache
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorTargetAssemblyInfo.cs
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\CookiesExample.Views.pdb
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\CookiesExample.dll
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\ref\CookiesExample.dll
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\CookiesExample.pdb
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\CookiesExample.genruntimeconfig.cache
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.CopyComplete
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\Humanizer.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\System.Composition.Convention.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\System.Composition.Hosting.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\System.Composition.Runtime.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\System.Composition.TypedParts.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\Trainings\Yash\WebSites\CookiesExample\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Create.cshtml.g.cs
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Details.cshtml.g.cs
+D:\Trainings\Yash\WebSites\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Delete.cshtml.g.cs
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\appsettings.json
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\CookiesExample.exe
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\CookiesExample.deps.json
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\CookiesExample.runtimeconfig.json
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\CookiesExample.runtimeconfig.dev.json
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\CookiesExample.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\ref\CookiesExample.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\CookiesExample.pdb
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\CookiesExample.Views.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\CookiesExample.Views.pdb
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\Humanizer.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\vikra\Desktop\CookiesExample\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.AssemblyReference.cache
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\CookiesExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\CookiesExample.AssemblyInfoInputs.cache
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\CookiesExample.AssemblyInfo.cs
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.CoreCompileInputs.cache
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\CookiesExample.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorAssemblyInfo.cache
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorAssemblyInfo.cs
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\staticwebassets\CookiesExample.StaticWebAssets.Manifest.cache
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\staticwebassets\CookiesExample.StaticWebAssets.xml
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\scopedcss\bundle\CookiesExample.styles.css
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\CookiesExample.TagHelpers.input.cache
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\CookiesExample.TagHelpers.output.cache
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorCoreGenerate.cache
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Create.cshtml.g.cs
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Delete.cshtml.g.cs
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Details.cshtml.g.cs
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorTargetAssemblyInfo.cache
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorTargetAssemblyInfo.cs
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\CookiesExample.Views.pdb
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.CopyComplete
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\CookiesExample.dll
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\ref\CookiesExample.dll
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\CookiesExample.pdb
+C:\Users\vikra\Desktop\CookiesExample\obj\Debug\net5.0\CookiesExample.genruntimeconfig.cache
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\appsettings.json
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\CookiesExample.exe
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\CookiesExample.deps.json
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\CookiesExample.runtimeconfig.json
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\CookiesExample.runtimeconfig.dev.json
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\CookiesExample.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\CookiesExample.pdb
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\CookiesExample.Views.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\CookiesExample.Views.pdb
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\Humanizer.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.AssemblyReference.cache
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\CookiesExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\CookiesExample.AssemblyInfoInputs.cache
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\CookiesExample.AssemblyInfo.cs
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.CoreCompileInputs.cache
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\CookiesExample.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorAssemblyInfo.cache
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorAssemblyInfo.cs
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\staticwebassets\CookiesExample.StaticWebAssets.Manifest.cache
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\scopedcss\bundle\CookiesExample.styles.css
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\CookiesExample.TagHelpers.input.cache
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\CookiesExample.TagHelpers.output.cache
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorCoreGenerate.cache
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Create.cshtml.g.cs
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Delete.cshtml.g.cs
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Details.cshtml.g.cs
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorTargetAssemblyInfo.cache
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorTargetAssemblyInfo.cs
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\CookiesExample.Views.pdb
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.CopyComplete
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\CookiesExample.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\ref\CookiesExample.dll
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\CookiesExample.pdb
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\CookiesExample.genruntimeconfig.cache
+C:\Users\vikra\Desktop\Kochi2\CookiesExample\obj\Debug\net5.0\refint\CookiesExample.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\appsettings.json
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\CookiesExample.exe
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\CookiesExample.deps.json
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\CookiesExample.runtimeconfig.json
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\CookiesExample.runtimeconfig.dev.json
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\CookiesExample.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\CookiesExample.pdb
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\CookiesExample.Views.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\CookiesExample.Views.pdb
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\Humanizer.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\vikra\Desktop\Code\CookiesExample\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.AssemblyReference.cache
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\CookiesExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\CookiesExample.AssemblyInfoInputs.cache
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\CookiesExample.AssemblyInfo.cs
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.CoreCompileInputs.cache
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\CookiesExample.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorAssemblyInfo.cache
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorAssemblyInfo.cs
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\scopedcss\bundle\CookiesExample.styles.css
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\staticwebassets\CookiesExample.StaticWebAssets.Manifest.cache
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\staticwebassets\CookiesExample.StaticWebAssets.Pack.cache
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\staticwebassets\msbuild.CookiesExample.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\staticwebassets\msbuild.build.CookiesExample.props
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.CookiesExample.props
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.CookiesExample.props
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\CookiesExample.TagHelpers.input.cache
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\CookiesExample.TagHelpers.output.cache
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorCoreGenerate.cache
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Create.cshtml.g.cs
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Delete.cshtml.g.cs
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Details.cshtml.g.cs
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorTargetAssemblyInfo.cache
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorTargetAssemblyInfo.cs
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\CookiesExample.Views.pdb
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.CopyComplete
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\CookiesExample.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\refint\CookiesExample.dll
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\CookiesExample.pdb
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\CookiesExample.genruntimeconfig.cache
+C:\Users\vikra\Desktop\Code\CookiesExample\obj\Debug\net5.0\ref\CookiesExample.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\appsettings.json
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\CookiesExample.exe
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\CookiesExample.deps.json
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\CookiesExample.runtimeconfig.json
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\CookiesExample.runtimeconfig.dev.json
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\CookiesExample.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\CookiesExample.pdb
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\CookiesExample.Views.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\CookiesExample.Views.pdb
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\Humanizer.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\vikra\Desktop\New folder\CookiesExample\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.AssemblyReference.cache
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\CookiesExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\CookiesExample.AssemblyInfoInputs.cache
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\CookiesExample.AssemblyInfo.cs
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.CoreCompileInputs.cache
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\CookiesExample.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorAssemblyInfo.cache
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorAssemblyInfo.cs
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\scopedcss\bundle\CookiesExample.styles.css
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\staticwebassets\CookiesExample.StaticWebAssets.Manifest.cache
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\staticwebassets\CookiesExample.StaticWebAssets.Pack.cache
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\staticwebassets\msbuild.CookiesExample.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\staticwebassets\msbuild.build.CookiesExample.props
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.CookiesExample.props
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.CookiesExample.props
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\CookiesExample.TagHelpers.input.cache
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\CookiesExample.TagHelpers.output.cache
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorCoreGenerate.cache
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Create.cshtml.g.cs
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Delete.cshtml.g.cs
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Details.cshtml.g.cs
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorTargetAssemblyInfo.cache
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorTargetAssemblyInfo.cs
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\CookiesExample.Views.pdb
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.CopyComplete
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\CookiesExample.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\refint\CookiesExample.dll
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\CookiesExample.pdb
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\CookiesExample.genruntimeconfig.cache
+C:\Users\vikra\Desktop\New folder\CookiesExample\obj\Debug\net5.0\ref\CookiesExample.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\appsettings.json
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\CookiesExample.exe
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\CookiesExample.deps.json
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\CookiesExample.runtimeconfig.json
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\CookiesExample.runtimeconfig.dev.json
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\CookiesExample.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\CookiesExample.pdb
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\CookiesExample.Views.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\CookiesExample.Views.pdb
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\Humanizer.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.AssemblyReference.cache
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\CookiesExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\CookiesExample.AssemblyInfoInputs.cache
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\CookiesExample.AssemblyInfo.cs
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.CoreCompileInputs.cache
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\CookiesExample.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorAssemblyInfo.cache
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorAssemblyInfo.cs
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\scopedcss\bundle\CookiesExample.styles.css
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\staticwebassets\CookiesExample.StaticWebAssets.Manifest.cache
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\staticwebassets\CookiesExample.StaticWebAssets.Pack.cache
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\staticwebassets\msbuild.CookiesExample.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\staticwebassets\msbuild.build.CookiesExample.props
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.CookiesExample.props
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.CookiesExample.props
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\CookiesExample.TagHelpers.input.cache
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\CookiesExample.TagHelpers.output.cache
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorCoreGenerate.cache
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Create.cshtml.g.cs
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Delete.cshtml.g.cs
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Details.cshtml.g.cs
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorTargetAssemblyInfo.cache
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorTargetAssemblyInfo.cs
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\CookiesExample.Views.pdb
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.CopyComplete
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\CookiesExample.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\refint\CookiesExample.dll
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\CookiesExample.pdb
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\CookiesExample.genruntimeconfig.cache
+C:\Users\vikra\Desktop\YcpOct23\CookiesExample\obj\Debug\net5.0\ref\CookiesExample.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\appsettings.json
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\CookiesExample.exe
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\CookiesExample.deps.json
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\CookiesExample.runtimeconfig.json
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\CookiesExample.runtimeconfig.dev.json
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\CookiesExample.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\CookiesExample.pdb
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\CookiesExample.Views.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\CookiesExample.Views.pdb
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\Humanizer.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.AssemblyReference.cache
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\CookiesExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\CookiesExample.AssemblyInfoInputs.cache
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\CookiesExample.AssemblyInfo.cs
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.CoreCompileInputs.cache
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\CookiesExample.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorAssemblyInfo.cache
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorAssemblyInfo.cs
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\scopedcss\bundle\CookiesExample.styles.css
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\staticwebassets\CookiesExample.StaticWebAssets.Manifest.cache
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\staticwebassets\CookiesExample.StaticWebAssets.Pack.cache
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\staticwebassets\msbuild.CookiesExample.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\staticwebassets\msbuild.build.CookiesExample.props
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.CookiesExample.props
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.CookiesExample.props
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\CookiesExample.TagHelpers.input.cache
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\CookiesExample.TagHelpers.output.cache
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorCoreGenerate.cache
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Create.cshtml.g.cs
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Delete.cshtml.g.cs
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\Razor\Views\Test\Details.cshtml.g.cs
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorTargetAssemblyInfo.cache
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\CookiesExample.RazorTargetAssemblyInfo.cs
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\CookiesExample.Views.pdb
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\CookiesExample.csproj.CopyComplete
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\CookiesExample.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\refint\CookiesExample.dll
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\CookiesExample.pdb
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\CookiesExample.genruntimeconfig.cache
+C:\Users\vikra\Desktop\ActsDec2023\ASPNETMVC\drive-download-20231215T054736Z-001\CookiesExample\obj\Debug\net5.0\ref\CookiesExample.dll

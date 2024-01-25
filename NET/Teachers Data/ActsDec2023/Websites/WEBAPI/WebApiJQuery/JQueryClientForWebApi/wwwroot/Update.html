@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            ShowSingleEmployee();
+
+            function ShowSingleEmployee() {
+                let params = (new URL(document.location)).searchParams;
+                let id = params.get("id");
+                alert(id);
+                $.ajax({
+                    url: "http://localhost:61373/api/Employees/" + id,
+                    type: "get",
+                    contentType: "application/json",
+                    success: function (result, status, xhr) {
+                        alert('here');
+                        alert(result["empNo"]);
+
+                        $("#EmpNo").val(result["empNo"]);
+                        $("#Name").val(result["name"]);
+                        $("#Basic").val(result["basic"]);
+                        $("#DeptNo").val(result["deptNo"]);
+                    },
+                    error: function (xhr, status, error) {
+                        console.log(xhr)
+                    }
+                });
+            }
+
+            $("#UpdateButton").click(function (e) {
+                let params = (new URL(document.location)).searchParams;
+                let id = params.get("id");
+                
+                let jsonstring = '{"EmpNo":"' + $("#EmpNo").val() + '",' +
+                    '"Name":"' + $("#Name").val() + '",' +
+                    '"Basic":"' + $("#Basic").val() + '",' +
+                    '"DeptNo":"' + $("#DeptNo").val() + '"}';
+                alert(jsonstring);
+
+                $.ajax({
+                    url: "http://localhost:61373/api/Employees/" + id,
+                    type: "put",
+                    contentType: "application/json",
+                    data: jsonstring,
+                    success: function (result, status, xhr) {
+                        window.location.href = "ShowAll.html";
+                    },
+                    error: function (xhr, status, error) {
+                        console.log(xhr)
+                    }
+                });
+            });
+        });
+
+        
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div class="form-group">
+        <label asp-for="EmpNo">EmpNo:</label>
+        <input type="text" class="form-control" id="EmpNo"  />
+    </div>
+    <div class="form-group">
+        <label for="Name">Name:</label>
+        <input type="text" class="form-control" id="Name" />
+    </div>
+    <div class="form-group">
+        <label for="Basic">Basic</label>
+        <input type="text" class="form-control" id="Basic" />
+    </div>
+    <div class="form-group">
+        <label for="DeptNo">DeptNo</label>
+        <input type="text" class="form-control" id="DeptNo" />
+    </div>
+    <div>
+        <button type="submit" id="UpdateButton">Update</button>
+    </div>
+</body>
+</html>

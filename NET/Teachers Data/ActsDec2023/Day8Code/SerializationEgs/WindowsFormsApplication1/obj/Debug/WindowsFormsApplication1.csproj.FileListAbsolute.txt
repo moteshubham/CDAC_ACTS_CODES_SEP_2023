@@ -1,0 +1,86 @@
+D:\TrainingExamples\cdac\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\TrainingExamples\cdac\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\TrainingExamples\cdac\SerializationEgs\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\TrainingExamples\cdac\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\TrainingExamples\cdac\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\TrainingExamples\cdac\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\TrainingExamples\cdac\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\TrainingExamples\cdac\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\PenDriveContents\Cdac\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\PenDriveContents\Cdac\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Documents and Settings\Administrator\Desktop\Day5\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Documents and Settings\Administrator\Desktop\Day5\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Documents and Settings\Administrator\Desktop\Day5\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Documents and Settings\Administrator\Desktop\Day5\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Documents and Settings\Administrator\Desktop\Day5\SerializationEgs\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Day5\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Documents and Settings\Administrator\Desktop\Day5\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Day5\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Vikram\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Administrator\Desktop\Vikram\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Administrator\Desktop\Vikram\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Administrator\Desktop\Vikram\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Administrator\Desktop\Vikram\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Vikram\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Administrator\Desktop\Vikram\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Vikram\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\Dump\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Dump\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\Dump\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\Dump\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+D:\Dump\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\Dump\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Dump\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+D:\Dump\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+D:\Dump\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Dump\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\Dump\Today\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Dump\Today\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\Dump\Today\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\Dump\Today\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+D:\Dump\Today\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\Dump\Today\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Dump\Today\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+D:\Dump\Today\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+D:\Dump\Today\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Dump\Today\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\vikra\Desktop\YCPJuly22\Today\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\vikra\Desktop\YCPJuly22\Today\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\vikra\Desktop\YCPJuly22\Today\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\vikra\Desktop\YCPJuly22\Today\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.AssemblyReference.cache
+C:\Users\vikra\Desktop\YCPJuly22\Today\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\vikra\Desktop\YCPJuly22\Today\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\vikra\Desktop\YCPJuly22\Today\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\vikra\Desktop\YCPJuly22\Today\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Users\vikra\Desktop\YCPJuly22\Today\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\vikra\Desktop\YCPJuly22\Today\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\vikra\Desktop\YCPJuly22\New folder\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\vikra\Desktop\YCPJuly22\New folder\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\vikra\Desktop\YCPJuly22\New folder\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\vikra\Desktop\YCPJuly22\New folder\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.AssemblyReference.cache
+C:\Users\vikra\Desktop\YCPJuly22\New folder\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\vikra\Desktop\YCPJuly22\New folder\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\vikra\Desktop\YCPJuly22\New folder\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\vikra\Desktop\YCPJuly22\New folder\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Users\vikra\Desktop\YCPJuly22\New folder\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\vikra\Desktop\YCPJuly22\New folder\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\vikra\Desktop\YcpOct23\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\vikra\Desktop\YcpOct23\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\vikra\Desktop\YcpOct23\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\vikra\Desktop\YcpOct23\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.AssemblyReference.cache
+C:\Users\vikra\Desktop\YcpOct23\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\vikra\Desktop\YcpOct23\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\vikra\Desktop\YcpOct23\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\vikra\Desktop\YcpOct23\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Users\vikra\Desktop\YcpOct23\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\vikra\Desktop\YcpOct23\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\vikra\Desktop\ActsDec2023\Today\Day11\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\vikra\Desktop\ActsDec2023\Today\Day11\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\vikra\Desktop\ActsDec2023\Today\Day11\SerializationEgs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\vikra\Desktop\ActsDec2023\Today\Day11\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.AssemblyReference.cache
+C:\Users\vikra\Desktop\ActsDec2023\Today\Day11\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\vikra\Desktop\ActsDec2023\Today\Day11\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\vikra\Desktop\ActsDec2023\Today\Day11\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\vikra\Desktop\ActsDec2023\Today\Day11\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Users\vikra\Desktop\ActsDec2023\Today\Day11\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\vikra\Desktop\ActsDec2023\Today\Day11\SerializationEgs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

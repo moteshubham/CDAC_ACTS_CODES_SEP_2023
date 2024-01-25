@@ -1,0 +1,19 @@
+WebApiServerExample - Web Api with our code to connect to db
+
+WebApiExampleWithEF -Web Api with EF
+
+ClientForWebApi - uses Microsoft.AspNet.WebApi.Client
+
+-----------------
+
+JqueryWebApiExample1 - Contains settings for CORS. Also contains a htmlfile with query code as a client in the same app
+
+JQueryClientForWebApi - contains jquery client code for SelectSingle, SelectAll, Update(put) --- you have to complete POST,DELETE
+
+-----------
+
+to do
+client app which is a asp.net mvc core application.
+this will call the code in ClientForWebApi(should be made into a library)
+OR
+write code in asp.net mvc core application itself which is client code

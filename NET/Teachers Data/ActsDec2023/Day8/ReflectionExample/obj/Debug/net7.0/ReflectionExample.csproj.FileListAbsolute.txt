@@ -1,0 +1,30 @@
+D:\Trainings\ActsDec2023\Day8\ReflectionExample\bin\Debug\net7.0\ReflectionExample.exe
+D:\Trainings\ActsDec2023\Day8\ReflectionExample\bin\Debug\net7.0\ReflectionExample.deps.json
+D:\Trainings\ActsDec2023\Day8\ReflectionExample\bin\Debug\net7.0\ReflectionExample.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day8\ReflectionExample\bin\Debug\net7.0\ReflectionExample.dll
+D:\Trainings\ActsDec2023\Day8\ReflectionExample\bin\Debug\net7.0\ReflectionExample.pdb
+D:\Trainings\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\ReflectionExample.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\ReflectionExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\ReflectionExample.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\ReflectionExample.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\ReflectionExample.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\ReflectionExample.dll
+D:\Trainings\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\refint\ReflectionExample.dll
+D:\Trainings\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\ReflectionExample.pdb
+D:\Trainings\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\ReflectionExample.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\ref\ReflectionExample.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\ReflectionExample\bin\Debug\net7.0\ReflectionExample.exe
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\ReflectionExample\bin\Debug\net7.0\ReflectionExample.deps.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\ReflectionExample\bin\Debug\net7.0\ReflectionExample.runtimeconfig.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\ReflectionExample\bin\Debug\net7.0\ReflectionExample.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\ReflectionExample\bin\Debug\net7.0\ReflectionExample.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\ReflectionExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\ReflectionExample.AssemblyInfoInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\ReflectionExample.AssemblyInfo.cs
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\ReflectionExample.csproj.CoreCompileInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\ReflectionExample.sourcelink.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\ReflectionExample.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\refint\ReflectionExample.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\ReflectionExample.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\ReflectionExample.genruntimeconfig.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\ReflectionExample\obj\Debug\net7.0\ref\ReflectionExample.dll

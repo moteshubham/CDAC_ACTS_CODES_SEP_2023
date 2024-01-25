@@ -1,0 +1,15 @@
+D:\Trainings\ActsDec2023\Day5\LanguageFeatures\obj\Debug\net7.0\LanguageFeatures.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day5\LanguageFeatures\obj\Debug\net7.0\LanguageFeatures.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day5\LanguageFeatures\obj\Debug\net7.0\LanguageFeatures.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day5\LanguageFeatures\obj\Debug\net7.0\LanguageFeatures.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day5\LanguageFeatures\obj\Debug\net7.0\LanguageFeatures.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day5\LanguageFeatures\bin\Debug\net7.0\LanguageFeatures.exe
+D:\Trainings\ActsDec2023\Day5\LanguageFeatures\bin\Debug\net7.0\LanguageFeatures.deps.json
+D:\Trainings\ActsDec2023\Day5\LanguageFeatures\bin\Debug\net7.0\LanguageFeatures.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day5\LanguageFeatures\bin\Debug\net7.0\LanguageFeatures.dll
+D:\Trainings\ActsDec2023\Day5\LanguageFeatures\bin\Debug\net7.0\LanguageFeatures.pdb
+D:\Trainings\ActsDec2023\Day5\LanguageFeatures\obj\Debug\net7.0\LanguageFeatures.dll
+D:\Trainings\ActsDec2023\Day5\LanguageFeatures\obj\Debug\net7.0\refint\LanguageFeatures.dll
+D:\Trainings\ActsDec2023\Day5\LanguageFeatures\obj\Debug\net7.0\LanguageFeatures.pdb
+D:\Trainings\ActsDec2023\Day5\LanguageFeatures\obj\Debug\net7.0\LanguageFeatures.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day5\LanguageFeatures\obj\Debug\net7.0\ref\LanguageFeatures.dll

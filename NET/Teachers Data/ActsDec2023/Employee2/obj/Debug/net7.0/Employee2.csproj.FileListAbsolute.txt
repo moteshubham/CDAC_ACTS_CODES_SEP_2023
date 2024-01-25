@@ -1,0 +1,15 @@
+D:\Trainings\YcpOct23\Day4\Employee2\obj\Debug\net7.0\Employee2.csproj.AssemblyReference.cache
+D:\Trainings\YcpOct23\Day4\Employee2\obj\Debug\net7.0\Employee2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\YcpOct23\Day4\Employee2\obj\Debug\net7.0\Employee2.AssemblyInfoInputs.cache
+D:\Trainings\YcpOct23\Day4\Employee2\obj\Debug\net7.0\Employee2.AssemblyInfo.cs
+D:\Trainings\YcpOct23\Day4\Employee2\obj\Debug\net7.0\Employee2.csproj.CoreCompileInputs.cache
+D:\Trainings\YcpOct23\Day4\Employee2\bin\Debug\net7.0\Employee2.exe
+D:\Trainings\YcpOct23\Day4\Employee2\bin\Debug\net7.0\Employee2.deps.json
+D:\Trainings\YcpOct23\Day4\Employee2\bin\Debug\net7.0\Employee2.runtimeconfig.json
+D:\Trainings\YcpOct23\Day4\Employee2\bin\Debug\net7.0\Employee2.dll
+D:\Trainings\YcpOct23\Day4\Employee2\bin\Debug\net7.0\Employee2.pdb
+D:\Trainings\YcpOct23\Day4\Employee2\obj\Debug\net7.0\Employee2.dll
+D:\Trainings\YcpOct23\Day4\Employee2\obj\Debug\net7.0\refint\Employee2.dll
+D:\Trainings\YcpOct23\Day4\Employee2\obj\Debug\net7.0\Employee2.pdb
+D:\Trainings\YcpOct23\Day4\Employee2\obj\Debug\net7.0\Employee2.genruntimeconfig.cache
+D:\Trainings\YcpOct23\Day4\Employee2\obj\Debug\net7.0\ref\Employee2.dll

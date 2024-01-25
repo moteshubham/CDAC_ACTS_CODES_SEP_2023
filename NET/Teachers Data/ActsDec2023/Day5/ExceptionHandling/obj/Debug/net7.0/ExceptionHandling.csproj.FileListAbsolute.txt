@@ -1,0 +1,15 @@
+D:\Trainings\ActsDec2023\Day5\ExceptionHandling\obj\Debug\net7.0\ExceptionHandling.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day5\ExceptionHandling\obj\Debug\net7.0\ExceptionHandling.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day5\ExceptionHandling\obj\Debug\net7.0\ExceptionHandling.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day5\ExceptionHandling\obj\Debug\net7.0\ExceptionHandling.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day5\ExceptionHandling\obj\Debug\net7.0\ExceptionHandling.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day5\ExceptionHandling\bin\Debug\net7.0\ExceptionHandling.exe
+D:\Trainings\ActsDec2023\Day5\ExceptionHandling\bin\Debug\net7.0\ExceptionHandling.deps.json
+D:\Trainings\ActsDec2023\Day5\ExceptionHandling\bin\Debug\net7.0\ExceptionHandling.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day5\ExceptionHandling\bin\Debug\net7.0\ExceptionHandling.dll
+D:\Trainings\ActsDec2023\Day5\ExceptionHandling\bin\Debug\net7.0\ExceptionHandling.pdb
+D:\Trainings\ActsDec2023\Day5\ExceptionHandling\obj\Debug\net7.0\ExceptionHandling.dll
+D:\Trainings\ActsDec2023\Day5\ExceptionHandling\obj\Debug\net7.0\refint\ExceptionHandling.dll
+D:\Trainings\ActsDec2023\Day5\ExceptionHandling\obj\Debug\net7.0\ExceptionHandling.pdb
+D:\Trainings\ActsDec2023\Day5\ExceptionHandling\obj\Debug\net7.0\ExceptionHandling.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day5\ExceptionHandling\obj\Debug\net7.0\ref\ExceptionHandling.dll

@@ -1,0 +1,30 @@
+D:\Trainings\ActsDec2023\Day4\Delegates\bin\Debug\net7.0\Delegates.exe
+D:\Trainings\ActsDec2023\Day4\Delegates\bin\Debug\net7.0\Delegates.deps.json
+D:\Trainings\ActsDec2023\Day4\Delegates\bin\Debug\net7.0\Delegates.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day4\Delegates\bin\Debug\net7.0\Delegates.dll
+D:\Trainings\ActsDec2023\Day4\Delegates\bin\Debug\net7.0\Delegates.pdb
+D:\Trainings\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\Delegates.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\Delegates.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\Delegates.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\Delegates.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\Delegates.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\Delegates.dll
+D:\Trainings\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\refint\Delegates.dll
+D:\Trainings\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\Delegates.pdb
+D:\Trainings\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\Delegates.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\ref\Delegates.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\Delegates\bin\Debug\net7.0\Delegates.exe
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\Delegates\bin\Debug\net7.0\Delegates.deps.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\Delegates\bin\Debug\net7.0\Delegates.runtimeconfig.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\Delegates\bin\Debug\net7.0\Delegates.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\Delegates\bin\Debug\net7.0\Delegates.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\Delegates.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\Delegates.AssemblyInfoInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\Delegates.AssemblyInfo.cs
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\Delegates.csproj.CoreCompileInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\Delegates.sourcelink.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\Delegates.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\refint\Delegates.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\Delegates.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\Delegates.genruntimeconfig.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\Delegates\obj\Debug\net7.0\ref\Delegates.dll

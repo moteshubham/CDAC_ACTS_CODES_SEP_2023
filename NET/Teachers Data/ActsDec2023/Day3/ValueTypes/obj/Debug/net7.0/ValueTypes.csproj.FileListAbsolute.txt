@@ -1,0 +1,15 @@
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\ValueTypes\bin\Debug\net7.0\ValueTypes.exe
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\ValueTypes\bin\Debug\net7.0\ValueTypes.deps.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\ValueTypes\bin\Debug\net7.0\ValueTypes.runtimeconfig.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\ValueTypes\bin\Debug\net7.0\ValueTypes.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\ValueTypes\bin\Debug\net7.0\ValueTypes.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\ValueTypes\obj\Debug\net7.0\ValueTypes.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\ValueTypes\obj\Debug\net7.0\ValueTypes.AssemblyInfoInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\ValueTypes\obj\Debug\net7.0\ValueTypes.AssemblyInfo.cs
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\ValueTypes\obj\Debug\net7.0\ValueTypes.csproj.CoreCompileInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\ValueTypes\obj\Debug\net7.0\ValueTypes.sourcelink.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\ValueTypes\obj\Debug\net7.0\ValueTypes.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\ValueTypes\obj\Debug\net7.0\refint\ValueTypes.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\ValueTypes\obj\Debug\net7.0\ValueTypes.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\ValueTypes\obj\Debug\net7.0\ValueTypes.genruntimeconfig.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\ValueTypes\obj\Debug\net7.0\ref\ValueTypes.dll

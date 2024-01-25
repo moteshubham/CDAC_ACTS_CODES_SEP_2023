@@ -1,0 +1,34 @@
+Code first approach
+
+1. Add Nuget Packages
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+
+2. Add Model class and DbContext class
+
+3. Add connection string in appsettings.json
+
+  "ConnectionStrings": {
+    "EmpDbContext": "Data Source=(localdb)\\MsSqlLocalDb;Initial Catalog=EmpDb;Integrated Security=true;MultipleActiveResultSets=true"
+  }
+
+4.  Add EF service in Program.cs
+
+       public static void Main(string[] args)
+        {
+            builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<EmpDbContext>(options =>
+                        options.UseSqlServer(builder.Configuration.GetConnectionString("EmpDbContext")));
+
+        }
+
+5. Package Manager Console
+
+Add-Migration InitialCreate 
+Update-Database
+
+
+
+
+

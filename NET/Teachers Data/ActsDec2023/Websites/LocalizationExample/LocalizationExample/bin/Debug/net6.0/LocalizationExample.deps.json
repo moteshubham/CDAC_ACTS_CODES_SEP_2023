@@ -1,0 +1,34 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LocalizationExample/1.0.0": {
+        "runtime": {
+          "LocalizationExample.dll": {}
+        },
+        "resources": {
+          "en/LocalizationExample.resources.dll": {
+            "locale": "en"
+          },
+          "fr/LocalizationExample.resources.dll": {
+            "locale": "fr"
+          },
+          "mr/LocalizationExample.resources.dll": {
+            "locale": "mr"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LocalizationExample/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

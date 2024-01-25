@@ -1,0 +1,15 @@
+D:\Trainings\ActsDec2023\Day5\ActionFuncPredicate\bin\Debug\net7.0\ActionFuncPredicate.exe
+D:\Trainings\ActsDec2023\Day5\ActionFuncPredicate\bin\Debug\net7.0\ActionFuncPredicate.deps.json
+D:\Trainings\ActsDec2023\Day5\ActionFuncPredicate\bin\Debug\net7.0\ActionFuncPredicate.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day5\ActionFuncPredicate\bin\Debug\net7.0\ActionFuncPredicate.dll
+D:\Trainings\ActsDec2023\Day5\ActionFuncPredicate\bin\Debug\net7.0\ActionFuncPredicate.pdb
+D:\Trainings\ActsDec2023\Day5\ActionFuncPredicate\obj\Debug\net7.0\ActionFuncPredicate.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day5\ActionFuncPredicate\obj\Debug\net7.0\ActionFuncPredicate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day5\ActionFuncPredicate\obj\Debug\net7.0\ActionFuncPredicate.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day5\ActionFuncPredicate\obj\Debug\net7.0\ActionFuncPredicate.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day5\ActionFuncPredicate\obj\Debug\net7.0\ActionFuncPredicate.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day5\ActionFuncPredicate\obj\Debug\net7.0\ActionFuncPredicate.dll
+D:\Trainings\ActsDec2023\Day5\ActionFuncPredicate\obj\Debug\net7.0\refint\ActionFuncPredicate.dll
+D:\Trainings\ActsDec2023\Day5\ActionFuncPredicate\obj\Debug\net7.0\ActionFuncPredicate.pdb
+D:\Trainings\ActsDec2023\Day5\ActionFuncPredicate\obj\Debug\net7.0\ActionFuncPredicate.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day5\ActionFuncPredicate\obj\Debug\net7.0\ref\ActionFuncPredicate.dll

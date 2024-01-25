@@ -16,8 +16,9 @@ namespace N1
             Class1 c = new Class1();
             System.Console.WriteLine("Hello mote " + c.displayMe());
 
-
             Console.WriteLine(Class3.displayYou());
+            Console.WriteLine(N2.Class3.displayYou());
+
         }
     }
 

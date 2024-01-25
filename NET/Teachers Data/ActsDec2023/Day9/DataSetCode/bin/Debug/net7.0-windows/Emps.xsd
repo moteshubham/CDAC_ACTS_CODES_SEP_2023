@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Emps">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EmpNo" type="xs:int" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Basic" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DeptNo" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Deps">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DeptNo" type="xs:int" minOccurs="0" />
+              <xs:element name="DeptName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Emps" />
+      <xs:field xpath="EmpNo" />
+    </xs:unique>
+    <xs:unique name="Deps_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//Deps" />
+      <xs:field xpath="DeptNo" />
+    </xs:unique>
+    <xs:unique name="Constraint2">
+      <xs:selector xpath=".//Deps" />
+      <xs:field xpath="DeptName" />
+    </xs:unique>
+    <xs:keyref name="Relation1" refer="Deps_Constraint1">
+      <xs:selector xpath=".//Emps" />
+      <xs:field xpath="DeptNo" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

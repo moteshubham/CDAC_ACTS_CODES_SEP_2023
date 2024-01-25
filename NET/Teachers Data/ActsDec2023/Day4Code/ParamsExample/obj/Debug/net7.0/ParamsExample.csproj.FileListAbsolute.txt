@@ -1,0 +1,15 @@
+D:\Trainings\YcpOct23\Day6\ParamsExample\bin\Debug\net7.0\ParamsExample.exe
+D:\Trainings\YcpOct23\Day6\ParamsExample\bin\Debug\net7.0\ParamsExample.deps.json
+D:\Trainings\YcpOct23\Day6\ParamsExample\bin\Debug\net7.0\ParamsExample.runtimeconfig.json
+D:\Trainings\YcpOct23\Day6\ParamsExample\bin\Debug\net7.0\ParamsExample.dll
+D:\Trainings\YcpOct23\Day6\ParamsExample\bin\Debug\net7.0\ParamsExample.pdb
+D:\Trainings\YcpOct23\Day6\ParamsExample\obj\Debug\net7.0\ParamsExample.csproj.AssemblyReference.cache
+D:\Trainings\YcpOct23\Day6\ParamsExample\obj\Debug\net7.0\ParamsExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\YcpOct23\Day6\ParamsExample\obj\Debug\net7.0\ParamsExample.AssemblyInfoInputs.cache
+D:\Trainings\YcpOct23\Day6\ParamsExample\obj\Debug\net7.0\ParamsExample.AssemblyInfo.cs
+D:\Trainings\YcpOct23\Day6\ParamsExample\obj\Debug\net7.0\ParamsExample.csproj.CoreCompileInputs.cache
+D:\Trainings\YcpOct23\Day6\ParamsExample\obj\Debug\net7.0\ParamsExample.dll
+D:\Trainings\YcpOct23\Day6\ParamsExample\obj\Debug\net7.0\refint\ParamsExample.dll
+D:\Trainings\YcpOct23\Day6\ParamsExample\obj\Debug\net7.0\ParamsExample.pdb
+D:\Trainings\YcpOct23\Day6\ParamsExample\obj\Debug\net7.0\ParamsExample.genruntimeconfig.cache
+D:\Trainings\YcpOct23\Day6\ParamsExample\obj\Debug\net7.0\ref\ParamsExample.dll

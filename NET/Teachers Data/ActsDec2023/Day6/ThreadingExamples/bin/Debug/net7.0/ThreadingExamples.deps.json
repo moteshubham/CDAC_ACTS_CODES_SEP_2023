@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ThreadingExamples/1.0.0": {
+        "runtime": {
+          "ThreadingExamples.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ThreadingExamples/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "QBX8IxrgodJODy91BekbxDAuQwsSTPXZIg47cFEErjY8o/vWhWTbhvQqZh6nviFELWsOq5lt0gHpNRJxKKuM9w==",
+  "success": true,
+  "projectFilePath": "D:\\CDAC\\Coding\\CDAC_ACTS_CODES\\NET\\Teachers Data\\ActsDec2023\\MutexExample\\MutexExample\\WinFormsApp1\\WinFormsApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

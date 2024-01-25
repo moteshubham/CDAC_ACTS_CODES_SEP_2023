@@ -1,0 +1,15 @@
+D:\Trainings\ActsDec2023\Day8\OperatorOverLoading\bin\Debug\net7.0\OperatorOverLoading.exe
+D:\Trainings\ActsDec2023\Day8\OperatorOverLoading\bin\Debug\net7.0\OperatorOverLoading.deps.json
+D:\Trainings\ActsDec2023\Day8\OperatorOverLoading\bin\Debug\net7.0\OperatorOverLoading.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day8\OperatorOverLoading\bin\Debug\net7.0\OperatorOverLoading.dll
+D:\Trainings\ActsDec2023\Day8\OperatorOverLoading\bin\Debug\net7.0\OperatorOverLoading.pdb
+D:\Trainings\ActsDec2023\Day8\OperatorOverLoading\obj\Debug\net7.0\OperatorOverLoading.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day8\OperatorOverLoading\obj\Debug\net7.0\OperatorOverLoading.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day8\OperatorOverLoading\obj\Debug\net7.0\OperatorOverLoading.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day8\OperatorOverLoading\obj\Debug\net7.0\OperatorOverLoading.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day8\OperatorOverLoading\obj\Debug\net7.0\OperatorOverLoading.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day8\OperatorOverLoading\obj\Debug\net7.0\OperatorOverLoading.dll
+D:\Trainings\ActsDec2023\Day8\OperatorOverLoading\obj\Debug\net7.0\refint\OperatorOverLoading.dll
+D:\Trainings\ActsDec2023\Day8\OperatorOverLoading\obj\Debug\net7.0\OperatorOverLoading.pdb
+D:\Trainings\ActsDec2023\Day8\OperatorOverLoading\obj\Debug\net7.0\OperatorOverLoading.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day8\OperatorOverLoading\obj\Debug\net7.0\ref\OperatorOverLoading.dll

@@ -1,0 +1,30 @@
+D:\Trainings\ActsDec2023\Day7\WorkingWithTasks\bin\Debug\net7.0\WorkingWithTasks.exe
+D:\Trainings\ActsDec2023\Day7\WorkingWithTasks\bin\Debug\net7.0\WorkingWithTasks.deps.json
+D:\Trainings\ActsDec2023\Day7\WorkingWithTasks\bin\Debug\net7.0\WorkingWithTasks.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day7\WorkingWithTasks\bin\Debug\net7.0\WorkingWithTasks.dll
+D:\Trainings\ActsDec2023\Day7\WorkingWithTasks\bin\Debug\net7.0\WorkingWithTasks.pdb
+D:\Trainings\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\WorkingWithTasks.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\WorkingWithTasks.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\WorkingWithTasks.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\WorkingWithTasks.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\WorkingWithTasks.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\WorkingWithTasks.dll
+D:\Trainings\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\refint\WorkingWithTasks.dll
+D:\Trainings\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\WorkingWithTasks.pdb
+D:\Trainings\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\WorkingWithTasks.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\ref\WorkingWithTasks.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\WorkingWithTasks\bin\Debug\net7.0\WorkingWithTasks.exe
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\WorkingWithTasks\bin\Debug\net7.0\WorkingWithTasks.deps.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\WorkingWithTasks\bin\Debug\net7.0\WorkingWithTasks.runtimeconfig.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\WorkingWithTasks\bin\Debug\net7.0\WorkingWithTasks.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\WorkingWithTasks\bin\Debug\net7.0\WorkingWithTasks.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\WorkingWithTasks.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\WorkingWithTasks.AssemblyInfoInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\WorkingWithTasks.AssemblyInfo.cs
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\WorkingWithTasks.csproj.CoreCompileInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\WorkingWithTasks.sourcelink.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\WorkingWithTasks.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\refint\WorkingWithTasks.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\WorkingWithTasks.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\WorkingWithTasks.genruntimeconfig.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day7\WorkingWithTasks\obj\Debug\net7.0\ref\WorkingWithTasks.dll

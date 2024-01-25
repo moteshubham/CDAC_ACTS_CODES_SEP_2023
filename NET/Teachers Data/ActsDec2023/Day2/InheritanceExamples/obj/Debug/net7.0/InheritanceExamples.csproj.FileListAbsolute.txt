@@ -1,0 +1,37 @@
+D:\Trainings\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day2\InheritanceExamples\bin\Debug\net7.0\InheritanceExamples.exe
+D:\Trainings\ActsDec2023\Day2\InheritanceExamples\bin\Debug\net7.0\InheritanceExamples.deps.json
+D:\Trainings\ActsDec2023\Day2\InheritanceExamples\bin\Debug\net7.0\InheritanceExamples.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day2\InheritanceExamples\bin\Debug\net7.0\InheritanceExamples.dll
+D:\Trainings\ActsDec2023\Day2\InheritanceExamples\bin\Debug\net7.0\InheritanceExamples.pdb
+D:\Trainings\ActsDec2023\Day2\InheritanceExamples\bin\Debug\net7.0\TestAccessSpecifiers.dll
+D:\Trainings\ActsDec2023\Day2\InheritanceExamples\bin\Debug\net7.0\TestAccessSpecifiers.pdb
+D:\Trainings\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.csproj.CopyComplete
+D:\Trainings\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.dll
+D:\Trainings\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\refint\InheritanceExamples.dll
+D:\Trainings\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.pdb
+D:\Trainings\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\ref\InheritanceExamples.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.csproj.AssemblyReference.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.AssemblyInfoInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.AssemblyInfo.cs
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.csproj.CoreCompileInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.sourcelink.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\refint\InheritanceExamples.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\bin\Debug\net7.0\InheritanceExamples.exe
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\bin\Debug\net7.0\InheritanceExamples.deps.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\bin\Debug\net7.0\InheritanceExamples.runtimeconfig.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\bin\Debug\net7.0\InheritanceExamples.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\bin\Debug\net7.0\InheritanceExamples.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\bin\Debug\net7.0\TestAccessSpecifiers.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\bin\Debug\net7.0\TestAccessSpecifiers.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.csproj.CopyComplete
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\InheritanceExamples.genruntimeconfig.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\InheritanceExamples\obj\Debug\net7.0\ref\InheritanceExamples.dll

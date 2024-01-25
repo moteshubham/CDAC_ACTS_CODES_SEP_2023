@@ -1,0 +1,15 @@
+D:\Trainings\ActsDec2023\Day5\IDisposableExample\bin\Debug\net7.0\IDisposableExample.exe
+D:\Trainings\ActsDec2023\Day5\IDisposableExample\bin\Debug\net7.0\IDisposableExample.deps.json
+D:\Trainings\ActsDec2023\Day5\IDisposableExample\bin\Debug\net7.0\IDisposableExample.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day5\IDisposableExample\bin\Debug\net7.0\IDisposableExample.dll
+D:\Trainings\ActsDec2023\Day5\IDisposableExample\bin\Debug\net7.0\IDisposableExample.pdb
+D:\Trainings\ActsDec2023\Day5\IDisposableExample\obj\Debug\net7.0\IDisposableExample.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day5\IDisposableExample\obj\Debug\net7.0\IDisposableExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day5\IDisposableExample\obj\Debug\net7.0\IDisposableExample.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day5\IDisposableExample\obj\Debug\net7.0\IDisposableExample.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day5\IDisposableExample\obj\Debug\net7.0\IDisposableExample.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day5\IDisposableExample\obj\Debug\net7.0\IDisposableExample.dll
+D:\Trainings\ActsDec2023\Day5\IDisposableExample\obj\Debug\net7.0\refint\IDisposableExample.dll
+D:\Trainings\ActsDec2023\Day5\IDisposableExample\obj\Debug\net7.0\IDisposableExample.pdb
+D:\Trainings\ActsDec2023\Day5\IDisposableExample\obj\Debug\net7.0\IDisposableExample.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day5\IDisposableExample\obj\Debug\net7.0\ref\IDisposableExample.dll

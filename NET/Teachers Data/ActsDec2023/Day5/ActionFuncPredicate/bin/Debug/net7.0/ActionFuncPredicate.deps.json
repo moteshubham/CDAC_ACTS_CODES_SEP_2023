@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ActionFuncPredicate/1.0.0": {
+        "runtime": {
+          "ActionFuncPredicate.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ActionFuncPredicate/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

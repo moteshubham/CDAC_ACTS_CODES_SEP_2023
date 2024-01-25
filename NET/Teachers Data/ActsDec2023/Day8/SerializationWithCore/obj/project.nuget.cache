@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9SVqRL1uKkLyqLdyfPBrEA6Hp376+PYmOijwrA1KTbmlw4AjiadI4za88y6Yq8HcPR0UxSXRs5reGGSjDJkDZA==",
+  "success": true,
+  "projectFilePath": "D:\\CDAC\\Coding\\CDAC_ACTS_CODES\\NET\\Teachers Data\\ActsDec2023\\Day8\\SerializationWithCore\\SerializationWithCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\soapformatter\\1.1.9\\soapformatter.1.1.9.nupkg.sha512"
+  ],
+  "logs": []
+}

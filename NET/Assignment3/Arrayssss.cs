@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Assignment3
 {
-    internal class Arrayssss
+    internal class Array
     {
         static void Main()
         {

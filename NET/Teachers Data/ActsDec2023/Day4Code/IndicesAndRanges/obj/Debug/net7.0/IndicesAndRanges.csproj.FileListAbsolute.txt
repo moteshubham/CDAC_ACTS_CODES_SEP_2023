@@ -1,0 +1,15 @@
+D:\Trainings\YcpOct23\Leftovers\IndicesAndRanges\bin\Debug\net7.0\IndicesAndRanges.exe
+D:\Trainings\YcpOct23\Leftovers\IndicesAndRanges\bin\Debug\net7.0\IndicesAndRanges.deps.json
+D:\Trainings\YcpOct23\Leftovers\IndicesAndRanges\bin\Debug\net7.0\IndicesAndRanges.runtimeconfig.json
+D:\Trainings\YcpOct23\Leftovers\IndicesAndRanges\bin\Debug\net7.0\IndicesAndRanges.dll
+D:\Trainings\YcpOct23\Leftovers\IndicesAndRanges\bin\Debug\net7.0\IndicesAndRanges.pdb
+D:\Trainings\YcpOct23\Leftovers\IndicesAndRanges\obj\Debug\net7.0\IndicesAndRanges.csproj.AssemblyReference.cache
+D:\Trainings\YcpOct23\Leftovers\IndicesAndRanges\obj\Debug\net7.0\IndicesAndRanges.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\YcpOct23\Leftovers\IndicesAndRanges\obj\Debug\net7.0\IndicesAndRanges.AssemblyInfoInputs.cache
+D:\Trainings\YcpOct23\Leftovers\IndicesAndRanges\obj\Debug\net7.0\IndicesAndRanges.AssemblyInfo.cs
+D:\Trainings\YcpOct23\Leftovers\IndicesAndRanges\obj\Debug\net7.0\IndicesAndRanges.csproj.CoreCompileInputs.cache
+D:\Trainings\YcpOct23\Leftovers\IndicesAndRanges\obj\Debug\net7.0\IndicesAndRanges.dll
+D:\Trainings\YcpOct23\Leftovers\IndicesAndRanges\obj\Debug\net7.0\refint\IndicesAndRanges.dll
+D:\Trainings\YcpOct23\Leftovers\IndicesAndRanges\obj\Debug\net7.0\IndicesAndRanges.pdb
+D:\Trainings\YcpOct23\Leftovers\IndicesAndRanges\obj\Debug\net7.0\IndicesAndRanges.genruntimeconfig.cache
+D:\Trainings\YcpOct23\Leftovers\IndicesAndRanges\obj\Debug\net7.0\ref\IndicesAndRanges.dll

@@ -1,0 +1,15 @@
+D:\Trainings\ActsDec2023\Day7\TPLExamples\bin\Debug\net7.0\TPLExamples.exe
+D:\Trainings\ActsDec2023\Day7\TPLExamples\bin\Debug\net7.0\TPLExamples.deps.json
+D:\Trainings\ActsDec2023\Day7\TPLExamples\bin\Debug\net7.0\TPLExamples.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day7\TPLExamples\bin\Debug\net7.0\TPLExamples.dll
+D:\Trainings\ActsDec2023\Day7\TPLExamples\bin\Debug\net7.0\TPLExamples.pdb
+D:\Trainings\ActsDec2023\Day7\TPLExamples\obj\Debug\net7.0\TPLExamples.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day7\TPLExamples\obj\Debug\net7.0\TPLExamples.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day7\TPLExamples\obj\Debug\net7.0\TPLExamples.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day7\TPLExamples\obj\Debug\net7.0\TPLExamples.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day7\TPLExamples\obj\Debug\net7.0\TPLExamples.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day7\TPLExamples\obj\Debug\net7.0\TPLExamples.dll
+D:\Trainings\ActsDec2023\Day7\TPLExamples\obj\Debug\net7.0\refint\TPLExamples.dll
+D:\Trainings\ActsDec2023\Day7\TPLExamples\obj\Debug\net7.0\TPLExamples.pdb
+D:\Trainings\ActsDec2023\Day7\TPLExamples\obj\Debug\net7.0\TPLExamples.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day7\TPLExamples\obj\Debug\net7.0\ref\TPLExamples.dll

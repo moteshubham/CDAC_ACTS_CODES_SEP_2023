@@ -1,0 +1,22 @@
+Create a Class Employee with the following specifications
+
+
+Properties
+----------
+string Name -> no blank names should be allowed
+int EmpNo -> must be greater than 0
+decimal Basic -> must be between some range
+short DeptNo -> must be > 0
+
+Methods
+-------
+decimal GetNetSalary() -> returns calculated net salary (Use any formula to get net salary based on Basic salary)
+
+
+Create constructors to accept initial values for Employee obj
+eg
+Employee o1 = new Employee(1,"Amol",123465, 10);
+Employee o2 = new Employee(1,"Amol",123465);
+Employee o3 = new Employee(1,"Amol");
+Employee o4 = new Employee(1);
+Employee o5 = new Employee();

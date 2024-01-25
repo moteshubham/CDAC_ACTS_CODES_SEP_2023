@@ -1,0 +1,15 @@
+D:\Trainings\ActsDec2023\Day3\RefAndValue2\bin\Debug\net7.0\RefAndValue2.exe
+D:\Trainings\ActsDec2023\Day3\RefAndValue2\bin\Debug\net7.0\RefAndValue2.deps.json
+D:\Trainings\ActsDec2023\Day3\RefAndValue2\bin\Debug\net7.0\RefAndValue2.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day3\RefAndValue2\bin\Debug\net7.0\RefAndValue2.dll
+D:\Trainings\ActsDec2023\Day3\RefAndValue2\bin\Debug\net7.0\RefAndValue2.pdb
+D:\Trainings\ActsDec2023\Day3\RefAndValue2\obj\Debug\net7.0\RefAndValue2.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day3\RefAndValue2\obj\Debug\net7.0\RefAndValue2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day3\RefAndValue2\obj\Debug\net7.0\RefAndValue2.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day3\RefAndValue2\obj\Debug\net7.0\RefAndValue2.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day3\RefAndValue2\obj\Debug\net7.0\RefAndValue2.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day3\RefAndValue2\obj\Debug\net7.0\RefAndValue2.dll
+D:\Trainings\ActsDec2023\Day3\RefAndValue2\obj\Debug\net7.0\refint\RefAndValue2.dll
+D:\Trainings\ActsDec2023\Day3\RefAndValue2\obj\Debug\net7.0\RefAndValue2.pdb
+D:\Trainings\ActsDec2023\Day3\RefAndValue2\obj\Debug\net7.0\RefAndValue2.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day3\RefAndValue2\obj\Debug\net7.0\ref\RefAndValue2.dll

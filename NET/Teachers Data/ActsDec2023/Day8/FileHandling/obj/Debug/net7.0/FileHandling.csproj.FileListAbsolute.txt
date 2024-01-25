@@ -1,0 +1,15 @@
+D:\Trainings\ActsDec2023\Day8\FileHandling\bin\Debug\net7.0\FileHandling.exe
+D:\Trainings\ActsDec2023\Day8\FileHandling\bin\Debug\net7.0\FileHandling.deps.json
+D:\Trainings\ActsDec2023\Day8\FileHandling\bin\Debug\net7.0\FileHandling.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day8\FileHandling\bin\Debug\net7.0\FileHandling.dll
+D:\Trainings\ActsDec2023\Day8\FileHandling\bin\Debug\net7.0\FileHandling.pdb
+D:\Trainings\ActsDec2023\Day8\FileHandling\obj\Debug\net7.0\FileHandling.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day8\FileHandling\obj\Debug\net7.0\FileHandling.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day8\FileHandling\obj\Debug\net7.0\FileHandling.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day8\FileHandling\obj\Debug\net7.0\FileHandling.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day8\FileHandling\obj\Debug\net7.0\FileHandling.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day8\FileHandling\obj\Debug\net7.0\FileHandling.dll
+D:\Trainings\ActsDec2023\Day8\FileHandling\obj\Debug\net7.0\refint\FileHandling.dll
+D:\Trainings\ActsDec2023\Day8\FileHandling\obj\Debug\net7.0\FileHandling.pdb
+D:\Trainings\ActsDec2023\Day8\FileHandling\obj\Debug\net7.0\FileHandling.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day8\FileHandling\obj\Debug\net7.0\ref\FileHandling.dll

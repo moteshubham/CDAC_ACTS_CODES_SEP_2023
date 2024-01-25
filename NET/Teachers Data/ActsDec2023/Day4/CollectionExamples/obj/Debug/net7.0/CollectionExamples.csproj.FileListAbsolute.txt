@@ -1,0 +1,30 @@
+D:\Trainings\ActsDec2023\Day4\CollectionExamples\bin\Debug\net7.0\CollectionExamples.exe
+D:\Trainings\ActsDec2023\Day4\CollectionExamples\bin\Debug\net7.0\CollectionExamples.deps.json
+D:\Trainings\ActsDec2023\Day4\CollectionExamples\bin\Debug\net7.0\CollectionExamples.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day4\CollectionExamples\bin\Debug\net7.0\CollectionExamples.dll
+D:\Trainings\ActsDec2023\Day4\CollectionExamples\bin\Debug\net7.0\CollectionExamples.pdb
+D:\Trainings\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\CollectionExamples.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\CollectionExamples.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\CollectionExamples.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\CollectionExamples.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\CollectionExamples.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\CollectionExamples.dll
+D:\Trainings\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\refint\CollectionExamples.dll
+D:\Trainings\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\CollectionExamples.pdb
+D:\Trainings\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\CollectionExamples.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\ref\CollectionExamples.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\CollectionExamples\bin\Debug\net7.0\CollectionExamples.exe
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\CollectionExamples\bin\Debug\net7.0\CollectionExamples.deps.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\CollectionExamples\bin\Debug\net7.0\CollectionExamples.runtimeconfig.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\CollectionExamples\bin\Debug\net7.0\CollectionExamples.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\CollectionExamples\bin\Debug\net7.0\CollectionExamples.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\CollectionExamples.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\CollectionExamples.AssemblyInfoInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\CollectionExamples.AssemblyInfo.cs
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\CollectionExamples.csproj.CoreCompileInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\CollectionExamples.sourcelink.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\CollectionExamples.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\refint\CollectionExamples.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\CollectionExamples.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\CollectionExamples.genruntimeconfig.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day4\CollectionExamples\obj\Debug\net7.0\ref\CollectionExamples.dll

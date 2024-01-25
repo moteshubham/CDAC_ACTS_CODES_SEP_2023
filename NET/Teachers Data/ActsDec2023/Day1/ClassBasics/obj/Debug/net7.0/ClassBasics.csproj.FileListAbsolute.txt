@@ -1,0 +1,15 @@
+D:\Trainings\ActsDec2023\Day1\ClassBasics\obj\Debug\net7.0\ClassBasics.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day1\ClassBasics\obj\Debug\net7.0\ClassBasics.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day1\ClassBasics\obj\Debug\net7.0\ClassBasics.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day1\ClassBasics\obj\Debug\net7.0\ClassBasics.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day1\ClassBasics\obj\Debug\net7.0\ClassBasics.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day1\ClassBasics\bin\Debug\net7.0\ClassBasics.exe
+D:\Trainings\ActsDec2023\Day1\ClassBasics\bin\Debug\net7.0\ClassBasics.deps.json
+D:\Trainings\ActsDec2023\Day1\ClassBasics\bin\Debug\net7.0\ClassBasics.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day1\ClassBasics\bin\Debug\net7.0\ClassBasics.dll
+D:\Trainings\ActsDec2023\Day1\ClassBasics\bin\Debug\net7.0\ClassBasics.pdb
+D:\Trainings\ActsDec2023\Day1\ClassBasics\obj\Debug\net7.0\ClassBasics.dll
+D:\Trainings\ActsDec2023\Day1\ClassBasics\obj\Debug\net7.0\refint\ClassBasics.dll
+D:\Trainings\ActsDec2023\Day1\ClassBasics\obj\Debug\net7.0\ClassBasics.pdb
+D:\Trainings\ActsDec2023\Day1\ClassBasics\obj\Debug\net7.0\ClassBasics.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day1\ClassBasics\obj\Debug\net7.0\ref\ClassBasics.dll

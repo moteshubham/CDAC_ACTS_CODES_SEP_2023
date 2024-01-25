@@ -1,0 +1,30 @@
+D:\Trainings\ActsDec2023\Day6\LinqExample\bin\Debug\net7.0\LinqExample.exe
+D:\Trainings\ActsDec2023\Day6\LinqExample\bin\Debug\net7.0\LinqExample.deps.json
+D:\Trainings\ActsDec2023\Day6\LinqExample\bin\Debug\net7.0\LinqExample.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day6\LinqExample\bin\Debug\net7.0\LinqExample.dll
+D:\Trainings\ActsDec2023\Day6\LinqExample\bin\Debug\net7.0\LinqExample.pdb
+D:\Trainings\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\LinqExample.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\LinqExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\LinqExample.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\LinqExample.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\LinqExample.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\LinqExample.dll
+D:\Trainings\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\refint\LinqExample.dll
+D:\Trainings\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\LinqExample.pdb
+D:\Trainings\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\LinqExample.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\ref\LinqExample.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day6\LinqExample\bin\Debug\net7.0\LinqExample.exe
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day6\LinqExample\bin\Debug\net7.0\LinqExample.deps.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day6\LinqExample\bin\Debug\net7.0\LinqExample.runtimeconfig.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day6\LinqExample\bin\Debug\net7.0\LinqExample.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day6\LinqExample\bin\Debug\net7.0\LinqExample.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\LinqExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\LinqExample.AssemblyInfoInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\LinqExample.AssemblyInfo.cs
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\LinqExample.csproj.CoreCompileInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\LinqExample.sourcelink.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\LinqExample.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\refint\LinqExample.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\LinqExample.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\LinqExample.genruntimeconfig.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day6\LinqExample\obj\Debug\net7.0\ref\LinqExample.dll

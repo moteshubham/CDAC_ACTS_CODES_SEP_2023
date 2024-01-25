@@ -1,0 +1,31 @@
+Razor Pages
+https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-6.0&tabs=visual-studio
+
+https://learn.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-6.0&tabs=visual-studio
+
+localization
+https://learn.microsoft.com/en-us/aspnet/core/fundamentals/localization?view=aspnetcore-6.0
+
+
+bundling and minification
+(.net framework)
+https://learn.microsoft.com/en-us/aspnet/mvc/overview/performance/bundling-and-minification
+(.net core)
+https://learn.microsoft.com/en-us/aspnet/core/client-side/bundling-and-minification?view=aspnetcore-6.0
+
+
+Deployment
+https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/?view=aspnetcore-6.0
+
+
+Basics
+https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-6.0&tabs=visual-studio
+
+https://learn.microsoft.com/en-us/aspnet/core/fundamentals/?view=aspnetcore-6.0&tabs=windows
+
+Security
+https://learn.microsoft.com/en-us/aspnet/core/security/?view=aspnetcore-6.0
+
+Filters
+https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-6.0#authorization-filters
+

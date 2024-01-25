@@ -1,0 +1,15 @@
+D:\Trainings\ActsDec2023\Day2\ConstructorsAndObjectInitializeers\bin\Debug\net7.0\ConstructorsAndObjectInitializeers.exe
+D:\Trainings\ActsDec2023\Day2\ConstructorsAndObjectInitializeers\bin\Debug\net7.0\ConstructorsAndObjectInitializeers.deps.json
+D:\Trainings\ActsDec2023\Day2\ConstructorsAndObjectInitializeers\bin\Debug\net7.0\ConstructorsAndObjectInitializeers.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day2\ConstructorsAndObjectInitializeers\bin\Debug\net7.0\ConstructorsAndObjectInitializeers.dll
+D:\Trainings\ActsDec2023\Day2\ConstructorsAndObjectInitializeers\bin\Debug\net7.0\ConstructorsAndObjectInitializeers.pdb
+D:\Trainings\ActsDec2023\Day2\ConstructorsAndObjectInitializeers\obj\Debug\net7.0\ConstructorsAndObjectInitializeers.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day2\ConstructorsAndObjectInitializeers\obj\Debug\net7.0\ConstructorsAndObjectInitializeers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day2\ConstructorsAndObjectInitializeers\obj\Debug\net7.0\ConstructorsAndObjectInitializeers.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day2\ConstructorsAndObjectInitializeers\obj\Debug\net7.0\ConstructorsAndObjectInitializeers.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day2\ConstructorsAndObjectInitializeers\obj\Debug\net7.0\ConstructorsAndObjectInitializeers.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day2\ConstructorsAndObjectInitializeers\obj\Debug\net7.0\ConstructorsAndObjectInitializeers.dll
+D:\Trainings\ActsDec2023\Day2\ConstructorsAndObjectInitializeers\obj\Debug\net7.0\refint\ConstructorsAndObjectInitializeers.dll
+D:\Trainings\ActsDec2023\Day2\ConstructorsAndObjectInitializeers\obj\Debug\net7.0\ConstructorsAndObjectInitializeers.pdb
+D:\Trainings\ActsDec2023\Day2\ConstructorsAndObjectInitializeers\obj\Debug\net7.0\ConstructorsAndObjectInitializeers.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day2\ConstructorsAndObjectInitializeers\obj\Debug\net7.0\ref\ConstructorsAndObjectInitializeers.dll

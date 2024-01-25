@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7nHTO0PdZ4INOT5eZFG/VFHwjjmI6Kkc+n50xyz5yVJiv81xGSs7+5FdDT8cHf1cH5b1RwbIwv+Q/JZeIyLBWA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vikra\\Desktop\\Files\\OldFiles\\WEBAPI\\WebApiJQuery\\JQueryClientForWebApi\\JQueryClientForWebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vikra\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

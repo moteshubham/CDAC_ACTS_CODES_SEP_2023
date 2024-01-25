@@ -1,0 +1,14 @@
+1. CDAC YCP has certain number of batches. each batch has certain number of students
+         accept number of batches. for each batch accept number of students.
+         create an array to store mark for each student (1 student has only 1 subject mark)
+        accept the marks.
+        display the marks.
+
+
+
+2. Create an array of Employee class objects
+        Accept details for all Employees
+        Display the Employee with highest Salary
+        Accept EmpNo to be searched. Display all details for that employee.
+
+

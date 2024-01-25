@@ -1,0 +1,18 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+View 1 here.. before partial view call
+
+<partial name="PartialView1" />
+
+View 1 here.. after partial view call
+<br />
+
+
+Partial view called again
+<partial name="PartialView1" />
+
+Partial view called using Html.PartialAsync method
+@await Html.PartialAsync("PartialView1")

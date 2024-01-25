@@ -1,0 +1,24 @@
+D:\Trainings\ActsDec2023\Day2\TestAccessSpecifiers\bin\Debug\net7.0\TestAccessSpecifiers.deps.json
+D:\Trainings\ActsDec2023\Day2\TestAccessSpecifiers\bin\Debug\net7.0\TestAccessSpecifiers.dll
+D:\Trainings\ActsDec2023\Day2\TestAccessSpecifiers\bin\Debug\net7.0\TestAccessSpecifiers.pdb
+D:\Trainings\ActsDec2023\Day2\TestAccessSpecifiers\obj\Debug\net7.0\TestAccessSpecifiers.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day2\TestAccessSpecifiers\obj\Debug\net7.0\TestAccessSpecifiers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day2\TestAccessSpecifiers\obj\Debug\net7.0\TestAccessSpecifiers.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day2\TestAccessSpecifiers\obj\Debug\net7.0\TestAccessSpecifiers.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day2\TestAccessSpecifiers\obj\Debug\net7.0\TestAccessSpecifiers.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day2\TestAccessSpecifiers\obj\Debug\net7.0\TestAccessSpecifiers.dll
+D:\Trainings\ActsDec2023\Day2\TestAccessSpecifiers\obj\Debug\net7.0\refint\TestAccessSpecifiers.dll
+D:\Trainings\ActsDec2023\Day2\TestAccessSpecifiers\obj\Debug\net7.0\TestAccessSpecifiers.pdb
+D:\Trainings\ActsDec2023\Day2\TestAccessSpecifiers\obj\Debug\net7.0\ref\TestAccessSpecifiers.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\TestAccessSpecifiers\bin\Debug\net7.0\TestAccessSpecifiers.deps.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\TestAccessSpecifiers\bin\Debug\net7.0\TestAccessSpecifiers.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\TestAccessSpecifiers\bin\Debug\net7.0\TestAccessSpecifiers.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\TestAccessSpecifiers\obj\Debug\net7.0\TestAccessSpecifiers.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\TestAccessSpecifiers\obj\Debug\net7.0\TestAccessSpecifiers.AssemblyInfoInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\TestAccessSpecifiers\obj\Debug\net7.0\TestAccessSpecifiers.AssemblyInfo.cs
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\TestAccessSpecifiers\obj\Debug\net7.0\TestAccessSpecifiers.csproj.CoreCompileInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\TestAccessSpecifiers\obj\Debug\net7.0\TestAccessSpecifiers.sourcelink.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\TestAccessSpecifiers\obj\Debug\net7.0\TestAccessSpecifiers.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\TestAccessSpecifiers\obj\Debug\net7.0\refint\TestAccessSpecifiers.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\TestAccessSpecifiers\obj\Debug\net7.0\TestAccessSpecifiers.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\TestAccessSpecifiers\obj\Debug\net7.0\ref\TestAccessSpecifiers.dll

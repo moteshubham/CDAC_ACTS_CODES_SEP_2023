@@ -1,0 +1,30 @@
+D:\Trainings\ActsDec2023\Day3\RefAndValue\bin\Debug\net7.0\RefAndValue.exe
+D:\Trainings\ActsDec2023\Day3\RefAndValue\bin\Debug\net7.0\RefAndValue.deps.json
+D:\Trainings\ActsDec2023\Day3\RefAndValue\bin\Debug\net7.0\RefAndValue.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day3\RefAndValue\bin\Debug\net7.0\RefAndValue.dll
+D:\Trainings\ActsDec2023\Day3\RefAndValue\bin\Debug\net7.0\RefAndValue.pdb
+D:\Trainings\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\RefAndValue.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\RefAndValue.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\RefAndValue.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\RefAndValue.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\RefAndValue.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\RefAndValue.dll
+D:\Trainings\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\refint\RefAndValue.dll
+D:\Trainings\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\RefAndValue.pdb
+D:\Trainings\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\RefAndValue.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\ref\RefAndValue.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\RefAndValue\bin\Debug\net7.0\RefAndValue.exe
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\RefAndValue\bin\Debug\net7.0\RefAndValue.deps.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\RefAndValue\bin\Debug\net7.0\RefAndValue.runtimeconfig.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\RefAndValue\bin\Debug\net7.0\RefAndValue.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\RefAndValue\bin\Debug\net7.0\RefAndValue.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\RefAndValue.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\RefAndValue.AssemblyInfoInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\RefAndValue.AssemblyInfo.cs
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\RefAndValue.csproj.CoreCompileInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\RefAndValue.sourcelink.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\RefAndValue.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\refint\RefAndValue.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\RefAndValue.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\RefAndValue.genruntimeconfig.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day3\RefAndValue\obj\Debug\net7.0\ref\RefAndValue.dll

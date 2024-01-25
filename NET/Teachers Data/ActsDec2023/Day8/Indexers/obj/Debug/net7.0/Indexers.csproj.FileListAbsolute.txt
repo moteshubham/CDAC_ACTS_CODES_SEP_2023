@@ -1,0 +1,30 @@
+D:\Trainings\ActsDec2023\Day8\Indexers\bin\Debug\net7.0\Indexers.exe
+D:\Trainings\ActsDec2023\Day8\Indexers\bin\Debug\net7.0\Indexers.deps.json
+D:\Trainings\ActsDec2023\Day8\Indexers\bin\Debug\net7.0\Indexers.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day8\Indexers\bin\Debug\net7.0\Indexers.dll
+D:\Trainings\ActsDec2023\Day8\Indexers\bin\Debug\net7.0\Indexers.pdb
+D:\Trainings\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\Indexers.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\Indexers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\Indexers.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\Indexers.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\Indexers.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\Indexers.dll
+D:\Trainings\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\refint\Indexers.dll
+D:\Trainings\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\Indexers.pdb
+D:\Trainings\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\Indexers.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\ref\Indexers.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\Indexers\bin\Debug\net7.0\Indexers.exe
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\Indexers\bin\Debug\net7.0\Indexers.deps.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\Indexers\bin\Debug\net7.0\Indexers.runtimeconfig.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\Indexers\bin\Debug\net7.0\Indexers.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\Indexers\bin\Debug\net7.0\Indexers.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\Indexers.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\Indexers.AssemblyInfoInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\Indexers.AssemblyInfo.cs
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\Indexers.csproj.CoreCompileInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\Indexers.sourcelink.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\Indexers.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\refint\Indexers.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\Indexers.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\Indexers.genruntimeconfig.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day8\Indexers\obj\Debug\net7.0\ref\Indexers.dll

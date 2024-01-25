@@ -1,0 +1,30 @@
+D:\Trainings\ActsDec2023\Day2\AbstractClasses\bin\Debug\net7.0\AbstractClasses.exe
+D:\Trainings\ActsDec2023\Day2\AbstractClasses\bin\Debug\net7.0\AbstractClasses.deps.json
+D:\Trainings\ActsDec2023\Day2\AbstractClasses\bin\Debug\net7.0\AbstractClasses.runtimeconfig.json
+D:\Trainings\ActsDec2023\Day2\AbstractClasses\bin\Debug\net7.0\AbstractClasses.dll
+D:\Trainings\ActsDec2023\Day2\AbstractClasses\bin\Debug\net7.0\AbstractClasses.pdb
+D:\Trainings\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\AbstractClasses.csproj.AssemblyReference.cache
+D:\Trainings\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\AbstractClasses.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\AbstractClasses.AssemblyInfoInputs.cache
+D:\Trainings\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\AbstractClasses.AssemblyInfo.cs
+D:\Trainings\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\AbstractClasses.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\AbstractClasses.dll
+D:\Trainings\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\refint\AbstractClasses.dll
+D:\Trainings\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\AbstractClasses.pdb
+D:\Trainings\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\AbstractClasses.genruntimeconfig.cache
+D:\Trainings\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\ref\AbstractClasses.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\AbstractClasses\bin\Debug\net7.0\AbstractClasses.exe
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\AbstractClasses\bin\Debug\net7.0\AbstractClasses.deps.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\AbstractClasses\bin\Debug\net7.0\AbstractClasses.runtimeconfig.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\AbstractClasses\bin\Debug\net7.0\AbstractClasses.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\AbstractClasses\bin\Debug\net7.0\AbstractClasses.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\AbstractClasses.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\AbstractClasses.AssemblyInfoInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\AbstractClasses.AssemblyInfo.cs
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\AbstractClasses.csproj.CoreCompileInputs.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\AbstractClasses.sourcelink.json
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\AbstractClasses.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\refint\AbstractClasses.dll
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\AbstractClasses.pdb
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\AbstractClasses.genruntimeconfig.cache
+D:\CDAC\Coding\CDAC_ACTS_CODES\NET\Teachers Data\ActsDec2023\Day2\AbstractClasses\obj\Debug\net7.0\ref\AbstractClasses.dll

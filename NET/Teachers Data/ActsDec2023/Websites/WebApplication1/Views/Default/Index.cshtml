@@ -1,0 +1,58 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+Hello World<br />
+Id = @ViewBag.id<br />
+a = @ViewBag.a
+<br />
+b = @ViewBag.b<br />
+
+c = @ViewBag.c
+<br />
+
+
+@{
+    string s = "abc";
+    int i = 100;
+    i = ViewBag.a;
+    int c = ViewBag.c;
+}
+@{
+    if (i % 2 == 0)
+        s = "even";
+    else
+        s = "odd";
+}
+i = @i
+<br />
+s = @s
+<br />
+@{
+    if (i % 2 == 0)
+    {
+        @:result = even
+        <br />
+    }
+    else
+    {
+        @:result= odd
+        <br />
+    }
+}
+<table border="1">
+    @{
+        for (int j = 1; j < 5; j++)
+        {
+            <tr>
+                <td>5</td>
+                <td>*</td>
+                <td>@j</td>
+                <td>=</td>
+                <td>@(j * 5)</td>
+            </tr>
+        }
+    }
+</table>

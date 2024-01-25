@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            ShowEmployees();
+
+            function ShowEmployees() {
+                $("table tbody").html("");
+                $.ajax({
+                    url: "http://localhost:61373/api/Employees",
+                    type: "get",
+                    contentType: "application/json",
+                    success: function (result, status, xhr) {
+                        $.each(result, function (index, value) {
+                            //alert(index); //returns subscript starting from 0
+
+                            $("tbody").append($("<tr>"));
+
+                            lastrow = $("tbody tr").last(); //get the last row added
+
+                            lastrow.append($("<td>").html(value.empNo)); //add a <td> and the html inside
+                            lastrow.append($("<td>").html(value.name));
+                            lastrow.append($("<td>").html(value["basic"]));
+                            lastrow.append($("<td>").html(value["deptNo"]));
+                        });
+                    },
+                    error: function (xhr, status, error) {
+                        console.log(xhr)
+                    }
+                });
+            }
+
+
+        });
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>EmpNo</th>
+                <th>Name</th>
+                <th>Basic</th>
+                <th>DeptNo</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+</html>

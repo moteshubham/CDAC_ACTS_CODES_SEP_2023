@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "InheritanceExamples/1.0.0": {
+        "dependencies": {
+          "TestAccessSpecifiers": "1.0.0"
+        },
+        "runtime": {
+          "InheritanceExamples.dll": {}
+        }
+      },
+      "TestAccessSpecifiers/1.0.0": {
+        "runtime": {
+          "TestAccessSpecifiers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InheritanceExamples/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestAccessSpecifiers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
