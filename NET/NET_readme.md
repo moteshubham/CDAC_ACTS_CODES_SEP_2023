@@ -401,7 +401,7 @@ NULLABLE TYPES
      else
          j = 0;
 
-     j = i.GetValueOrDefault();
+     j = i.GetValueOrDefault();     //0 if i is null above
      j = i.GetValueOrDefault(10);
 
      j = i ?? 0; //null coalescing operator
@@ -474,13 +474,13 @@ JAGGED ARRAY
 
     arr[0] = new int[3]; // arr[0][0] arr[0][1] arr[0][2]
     arr[1] = new int[4]; // arr[1][0] arr[1][1] arr[1][2] arr[1][3]
-    arr[2] = new int[2];//  arr[2][0] - arr [2][1]
-    arr[3] = new int[3];//  arr[3][0] arr[3][1] arr[3][2]
+    arr[2] = new int[2]; // arr[2][0] - arr [2][1]
+    arr[3] = new int[3]; // arr[3][0] arr[3][1] arr[3][2]
 
 
 static void Main()
 {
-    Employee[] arrEmps = new Employee[5]; //here new  means only size of Array, not creating object here
+    Employee[] arrEmps = new Employee[5]; //here new means only size of Array, not creating object here
 
     //arrEmps[0] = new Employee();
     //arrEmps[1] = new Employee();
@@ -800,6 +800,14 @@ Array.Sort(arr); //error
     string[] array = { "A" , "B" }; // creates populated array of length 2
     string[] array = new[] { "A", "B" }; // creates populated array of length 2
     string[] array = ["A", "B"]; // creates populated array of length 2
+
+    int[,] myArray = new int[3, 4];
+    int[][] jaggedArray = new int[3][];
+    int[,] matrix = new int[,] {
+        { 1, 2, 3 },
+        { 4, 5, 6 },
+        { 7, 8, 9 }
+    };
 ```
 
 ```c#
@@ -956,7 +964,7 @@ Call a function indirectly, similar to  function poitners in c++
             //objDel();
 
             Console.WriteLine();
-          //  objDel -= Display;
+            //objDel -= Display;
             objDel();
 
 
@@ -1123,7 +1131,7 @@ static void Main1()
     Employee emp = new Employee { Basic = 11000 };
     Console.WriteLine(o6(emp));
 
-    Action o7 = () =>           //if method has no return value then must use curly {}
+    Action o7 = () =>           //if method has no return value then must use curly {} //also {} is must if in method we are using return keyword
     {
         Console.WriteLine("Display called");
     };
@@ -1385,7 +1393,7 @@ public class MainClass
         Console.ReadLine();
     }
 }
-//Partial methods can only be defined within a partial class.
+//Partial methods can only be defined within a partial class.  😁
 //Partial methods must return void.
 //Partial methods can be static or instance level.
 //Partial methods cannnot have out params
@@ -1518,6 +1526,14 @@ public partial class Class1
         Console.WriteLine();
     }
 ```
+| sql | c# |
+|---|---|
+|or | \|\| |
+|and | &&|
+|like| .StartsWith("x")|
+|ASC|Ascending|
+|order by | orderby|
+
 
 ## Threading
 
@@ -2076,6 +2092,10 @@ TextBoxFor @Html.TextBoxFor(x => x.Basic)   //uses model binding
 #### to send data from view to control 2 options are there
 
 1. viewbag / viewdata/ tempdata/ session
+    1. viewbag => 
+        - 
+    2. viewdata => 
+    3. tempdata =>
 2. view model - view model is Model class created specially for the view/ Model that has extra info to be used by view
    - create view modelwith extra info that you have to pass
    - use that model in view
